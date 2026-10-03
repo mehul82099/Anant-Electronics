@@ -144,16 +144,18 @@ export function VariantModal({ product, allProducts, onClose, onSelectProduct }:
                     )}
 
                     <div className="flex items-center gap-1 mt-1">
-                      <button
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          setFinanceProduct(sib);
-                        }}
-                        title="Open Paper Finance & Cards Calculator"
-                        className="p-1.5 text-xs font-bold rounded-lg bg-emerald-50 text-emerald-800 hover:bg-emerald-100 border border-emerald-200 transition-colors"
-                      >
-                        🧮 PF
-                      </button>
+                      {((sib.mop ?? 0) >= 3000 && !sib.brand.toLowerCase().includes("keypad") && !sib.model.toLowerCase().includes("keypad")) && (
+                        <button
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            setFinanceProduct(sib);
+                          }}
+                          title="Open Paper Finance & Cards Calculator"
+                          className="p-1.5 text-xs font-bold rounded-lg bg-emerald-50 text-emerald-800 hover:bg-emerald-100 border border-emerald-200 transition-colors"
+                        >
+                          🧮 PF
+                        </button>
+                      )}
                       <a
                         href={buildCallingUrl()}
                         title={`Call ${STORE_CONTACT.displayPhone}`}

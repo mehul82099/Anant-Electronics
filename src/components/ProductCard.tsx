@@ -42,6 +42,17 @@ export function ProductCard({
   const savings = hasOffer && product.mop && product.offer_price ? product.mop - product.offer_price : 0;
   const savingsPct = hasOffer && product.mop && savings > 0 ? Math.round((savings / product.mop) * 100) : 0;
 
+  // Real offer existence checks from Google Sheet
+  const hasCardOffer = Boolean(product.card_offer && product.card_offer.trim().length > 0);
+  const hasTextOffer = Boolean(product.offer_text && product.offer_text.trim().length > 0);
+  const hasCashback = Boolean(finance.cashback > 0 || (product.cashback && product.cashback.trim().length > 0));
+  const hasHighlights = Boolean(product.offer_highlights && product.offer_highlights.length > 0);
+  const hasAnyOffer = hasOffer || hasCardOffer || hasTextOffer || hasCashback || hasHighlights;
+
+  // Keypad models and models under 3000 do not qualify for paper finance / bank EMI
+  const isKeypad = product.brand.toLowerCase().includes("keypad") || product.model.toLowerCase().includes("keypad") || (product.mop !== null && product.mop < 3000);
+  const eligibleForFinance = !isKeypad && (product.mop ?? 0) >= 3000;
+
   const handleWhatsApp = () => {
     const text = `*Anant Electronics - Product Enquiry*\n\n` +
       `📱 *${product.brand} - ${product.model}*\n` +
@@ -143,73 +154,91 @@ export function ProductCard({
           </div>
         )}
 
-        {/* Oppo-style Retailer Pricing Display */}
+        {/* Retailer Pricing Display */}
         <div className="mt-3 pt-3 border-t border-slate-100 space-y-2">
-          {/* MOP & Cashback line */}
-          <div className="flex items-center justify-between text-xs">
-            <span className="font-semibold text-slate-500 uppercase tracking-wider">MOP</span>
-            <span className="font-bold text-slate-700">{formatPrice(finance.mop)}</span>
-          </div>
+          {hasAnyOffer ? (
+            <>
+              {/* MOP & Cashback line */}
+              <div className="flex items-center justify-between text-xs">
+                <span className="font-semibold text-slate-500 uppercase tracking-wider">MOP</span>
+                <span className="font-bold text-slate-700">{formatPrice(finance.mop)}</span>
+              </div>
 
-          {finance.cashback > 0 && (
-            <div className="flex items-center justify-between text-xs text-amber-700">
-              <span className="font-semibold flex items-center gap-1">
-                <span>🎁</span> Cashback
+              {finance.cashback > 0 && (
+                <div className="flex items-center justify-between text-xs text-amber-700">
+                  <span className="font-semibold flex items-center gap-1">
+                    <span>🎁</span> Cashback / Discount
+                  </span>
+                  <span className="font-extrabold">-{formatPrice(finance.cashback)}</span>
+                </div>
+              )}
+
+              {/* EFFECTIVE PRICE */}
+              <div>
+                <span className="text-[10px] font-black uppercase text-emerald-800 tracking-wider block">
+                  EFFECTIVE PRICE
+                </span>
+                <div className="flex items-baseline gap-2">
+                  <span className="text-2xl font-black text-emerald-600 tracking-tight">
+                    {formatPrice(finance.effectivePrice)}
+                  </span>
+                  {hasOffer && (
+                    <span className="text-xs font-semibold px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800">
+                      SAVE {formatPrice(savings)} ({savingsPct}%)
+                    </span>
+                  )}
+                </div>
+              </div>
+            </>
+          ) : (
+            /* Clean Standard Pricing for models without special offers (keypads & phones without offers) */
+            <div>
+              <span className="text-[10px] font-bold uppercase text-slate-500 tracking-wider block">
+                STORE PRICE
               </span>
-              <span className="font-extrabold">-{formatPrice(finance.cashback)}</span>
+              <div className="flex items-baseline gap-2">
+                <span className="text-2xl font-black text-slate-900 tracking-tight">
+                  {formatPrice(product.mop)}
+                </span>
+              </div>
             </div>
           )}
 
-          {/* EFFECTIVE PRICE */}
-          <div>
-            <span className="text-[10px] font-black uppercase text-emerald-800 tracking-wider block">
-              EFFECTIVE PRICE
-            </span>
-            <div className="flex items-baseline gap-2">
-              <span className="text-2xl font-black text-emerald-600 tracking-tight">
-                {formatPrice(finance.effectivePrice)}
-              </span>
-              {hasOffer && (
-                <span className="text-xs font-semibold px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800">
-                  SAVE {formatPrice(savings)} ({savingsPct}%)
-                </span>
-              )}
+          {/* Finance Options - Only eligible for models with price >= 3000 and not basic keypads */}
+          {eligibleForFinance && (
+            <div className="pt-2 space-y-1.5">
+              <div className="flex items-center gap-1.5 flex-wrap text-xs">
+                {/* Credit Card Pill */}
+                <div className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-blue-50 border border-blue-200/60 font-bold text-blue-900">
+                  <span>💳</span>
+                  <span>{formatPrice(finance.monthlyCreditCardEmi)}</span>
+                  <span className="text-[9px] px-1 py-0.2 rounded bg-blue-600 text-white uppercase font-black">CC</span>
+                </div>
+
+                {/* Paper Finance Pill */}
+                <div className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-purple-50 border border-purple-200/60 font-bold text-purple-900">
+                  <span>🏦</span>
+                  <span>{formatPrice(finance.monthlyPaperFinanceEmi)}</span>
+                  <span className="text-[9px] px-1 py-0.2 rounded bg-purple-600 text-white uppercase font-black">PF</span>
+                </div>
+
+                {/* Cost per day pill */}
+                <div className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-rose-50 border border-rose-200/60 font-bold text-rose-800 text-[11px]">
+                  <span>📅</span>
+                  <span>₹{finance.dailyCost}/day</span>
+                </div>
+              </div>
+
+              {/* PF Calc Button */}
+              <button
+                onClick={() => setShowFinanceModal(true)}
+                className="w-full mt-2 py-1.5 px-3 rounded-xl bg-emerald-700 hover:bg-emerald-800 text-white text-xs font-black flex items-center justify-center gap-1.5 shadow-xs transition-colors"
+              >
+                <span>🧮</span>
+                <span>{hasAnyOffer ? "PF Calc & Card Offers" : "EMI & Paper Finance Calc"}</span>
+              </button>
             </div>
-          </div>
-
-          {/* Oppo-style CC, PF, and Daily Cost Pills */}
-          <div className="pt-2 space-y-1.5">
-            <div className="flex items-center gap-1.5 flex-wrap text-xs">
-              {/* Credit Card Pill */}
-              <div className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-blue-50 border border-blue-200/60 font-bold text-blue-900">
-                <span>💳</span>
-                <span>{formatPrice(finance.monthlyCreditCardEmi)}</span>
-                <span className="text-[9px] px-1 py-0.2 rounded bg-blue-600 text-white uppercase font-black">CC</span>
-              </div>
-
-              {/* Paper Finance Pill */}
-              <div className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-purple-50 border border-purple-200/60 font-bold text-purple-900">
-                <span>🏦</span>
-                <span>{formatPrice(finance.monthlyPaperFinanceEmi)}</span>
-                <span className="text-[9px] px-1 py-0.2 rounded bg-purple-600 text-white uppercase font-black">PF</span>
-              </div>
-
-              {/* Cost per day pill */}
-              <div className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-rose-50 border border-rose-200/60 font-bold text-rose-800 text-[11px]">
-                <span>📅</span>
-                <span>₹{finance.dailyCost}/day</span>
-              </div>
-            </div>
-
-            {/* PF Calc Button (Matches exact Oppo screenshot) */}
-            <button
-              onClick={() => setShowFinanceModal(true)}
-              className="w-full mt-2 py-1.5 px-3 rounded-xl bg-emerald-700 hover:bg-emerald-800 text-white text-xs font-black flex items-center justify-center gap-1.5 shadow-xs transition-colors"
-            >
-              <span>🧮</span>
-              <span>PF Calc & Card Offers</span>
-            </button>
-          </div>
+          )}
         </div>
 
         {/* Offer Highlights & Tags */}

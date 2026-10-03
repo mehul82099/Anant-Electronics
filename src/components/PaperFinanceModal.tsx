@@ -73,23 +73,34 @@ export function PaperFinanceModal({ product, onClose }: PaperFinanceModalProps) 
               <span className="text-sm font-bold text-slate-800">{formatPrice(finance.mop)}</span>
             </div>
 
-            {finance.cashback > 0 && (
-              <div className="flex items-center justify-between text-amber-700">
-                <span className="text-xs font-semibold flex items-center gap-1">
-                  <span>🎁</span> Cashback / Instant Discount
+            {finance.cashback > 0 ? (
+              <>
+                <div className="flex items-center justify-between text-amber-700">
+                  <span className="text-xs font-semibold flex items-center gap-1">
+                    <span>🎁</span> Cashback / Instant Discount
+                  </span>
+                  <span className="text-sm font-bold">-{formatPrice(finance.cashback)}</span>
+                </div>
+
+                <div className="pt-2 border-t border-slate-200/80 flex items-center justify-between">
+                  <span className="text-xs font-black uppercase text-emerald-800 flex items-center gap-1">
+                    <span>✅</span> Effective Price
+                  </span>
+                  <span className="text-xl font-black text-emerald-600">
+                    {formatPrice(finance.effectivePrice)}
+                  </span>
+                </div>
+              </>
+            ) : (
+              <div className="pt-2 border-t border-slate-200/80 flex items-center justify-between">
+                <span className="text-xs font-bold uppercase text-slate-600">
+                  Final Store Price
                 </span>
-                <span className="text-sm font-bold">-{formatPrice(finance.cashback)}</span>
+                <span className="text-xl font-black text-slate-900">
+                  {formatPrice(product.mop)}
+                </span>
               </div>
             )}
-
-            <div className="pt-2 border-t border-slate-200/80 flex items-center justify-between">
-              <span className="text-xs font-black uppercase text-emerald-800 flex items-center gap-1">
-                <span>✅</span> Effective Price
-              </span>
-              <span className="text-xl font-black text-emerald-600">
-                {formatPrice(finance.effectivePrice)}
-              </span>
-            </div>
 
             {/* Quick Badges: CC / PF / Daily */}
             <div className="pt-3 border-t border-dashed border-slate-200 grid grid-cols-2 gap-2 text-xs">
@@ -247,77 +258,74 @@ export function PaperFinanceModal({ product, onClose }: PaperFinanceModalProps) 
             </div>
           )}
 
-          {/* TAB 3: Bank Card Offers (Matches exact Oppo Screenshot with Bank Logos/Chips) */}
+          {/* TAB 3: Bank Card Offers (Display only if real card offer exists or show counter payment info) */}
           {activeTab === "cards" && (
             <div className="space-y-4">
-              {/* Cashback on EMI Section */}
-              <div className="p-4 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-2.5">
-                <div className="flex items-center justify-between">
-                  <span className="text-[11px] font-black uppercase tracking-wider text-slate-500">
-                    CASHBACK ON EMI
-                  </span>
-                  <span className="text-xs font-extrabold text-amber-700 bg-amber-50 px-2 py-0.5 rounded-md border border-amber-200/60">
-                    10% Instant on swipe
-                  </span>
-                </div>
-                <p className="text-xs text-slate-600">
-                  {product.card_offer || "Applicable on leading credit cards with instant credit at POS counter."}
-                </p>
-
-                {/* Bank Badges (Dual Pill Style from Screenshot) */}
-                <div className="flex flex-wrap gap-1.5 pt-1">
-                  {POPULAR_BANKS.map((b) => (
-                    <div
-                      key={b.code}
-                      className="inline-flex items-center rounded-md border border-slate-200 overflow-hidden text-[11px] font-bold shadow-2xs"
-                    >
-                      <span className={`px-2 py-0.5 ${b.bg} ${b.color}`}>
-                        {b.name}
+              {product.card_offer ? (
+                <>
+                  {/* Real Card Offer from Spreadsheet */}
+                  <div className="p-4 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-2.5">
+                    <div className="flex items-center justify-between">
+                      <span className="text-[11px] font-black uppercase tracking-wider text-slate-500">
+                        ACTIVE BANK CARD OFFER
                       </span>
-                      <span className="px-1.5 py-0.5 bg-slate-50 text-slate-700">
-                        {b.code}
+                      <span className="text-xs font-extrabold text-amber-700 bg-amber-50 px-2 py-0.5 rounded-md border border-amber-200/60">
+                        {product.cashback || "Special Card Offer"}
                       </span>
                     </div>
-                  ))}
-                </div>
-              </div>
+                    <p className="text-sm font-bold text-slate-800">
+                      {product.card_offer}
+                    </p>
 
-              {/* Cashback Non-EMI Section */}
-              <div className="p-4 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-2.5">
-                <div className="flex items-center justify-between">
-                  <span className="text-[11px] font-black uppercase tracking-wider text-slate-500">
-                    CASHBACK NON-EMI (FULL SWIPE)
-                  </span>
-                  <span className="text-xs font-extrabold text-blue-700 bg-blue-50 px-2 py-0.5 rounded-md border border-blue-200/60">
-                    7.5% on swipe
-                  </span>
-                </div>
-                <div className="flex flex-wrap gap-1.5 pt-1">
-                  {POPULAR_BANKS.slice(0, 7).map((b) => (
-                    <div
-                      key={b.code}
-                      className="inline-flex items-center rounded-md border border-slate-200 overflow-hidden text-[11px] font-bold shadow-2xs"
-                    >
-                      <span className={`px-2 py-0.5 ${b.bg} ${b.color}`}>
+                    {/* Bank Badges */}
+                    <div className="flex flex-wrap gap-1.5 pt-1">
+                      {POPULAR_BANKS.map((b) => (
+                        <div
+                          key={b.code}
+                          className="inline-flex items-center rounded-md border border-slate-200 overflow-hidden text-[11px] font-bold shadow-2xs"
+                        >
+                          <span className={`px-2 py-0.5 ${b.bg} ${b.color}`}>
+                            {b.name}
+                          </span>
+                          <span className="px-1.5 py-0.5 bg-slate-50 text-slate-700">
+                            {b.code}
+                          </span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </>
+              ) : (
+                /* No Special Card Offer specified in spreadsheet */
+                <div className="p-4 rounded-2xl bg-slate-50 border border-slate-200 space-y-2">
+                  <div className="flex items-center gap-2">
+                    <span className="text-lg">💳</span>
+                    <h5 className="text-xs font-bold text-slate-800">
+                      Standard Credit & Debit Cards Accepted
+                    </h5>
+                  </div>
+                  <p className="text-xs text-slate-600 leading-relaxed">
+                    No special brand cashback or exclusive bank promotion is currently active for this model in the price list. All major bank cards (Visa, Mastercard, RuPay) and standard EMIs are accepted at our counter.
+                  </p>
+                  <div className="flex flex-wrap gap-1.5 pt-2">
+                    {POPULAR_BANKS.slice(0, 6).map((b) => (
+                      <span key={b.code} className="text-[10px] font-semibold px-2 py-0.5 rounded bg-white border border-slate-200 text-slate-700">
                         {b.name}
                       </span>
-                      <span className="px-1.5 py-0.5 bg-slate-50 text-slate-700">
-                        {b.code}
-                      </span>
-                    </div>
-                  ))}
+                    ))}
+                  </div>
                 </div>
-              </div>
+              )}
 
               {/* Key Selling Points / Features */}
               <div className="p-3.5 rounded-2xl bg-slate-50 border border-slate-200 space-y-1.5">
                 <h5 className="text-[11px] font-black uppercase tracking-wider text-slate-700 flex items-center gap-1">
-                  <span>✦</span> Key Selling Points & Offers
+                  <span>✦</span> Store Guarantee & Purchase Support
                 </h5>
                 <p className="text-xs text-slate-600 leading-relaxed">
                   • 100% Brand New Genuine Indian Retail Unit with Manufacturer Warranty.<br />
                   • Instant On-Counter IMEI Activation & Data Transfer Assistance.<br />
-                  • Zero Down Payment available on eligible customer credit scores.
+                  • Flexible paper finance & swipe facilities available at store counter.
                 </p>
               </div>
             </div>

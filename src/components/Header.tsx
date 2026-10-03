@@ -63,17 +63,11 @@ export function Header() {
           {/* Brand Logo & Name */}
           <div className="flex items-center gap-3">
             <Link href="/" className="flex items-center gap-2 group">
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 to-indigo-600 flex items-center justify-center text-white font-black text-xl shadow-md group-hover:scale-105 transition-transform">
-                AE
-              </div>
-              <div>
-                <span className="text-lg font-bold text-slate-900 tracking-tight block leading-tight">
-                  Anant Electronics
-                </span>
-                <span className="text-xs font-medium text-slate-500 block">
-                  Live Mobile Price & Presentation
-                </span>
-              </div>
+              <img
+                src="/brand-logo.jpg"
+                alt="Anant Electronics Logo"
+                className="h-10 sm:h-11 w-auto max-w-[200px] object-contain rounded-lg group-hover:scale-105 transition-transform"
+              />
             </Link>
           </div>
 

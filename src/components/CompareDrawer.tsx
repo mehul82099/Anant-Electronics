@@ -93,7 +93,9 @@ export function CompareDrawer({ items, onRemove, onClear }: CompareDrawerProps) 
                       )}
 
                       <div className="p-3 rounded-xl bg-slate-50 border border-slate-100">
-                        <span className="text-xs text-slate-500 block">Effective Price</span>
+                        <span className="text-xs text-slate-500 block">
+                          {hasOffer ? "Effective Price" : "Store Price"}
+                        </span>
                         <span className="text-xl font-black text-emerald-600 block">
                           {hasOffer ? formatPrice(item.offer_price) : formatPrice(item.mop)}
                         </span>
