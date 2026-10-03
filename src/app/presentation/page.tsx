@@ -194,6 +194,15 @@ export default function PresentationPage() {
                       src={modelImg.imageUrl || modelImg.thumbnailUrl}
                       alt={activeProduct.model}
                       className="object-contain max-h-64 drop-shadow-xl hover:scale-105 transition-transform duration-300"
+                      onError={(e) => {
+                        const target = e.currentTarget;
+                        if (modelImg?.thumbnailUrl && target.src !== modelImg.thumbnailUrl) {
+                          target.src = modelImg.thumbnailUrl;
+                        } else {
+                          target.onerror = null;
+                          target.style.display = 'none';
+                        }
+                      }}
                     />
                   ) : (
                     <div className="flex flex-col items-center justify-center py-10 text-slate-300 select-none">
@@ -425,6 +434,15 @@ export default function PresentationPage() {
                             alt={p.model}
                             className="w-full h-full object-contain p-0.5"
                             loading="lazy"
+                            onError={(e) => {
+                              const target = e.currentTarget;
+                              if (thumbImg?.thumbnailUrl && target.src !== thumbImg.thumbnailUrl) {
+                                target.src = thumbImg.thumbnailUrl;
+                              } else {
+                                target.onerror = null;
+                                target.style.display = 'none';
+                              }
+                            }}
                           />
                         ) : (
                           <svg className="w-4 h-4 text-slate-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">

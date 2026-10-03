@@ -41,6 +41,15 @@ export function VariantModal({ product, allProducts, onClose, onSelectProduct }:
                   src={headerImg.imageUrl || headerImg.thumbnailUrl}
                   alt={product.model_base}
                   className="w-full h-full object-contain p-1"
+                  onError={(e) => {
+                    const target = e.currentTarget;
+                    if (headerImg?.thumbnailUrl && target.src !== headerImg.thumbnailUrl) {
+                      target.src = headerImg.thumbnailUrl;
+                    } else {
+                      target.onerror = null;
+                      target.style.display = 'none';
+                    }
+                  }}
                 />
               ) : (
                 <span className="text-xl">📱</span>
@@ -90,6 +99,15 @@ export function VariantModal({ product, allProducts, onClose, onSelectProduct }:
                           alt={sib.model}
                           className="w-full h-full object-contain p-0.5"
                           loading="lazy"
+                          onError={(e) => {
+                            const target = e.currentTarget;
+                            if (sibImg?.thumbnailUrl && target.src !== sibImg.thumbnailUrl) {
+                              target.src = sibImg.thumbnailUrl;
+                            } else {
+                              target.onerror = null;
+                              target.style.display = 'none';
+                            }
+                          }}
                         />
                       ) : (
                         <svg className="w-5 h-5 text-slate-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">

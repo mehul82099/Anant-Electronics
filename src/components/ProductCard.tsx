@@ -12,7 +12,6 @@ interface ProductCardProps {
   siblingCount?: number;
   imagesMap?: Record<string, ModelImage>;
   onOpenVariants?: (product: ProductRecord) => void;
-  onInspectSource?: (product: ProductRecord) => void;
   isCompared?: boolean;
   onToggleCompare?: (product: ProductRecord) => void;
 }
@@ -22,7 +21,6 @@ export function ProductCard({
   siblingCount = 0,
   imagesMap: propImagesMap,
   onOpenVariants,
-  onInspectSource,
   isCompared = false,
   onToggleCompare,
 }: ProductCardProps) {
@@ -127,6 +125,15 @@ export function ProductCard({
               alt={product.model}
               className="max-h-36 max-w-full object-contain drop-shadow-md group-hover/img:scale-105 transition-transform duration-300"
               loading="lazy"
+              onError={(e) => {
+                const target = e.currentTarget;
+                if (imgData?.thumbnailUrl && target.src !== imgData.thumbnailUrl) {
+                  target.src = imgData.thumbnailUrl;
+                } else {
+                  target.onerror = null;
+                  target.style.display = 'none';
+                }
+              }}
             />
           ) : (
             <div className="flex flex-col items-center justify-center text-slate-300 py-4 select-none">
@@ -314,18 +321,9 @@ export function ProductCard({
             </button>
           )}
 
-          {onInspectSource && (
-            <button
-              onClick={() => onInspectSource(product)}
-              title="Inspect exact source row in Google Sheets"
-              className="px-2 py-1 text-[11px] font-medium text-slate-500 hover:text-slate-800 rounded-md hover:bg-slate-200/60"
-            >
-              Source ({product.source_sheet}!{product.source_row})
-            </button>
-          )}
-        </div>
+          </div>
 
-        <div className="flex items-center gap-1.5">
+          <div className="flex items-center gap-1.5">
           <button
             onClick={handleCall}
             title={`Call store directly at ${STORE_CONTACT.displayPhone}`}

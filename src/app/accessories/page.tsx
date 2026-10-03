@@ -134,6 +134,15 @@ export default function AccessoriesPage() {
                       alt={item.product_name}
                       className="max-h-full max-w-full object-contain drop-shadow-sm group-hover:scale-105 transition-transform duration-200"
                       loading="lazy"
+                      onError={(e) => {
+                        const target = e.currentTarget;
+                        if (img?.thumbnailUrl && target.src !== img.thumbnailUrl) {
+                          target.src = img.thumbnailUrl;
+                        } else {
+                          target.onerror = null;
+                          target.style.display = 'none';
+                        }
+                      }}
                     />
                   ) : (
                     <div className="flex flex-col items-center justify-center text-slate-300">

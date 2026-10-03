@@ -4,7 +4,6 @@ import { useState, useEffect, useMemo } from "react";
 import type { Dataset, ProductRecord } from "@/lib/types";
 import { ProductCard } from "@/components/ProductCard";
 import { VariantModal } from "@/components/VariantModal";
-import { SourceInspectModal } from "@/components/SourceInspectModal";
 import { CompareDrawer } from "@/components/CompareDrawer";
 
 export default function HomePage() {
@@ -24,7 +23,6 @@ export default function HomePage() {
 
   // Interactive modals & drawer state
   const [variantProduct, setVariantProduct] = useState<ProductRecord | null>(null);
-  const [inspectProduct, setInspectProduct] = useState<ProductRecord | null>(null);
   const [comparedProducts, setComparedProducts] = useState<ProductRecord[]>([]);
 
   useEffect(() => {
@@ -395,7 +393,7 @@ export default function HomePage() {
               product={product}
               siblingCount={siblingCounts[product.group_key] || 1}
               onOpenVariants={setVariantProduct}
-              onInspectSource={setInspectProduct}
+
               isCompared={comparedProducts.some((c) => c.id === product.id)}
               onToggleCompare={handleToggleCompare}
             />
@@ -458,12 +456,6 @@ export default function HomePage() {
                           Variants ({siblingCounts[p.group_key]})
                         </button>
                       )}
-                      <button
-                        onClick={() => setInspectProduct(p)}
-                        className="px-2 py-1 text-xs font-medium text-slate-500 hover:text-slate-800"
-                      >
-                        Inspect
-                      </button>
                     </td>
                   </tr>
                 );
@@ -479,12 +471,6 @@ export default function HomePage() {
         allProducts={dataset.products}
         onClose={() => setVariantProduct(null)}
         onSelectProduct={(p) => setVariantProduct(p)}
-      />
-
-      {/* Source Cell Inspector Modal */}
-      <SourceInspectModal
-        product={inspectProduct}
-        onClose={() => setInspectProduct(null)}
       />
 
       {/* Compare Drawer */}
