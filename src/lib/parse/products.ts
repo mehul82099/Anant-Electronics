@@ -186,6 +186,9 @@ export function parseProductSheet(
       continue;
     }
 
+    // Check if row is styled in red (meaning Out of Stock in Excel / Google Sheets)
+    const isRowRed = grid.isRowRed(r);
+
     // Extract price
     const parsedP = parsePrice(priceRaw);
     let mopVal: number | null = parsedP.value;
@@ -367,8 +370,8 @@ export function parseProductSheet(
       offer_tags: offerTags,
       has_offer: hasOffer,
 
-      stock_status: "In Stock",
-      notes: null,
+      stock_status: isRowRed ? "Out of Stock" : "In Stock",
+      notes: isRowRed ? "Marked Red in Sheet (Out of Stock)" : null,
       custom_fields: customFields,
       warnings: rowWarnings,
       fingerprint,

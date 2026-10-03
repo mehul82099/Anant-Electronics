@@ -62,7 +62,11 @@ export function ProductCard({
   };
 
   return (
-    <div className="bg-white rounded-2xl border border-slate-200/80 shadow-xs hover:shadow-md transition-all flex flex-col justify-between overflow-hidden group">
+    <div className={`bg-white rounded-2xl border transition-all flex flex-col justify-between overflow-hidden group ${
+      product.stock_status === "Out of Stock"
+        ? "border-red-200/90 bg-red-50/10 shadow-xs"
+        : "border-slate-200/80 shadow-xs hover:shadow-md"
+    }`}>
       {/* Top Banner & Badges */}
       <div className="p-4 sm:p-5">
         <div className="flex items-start justify-between gap-2 mb-2">
@@ -70,6 +74,14 @@ export function ProductCard({
             <span className="text-[11px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-md bg-slate-100 text-slate-700">
               {product.brand}
             </span>
+
+            {/* Out of Stock (Red in Excel) Badge */}
+            {product.stock_status === "Out of Stock" && (
+              <span className="text-[10px] font-black uppercase tracking-wider px-2.5 py-0.5 rounded-md bg-red-600 text-white shadow-xs animate-pulse">
+                🔴 OUT OF STOCK
+              </span>
+            )}
+
             {product.category && product.category !== "Phone" && (
               <span className="text-[10px] font-medium px-2 py-0.5 rounded-md bg-purple-50 text-purple-700">
                 {product.category}

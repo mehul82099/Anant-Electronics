@@ -156,6 +156,11 @@ export default function PresentationPage() {
               <span className="text-sm font-black uppercase tracking-wider px-3 py-1 rounded-lg bg-blue-100 text-blue-800">
                 {activeProduct.brand}
               </span>
+              {activeProduct.stock_status === "Out of Stock" && (
+                <span className="text-sm font-black uppercase tracking-wider px-3 py-1 rounded-lg bg-red-600 text-white shadow-sm animate-pulse">
+                  🔴 OUT OF STOCK
+                </span>
+              )}
               {activeProduct.variant && (
                 <span className="text-sm font-bold px-3 py-1 rounded-lg bg-slate-200 text-slate-800">
                   {activeProduct.variant}
@@ -412,7 +417,7 @@ export default function PresentationPage() {
                       </div>
                       <div className="min-w-0">
                         <span className="text-[10px] font-bold uppercase text-slate-500 block truncate">
-                          {p.brand}
+                          {p.brand} {p.stock_status === "Out of Stock" && <span className="text-red-600 font-extrabold">• OUT OF STOCK</span>}
                         </span>
                         <span className="text-xs font-bold text-slate-900 block leading-tight truncate">
                           {p.model}

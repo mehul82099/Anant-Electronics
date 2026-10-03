@@ -18,6 +18,7 @@ export default function HomePage() {
   const [onlyOffers, setOnlyOffers] = useState(false);
   const [priceRange, setPriceRange] = useState<string>("ALL");
   const [selectedOfferTag, setSelectedOfferTag] = useState<string>("ALL");
+  const [stockFilter, setStockFilter] = useState<"ALL" | "IN_STOCK" | "OUT_OF_STOCK">("ALL");
   const [sortBy, setSortBy] = useState<string>("DEFAULT");
   const [viewMode, setViewMode] = useState<"grid" | "list" | "table">("grid");
 
@@ -116,6 +117,10 @@ export default function HomePage() {
         }
       }
 
+      // Stock status filter (Red in sheet = Out of stock)
+      if (stockFilter === "IN_STOCK" && p.stock_status === "Out of Stock") return false;
+      if (stockFilter === "OUT_OF_STOCK" && p.stock_status !== "Out of Stock") return false;
+
       // Price range
       const effectivePrice = p.offer_price ?? p.mop ?? 0;
       if (priceRange === "U15K" && (effectivePrice > 15000 || effectivePrice === 0)) return false;
@@ -142,7 +147,7 @@ export default function HomePage() {
     }
 
     return list;
-  }, [dataset, search, selectedBrand, selectedCategory, onlyOffers, priceRange, selectedOfferTag, sortBy]);
+  }, [dataset, search, selectedBrand, selectedCategory, onlyOffers, priceRange, selectedOfferTag, stockFilter, sortBy]);
 
   const handleToggleCompare = (prod: ProductRecord) => {
     if (comparedProducts.some((p) => p.id === prod.id)) {
@@ -248,6 +253,17 @@ export default function HomePage() {
             >
               <span>🔥 Has Active Offer</span>
             </button>
+
+            {/* Stock status filter */}
+            <select
+              value={stockFilter}
+              onChange={(e) => setStockFilter(e.target.value as any)}
+              className="px-3 py-1.5 rounded-lg text-xs font-semibold bg-white border border-slate-200 text-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            >
+              <option value="ALL">📦 All Stock</option>
+              <option value="IN_STOCK">🟢 In Stock Only</option>
+              <option value="OUT_OF_STOCK">🔴 Out of Stock Only</option>
+            </select>
 
             {/* Price Ranges */}
             <select

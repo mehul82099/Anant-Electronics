@@ -2,6 +2,20 @@ import * as XLSX from "xlsx";
 import type { CellValue } from "../types";
 import { colLetter, isBlank } from "./cells";
 
+export function isRedColor(colorObj: any): boolean {
+  if (!colorObj) return false;
+  if (colorObj.rgb) {
+    const rgb = String(colorObj.rgb).toUpperCase();
+    const hex = rgb.length === 8 ? rgb.slice(2) : rgb;
+    const r = parseInt(hex.slice(0, 2), 16);
+    const g = parseInt(hex.slice(2, 4), 16);
+    const b = parseInt(hex.slice(4, 6), 16);
+    if (r > 150 && g < 100 && b < 100) return true;
+    if (r > 180 && g < 140 && b < 140 && r - g > 60) return true;
+  }
+  return false;
+}
+
 /** Thin, read-only view over a SheetJS worksheet with 1-based rows and 0-based column indexes. */
 export interface Grid {
   name: string;
@@ -9,6 +23,12 @@ export interface Grid {
   maxRow: number; // 1-based, inclusive
   maxCol: number; // 0-based, inclusive
   get(col: number, row: number): CellValue;
+  /** Direct cell object access */
+  cell(col: number, row: number): XLSX.CellObject | undefined;
+  /** Check if cell or its font/fill is styled in red (meaning Out of Stock) */
+  isRed(col: number, row: number): boolean;
+  /** Check if any cell in this row is red */
+  isRowRed(row: number): boolean;
   /** Excel number format of a cell (e.g. "d mmm") */
   format(col: number, row: number): string | undefined;
   /** formatted text as displayed by Excel/Sheets */
@@ -38,12 +58,29 @@ export function makeGrid(name: string, ws: XLSX.WorkSheet | undefined): Grid {
     return String(c.v);
   };
 
+  const isRed = (col: number, row: number): boolean => {
+    const c = cell(col, row);
+    if (!c || !c.s) return false;
+    const s = c.s as any;
+    return isRedColor(s.fgColor) || isRedColor(s.bgColor) || isRedColor(s.font?.color);
+  };
+
   return {
     name,
     ref,
     maxRow: range ? range.e.r + 1 : 0,
     maxCol: range ? range.e.c : -1,
     get,
+    cell,
+    isRed,
+    isRowRed(row: number) {
+      if (!range) return false;
+      // Check first 4 columns of the row (A, B, C, D)
+      for (let c = range.s.c; c <= Math.min(range.e.c, 3); c++) {
+        if (isRed(c, row)) return true;
+      }
+      return false;
+    },
     format: (col, row) => cell(col, row)?.z as string | undefined,
     display: (col, row) => cell(col, row)?.w,
     mergeAnchor(col, row) {
@@ -75,7 +112,7 @@ export function makeGrid(name: string, ws: XLSX.WorkSheet | undefined): Grid {
 }
 
 export function readWorkbook(buffer: ArrayBuffer | Uint8Array): XLSX.WorkBook {
-  return XLSX.read(buffer, { type: "array", cellDates: false, cellNF: true, cellText: true, dense: false });
+  return XLSX.read(buffer, { type: "array", cellDates: false, cellNF: true, cellText: true, cellStyles: true, dense: false });
 }
 
 export function isDateFormat(fmt: string | undefined): boolean {
