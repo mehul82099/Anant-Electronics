@@ -5,7 +5,8 @@ import type { SourceInfo } from "../types";
 
 export const GOOGLE_SHEET_ID = "1sj8ptmZ_dSUVC9IvsMdPt_wkgAnMmYXCAO0qYUmFkTs";
 export const GOOGLE_SHEETS_API_KEY = process.env.GOOGLE_SHEETS_API_KEY || "AIzaSyBhiJ5voleJicesZ5luZ825iz8pcDRrLKQ";
-export const LOCAL_FALLBACK_FILE = "C:/Users/Mehul/Downloads/MOP LIST NEW 28.10.25.xlsx";
+export const LOCAL_FALLBACK_FILE = path.resolve(process.cwd(), "public", "data", "fallback.xlsx");
+export const MACHINE_FALLBACK_FILE = "C:/Users/Mehul/Downloads/MOP LIST NEW 28.10.25.xlsx";
 
 export interface FetchResult {
   buffer: Buffer;
@@ -70,9 +71,15 @@ export async function fetchLiveWorkbook(sheetId = GOOGLE_SHEET_ID): Promise<Fetc
     console.warn("Live Google Sheets fetch failed, checking local fallback:", err);
   }
 
-  // Fallback to local file if available
-  if (fs.existsSync(LOCAL_FALLBACK_FILE)) {
-    const buffer = fs.readFileSync(LOCAL_FALLBACK_FILE);
+  // Fallback to portable bundled file or machine file
+  const fallbackPath = fs.existsSync(LOCAL_FALLBACK_FILE)
+    ? LOCAL_FALLBACK_FILE
+    : fs.existsSync(MACHINE_FALLBACK_FILE)
+    ? MACHINE_FALLBACK_FILE
+    : null;
+
+  if (fallbackPath) {
+    const buffer = fs.readFileSync(fallbackPath);
     const sha256 = crypto.createHash("sha256").update(buffer).digest("hex");
     return {
       buffer,

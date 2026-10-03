@@ -18,9 +18,14 @@ export async function GET(req: Request) {
 
   // If no dataset exists or forced or 5 seconds elapsed since last check, sync in background or immediately
   if (!dataset) {
-    const syncRes = await runSync({ trigger: "startup" });
-    dataset = syncRes.dataset;
-    lastSyncTime = Date.now();
+    try {
+      const syncRes = await runSync({ trigger: "startup" });
+      dataset = syncRes.dataset || getDataset();
+      lastSyncTime = Date.now();
+    } catch (err) {
+      console.error("Startup sync error, falling back to stored dataset:", err);
+      dataset = getDataset();
+    }
   } else if ((forceCheck || now - lastSyncTime > 5000) && !isSyncing) {
     // Fast debounce: check if Google Sheets has updated without blocking the response
     isSyncing = true;
@@ -34,6 +39,11 @@ export async function GET(req: Request) {
       .finally(() => {
         isSyncing = false;
       });
+  }
+
+  // Safety fallback: if somehow still null, try getDataset one more time
+  if (!dataset) {
+    dataset = getDataset();
   }
 
   return NextResponse.json(dataset, {
