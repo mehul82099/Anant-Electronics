@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useMemo } from "react";
 import type { Dataset, AccessoryRecord } from "@/lib/types";
+import { STORE_CONTACT, buildWhatsAppEnquiryUrl, buildCallingUrl } from "@/lib/config/contact";
 
 export default function AccessoriesPage() {
   const [dataset, setDataset] = useState<Dataset | null>(null);
@@ -53,8 +54,12 @@ export default function AccessoriesPage() {
       `🎧 *${a.product_name}*\n` +
       (a.category ? `Category: ${a.category}\n` : "") +
       `Price: ${formatPrice(a.price)}\n\n` +
-      `📍 Available at Anant Electronics`;
-    window.open(`https://wa.me/?text=${encodeURIComponent(text)}`, "_blank");
+      `📍 Available at Anant Electronics\n📞 Store Contact: ${STORE_CONTACT.displayPhone}`;
+    window.open(buildWhatsAppEnquiryUrl(text), "_blank");
+  };
+
+  const handleCall = () => {
+    window.location.href = buildCallingUrl();
   };
 
   if (loading) {
@@ -123,12 +128,24 @@ export default function AccessoriesPage() {
                 </span>
               </div>
 
-              <button
-                onClick={() => handleWhatsApp(item)}
-                className="px-3 py-1.5 text-xs font-bold rounded-lg bg-emerald-600 text-white hover:bg-emerald-700 transition-colors"
-              >
-                Enquire
-              </button>
+              <div className="flex items-center gap-1.5">
+                <button
+                  onClick={handleCall}
+                  title={`Call ${STORE_CONTACT.displayPhone}`}
+                  className="p-1.5 text-xs font-bold rounded-lg bg-blue-50 text-blue-700 hover:bg-blue-100 border border-blue-200 transition-colors"
+                >
+                  <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                  </svg>
+                </button>
+                <button
+                  onClick={() => handleWhatsApp(item)}
+                  title={`WhatsApp enquiry to ${STORE_CONTACT.displayPhone}`}
+                  className="px-2.5 py-1.5 text-xs font-bold rounded-lg bg-emerald-600 text-white hover:bg-emerald-700 transition-colors inline-flex items-center gap-1"
+                >
+                  <span>WhatsApp</span>
+                </button>
+              </div>
             </div>
           </div>
         ))}

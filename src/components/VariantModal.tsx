@@ -1,6 +1,7 @@
 "use client";
 
 import type { ProductRecord } from "@/lib/types";
+import { STORE_CONTACT, buildWhatsAppEnquiryUrl, buildCallingUrl } from "@/lib/config/contact";
 
 interface VariantModalProps {
   product: ProductRecord | null;
@@ -82,14 +83,14 @@ export function VariantModal({ product, allProducts, onClose, onSelectProduct }:
                     )}
                   </div>
 
-                  {/* Price */}
-                  <div className="text-right">
+                  {/* Price & Action */}
+                  <div className="flex flex-col items-end gap-1.5 shrink-0">
                     {hasOffer ? (
-                      <div>
-                        <div className="text-lg font-black text-emerald-600">
+                      <div className="text-right">
+                        <div className="text-base font-black text-emerald-600">
                           {formatPrice(sib.offer_price)}
                         </div>
-                        <div className="text-xs text-slate-400 line-through">
+                        <div className="text-[11px] text-slate-400 line-through">
                           {formatPrice(sib.mop)}
                         </div>
                         {savings > 0 && (
@@ -99,10 +100,39 @@ export function VariantModal({ product, allProducts, onClose, onSelectProduct }:
                         )}
                       </div>
                     ) : (
-                      <div className="text-lg font-black text-slate-900">
+                      <div className="text-base font-black text-slate-900">
                         {formatPrice(sib.mop)}
                       </div>
                     )}
+
+                    <div className="flex items-center gap-1 mt-1">
+                      <a
+                        href={buildCallingUrl()}
+                        title={`Call ${STORE_CONTACT.displayPhone}`}
+                        onClick={(e) => e.stopPropagation()}
+                        className="p-1.5 text-xs font-bold rounded-lg bg-blue-50 text-blue-700 hover:bg-blue-100 border border-blue-200 transition-colors"
+                      >
+                        <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                        </svg>
+                      </a>
+                      <button
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          const msg = `*Anant Electronics - Variant Enquiry*\n\n` +
+                            `📱 *${sib.brand} - ${sib.model}*\n` +
+                            (sib.variant ? `⚙️ Variant: ${sib.variant}\n` : "") +
+                            (hasOffer ? `🔥 Offer Price: ${formatPrice(sib.offer_price)} (MOP: ${formatPrice(sib.mop)})\n` : `💰 Price: ${formatPrice(sib.mop)}\n`) +
+                            (sib.offer_text ? `🎁 Offer: ${sib.offer_text}\n` : "") +
+                            `\n📍 Available at Anant Electronics\n📞 Store Contact: ${STORE_CONTACT.displayPhone}`;
+                          window.open(buildWhatsAppEnquiryUrl(msg), "_blank");
+                        }}
+                        title={`WhatsApp enquiry to ${STORE_CONTACT.displayPhone}`}
+                        className="px-2.5 py-1 text-[11px] font-bold rounded-lg bg-emerald-600 text-white hover:bg-emerald-700 transition-colors inline-flex items-center gap-1"
+                      >
+                        <span>WhatsApp</span>
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
