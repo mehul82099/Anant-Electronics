@@ -27,16 +27,34 @@ export default function HomePage() {
   const [comparedProducts, setComparedProducts] = useState<ProductRecord[]>([]);
 
   useEffect(() => {
-    fetch("/api/dataset")
-      .then((res) => res.json())
-      .then((data) => {
-        setDataset(data);
-        setLoading(false);
-      })
-      .catch((err) => {
-        console.error("Failed to load dataset:", err);
-        setLoading(false);
-      });
+    let isMounted = true;
+
+    const fetchDataset = () => {
+      fetch(`/api/dataset?t=${Date.now()}`)
+        .then((res) => res.json())
+        .then((data: Dataset) => {
+          if (!isMounted || !data) return;
+          setDataset((prev) => {
+            if (!prev || prev.version !== data.version) {
+              return data;
+            }
+            return prev;
+          });
+          setLoading(false);
+        })
+        .catch((err) => {
+          console.error("Failed to load dataset:", err);
+          if (isMounted) setLoading(false);
+        });
+    };
+
+    fetchDataset();
+    // Poll every 2 seconds for instant updates when Excel/Google Sheet is edited
+    const interval = setInterval(fetchDataset, 2000);
+    return () => {
+      isMounted = false;
+      clearInterval(interval);
+    };
   }, []);
 
   // Compute brand counts

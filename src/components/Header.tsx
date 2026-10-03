@@ -17,13 +17,13 @@ export function Header() {
       .then((d) => setSyncStatus(d.status))
       .catch(() => {});
 
-    // Poll every 30s
+    // Poll every 5s for live status updates
     const timer = setInterval(() => {
       fetch("/api/sync")
         .then((r) => r.json())
         .then((d) => setSyncStatus(d.status))
         .catch(() => {});
-    }, 30000);
+    }, 5000);
     return () => clearInterval(timer);
   }, []);
 

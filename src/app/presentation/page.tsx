@@ -31,17 +31,39 @@ export default function PresentationPage() {
   };
 
   useEffect(() => {
-    fetch("/api/dataset")
-      .then((res) => res.json())
-      .then((data: Dataset) => {
-        setDataset(data);
-        if (data.products.length > 0) {
-          // Default to high-profile phone (e.g. Samsung or Apple)
-          const feat = data.products.find((p) => p.has_offer && p.offer_price && p.mop && p.mop - p.offer_price > 2000) || data.products[0];
-          setActiveProduct(feat);
-        }
-      })
-      .catch((err) => console.error(err));
+    let isMounted = true;
+
+    const fetchDataset = () => {
+      fetch(`/api/dataset?t=${Date.now()}`)
+        .then((res) => res.json())
+        .then((data: Dataset) => {
+          if (!isMounted || !data) return;
+          setDataset((prev) => {
+            if (!prev || prev.version !== data.version) {
+              // Version changed or initial load
+              setActiveProduct((currActive) => {
+                if (!currActive) {
+                  return data.products.find((p) => p.has_offer && p.offer_price && p.mop && p.mop - p.offer_price > 2000) || data.products[0] || null;
+                }
+                // Keep the active product updated with its latest price/offer
+                const updated = data.products.find((p) => p.id === currActive.id) || currActive;
+                return updated;
+              });
+              return data;
+            }
+            return prev;
+          });
+        })
+        .catch((err) => console.error(err));
+    };
+
+    fetchDataset();
+    // Poll every 2 seconds for real-time spreadsheet updates
+    const timer = setInterval(fetchDataset, 2000);
+    return () => {
+      isMounted = false;
+      clearInterval(timer);
+    };
   }, []);
 
   const filteredProducts = useMemo(() => {
