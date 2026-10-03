@@ -14,7 +14,7 @@ build/
 *.tsbuildinfo
 
 # Application runtime database / sync cache
-data/
+/data/
 
 # OS / editor files
 .DS_Store
