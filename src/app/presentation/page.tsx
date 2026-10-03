@@ -9,6 +9,26 @@ export default function PresentationPage() {
   const [selectedBrand, setSelectedBrand] = useState<string>("ALL");
   const [search, setSearch] = useState("");
   const [activeProduct, setActiveProduct] = useState<ProductRecord | null>(null);
+  const [imagesMap, setImagesMap] = useState<Record<string, { imageUrl: string; thumbnailUrl: string; title: string }>>({});
+
+  useEffect(() => {
+    fetch("/data/model_images.json")
+      .then((res) => res.json())
+      .then((data: Record<string, { imageUrl: string; thumbnailUrl: string; title: string }>) => {
+        setImagesMap(data);
+      })
+      .catch((err) => console.error("Error loading model images:", err));
+  }, []);
+
+  const getImage = (product: ProductRecord) => {
+    if (!imagesMap) return null;
+    const k1 = `${product.brand}|||${(product.model_base || "").replace(/\s*\(\d+[\/\+]\d+\)/gi, "").replace(/\s*\(\d+\)/gi, "").replace(/\s*\b\d+GB\b/gi, "").replace(/\s*\b\d+TB\b/gi, "").trim()}`.toLowerCase();
+    const k2 = `${product.brand}|||${product.model_base || ""}`.toLowerCase();
+    const k3 = `${product.model || ""}`.toLowerCase();
+    const k4 = `${product.model_base || ""}`.toLowerCase();
+
+    return imagesMap[k1] || imagesMap[k2] || imagesMap[k3] || imagesMap[k4] || null;
+  };
 
   useEffect(() => {
     fetch("/api/dataset")
@@ -117,6 +137,31 @@ export default function PresentationPage() {
                 </span>
               )}
             </div>
+
+            {/* Model Device Image Showcase */}
+            {(() => {
+              const modelImg = getImage(activeProduct);
+              return (
+                <div className="max-h-72 sm:max-h-80 w-full flex items-center justify-center my-4 p-4 rounded-2xl bg-white border border-slate-100 shadow-inner overflow-hidden relative group">
+                  {modelImg?.imageUrl || modelImg?.thumbnailUrl ? (
+                    <img
+                      src={modelImg.imageUrl || modelImg.thumbnailUrl}
+                      alt={activeProduct.model}
+                      className="object-contain max-h-64 drop-shadow-xl hover:scale-105 transition-transform duration-300"
+                    />
+                  ) : (
+                    <div className="flex flex-col items-center justify-center py-10 text-slate-300 select-none">
+                      <svg className="w-20 h-20 mb-2 text-slate-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                      </svg>
+                      <span className="text-xs font-semibold tracking-wider uppercase text-slate-400">
+                        {activeProduct.brand} • Flagship Device
+                      </span>
+                    </div>
+                  )}
+                </div>
+              );
+            })()}
 
             <h2 className="text-3xl sm:text-5xl font-black text-slate-900 tracking-tight leading-tight">
               {activeProduct.model}
@@ -252,6 +297,7 @@ export default function PresentationPage() {
             {filteredProducts.map((p) => {
               const isSelected = p.id === activeProduct.id;
               const hasOff = p.has_offer && p.offer_price !== null && (p.mop === null || p.offer_price < p.mop);
+              const thumbImg = getImage(p);
 
               return (
                 <div
@@ -263,16 +309,32 @@ export default function PresentationPage() {
                       : "border-slate-200 hover:bg-slate-50"
                   }`}
                 >
-                  <div className="flex items-start justify-between gap-2">
-                    <div>
-                      <span className="text-[10px] font-bold uppercase text-slate-500 block">
-                        {p.brand}
-                      </span>
-                      <span className="text-xs font-bold text-slate-900 block leading-tight">
-                        {p.model}
-                      </span>
+                  <div className="flex items-center justify-between gap-2">
+                    <div className="flex items-center gap-2.5 min-w-0">
+                      <div className="w-9 h-9 min-w-9 rounded-md bg-white border border-slate-200 flex items-center justify-center overflow-hidden shrink-0 shadow-xs">
+                        {thumbImg?.thumbnailUrl || thumbImg?.imageUrl ? (
+                          <img
+                            src={thumbImg.thumbnailUrl || thumbImg.imageUrl}
+                            alt={p.model}
+                            className="w-full h-full object-contain p-0.5"
+                            loading="lazy"
+                          />
+                        ) : (
+                          <svg className="w-4 h-4 text-slate-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                          </svg>
+                        )}
+                      </div>
+                      <div className="min-w-0">
+                        <span className="text-[10px] font-bold uppercase text-slate-500 block truncate">
+                          {p.brand}
+                        </span>
+                        <span className="text-xs font-bold text-slate-900 block leading-tight truncate">
+                          {p.model}
+                        </span>
+                      </div>
                     </div>
-                    <div className="text-right">
+                    <div className="text-right shrink-0">
                       <span className="text-xs font-black text-slate-900 block">
                         {formatPrice(hasOff ? p.offer_price : p.mop)}
                       </span>

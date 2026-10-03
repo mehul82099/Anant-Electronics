@@ -2,6 +2,7 @@
 
 import type { ProductRecord } from "@/lib/types";
 import { STORE_CONTACT, buildWhatsAppEnquiryUrl, buildCallingUrl } from "@/lib/config/contact";
+import { useModelImages, getModelImage } from "@/lib/modelImages";
 
 interface VariantModalProps {
   product: ProductRecord | null;
@@ -11,10 +12,13 @@ interface VariantModalProps {
 }
 
 export function VariantModal({ product, allProducts, onClose, onSelectProduct }: VariantModalProps) {
+  const imagesMap = useModelImages();
+
   if (!product) return null;
 
   // Filter sibling variants with matching group_key
   const siblings = allProducts.filter((p) => p.group_key === product.group_key);
+  const headerImg = getModelImage(product, imagesMap);
 
   const formatPrice = (val: number | null) => {
     if (val === null) return "N/A";
@@ -26,13 +30,26 @@ export function VariantModal({ product, allProducts, onClose, onSelectProduct }:
       <div className="bg-white rounded-2xl max-w-xl w-full max-h-[85vh] overflow-hidden shadow-2xl border border-slate-200 flex flex-col">
         {/* Header */}
         <div className="px-6 py-4 border-b border-slate-100 flex items-center justify-between bg-slate-50/50">
-          <div>
-            <span className="text-xs font-bold uppercase text-slate-500 tracking-wider">
-              {product.brand} • {siblings.length} Variants Available
-            </span>
-            <h2 className="text-lg font-black text-slate-900 leading-tight">
-              {product.model_base}
-            </h2>
+          <div className="flex items-center gap-3">
+            <div className="w-12 h-12 rounded-xl bg-white border border-slate-200 flex items-center justify-center overflow-hidden shrink-0 shadow-xs">
+              {headerImg?.imageUrl || headerImg?.thumbnailUrl ? (
+                <img
+                  src={headerImg.imageUrl || headerImg.thumbnailUrl}
+                  alt={product.model_base}
+                  className="w-full h-full object-contain p-1"
+                />
+              ) : (
+                <span className="text-xl">📱</span>
+              )}
+            </div>
+            <div>
+              <span className="text-xs font-bold uppercase text-slate-500 tracking-wider">
+                {product.brand} • {siblings.length} Variants Available
+              </span>
+              <h2 className="text-lg font-black text-slate-900 leading-tight">
+                {product.model_base}
+              </h2>
+            </div>
           </div>
           <button
             onClick={onClose}
@@ -48,6 +65,7 @@ export function VariantModal({ product, allProducts, onClose, onSelectProduct }:
             const isSelected = sib.id === product.id;
             const hasOffer = sib.has_offer && sib.offer_price !== null && (sib.mop === null || sib.offer_price < sib.mop);
             const savings = hasOffer && sib.mop && sib.offer_price ? sib.mop - sib.offer_price : 0;
+            const sibImg = getModelImage(sib, imagesMap);
 
             return (
               <div
@@ -60,27 +78,43 @@ export function VariantModal({ product, allProducts, onClose, onSelectProduct }:
                 }`}
               >
                 <div className="flex items-start justify-between gap-3">
-                  <div>
-                    <div className="flex items-center gap-2">
-                      <span className="font-bold text-slate-900 text-base">{sib.model}</span>
-                      {sib.variant && (
-                        <span className="text-xs font-semibold px-2 py-0.5 rounded-md bg-blue-100 text-blue-800">
-                          {sib.variant}
-                        </span>
-                      )}
-                      {isSelected && (
-                        <span className="text-[10px] font-black uppercase tracking-wider px-2 py-0.5 rounded-full bg-blue-600 text-white">
-                          Current
-                        </span>
+                  <div className="flex items-start gap-3 min-w-0">
+                    <div className="w-11 h-11 min-w-11 rounded-lg bg-white border border-slate-200 flex items-center justify-center overflow-hidden shrink-0 shadow-xs mt-0.5">
+                      {sibImg?.thumbnailUrl || sibImg?.imageUrl ? (
+                        <img
+                          src={sibImg.thumbnailUrl || sibImg.imageUrl}
+                          alt={sib.model}
+                          className="w-full h-full object-contain p-0.5"
+                          loading="lazy"
+                        />
+                      ) : (
+                        <svg className="w-5 h-5 text-slate-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                        </svg>
                       )}
                     </div>
+                    <div className="min-w-0">
+                      <div className="flex items-center gap-2 flex-wrap">
+                        <span className="font-bold text-slate-900 text-base">{sib.model}</span>
+                        {sib.variant && (
+                          <span className="text-xs font-semibold px-2 py-0.5 rounded-md bg-blue-100 text-blue-800">
+                            {sib.variant}
+                          </span>
+                        )}
+                        {isSelected && (
+                          <span className="text-[10px] font-black uppercase tracking-wider px-2 py-0.5 rounded-full bg-blue-600 text-white">
+                            Current
+                          </span>
+                        )}
+                      </div>
 
-                    {/* Offers info */}
-                    {(sib.offer_text || sib.card_offer || sib.cashback) && (
-                      <p className="text-xs text-slate-600 mt-1">
-                        🎁 {sib.offer_text || sib.card_offer || sib.cashback}
-                      </p>
-                    )}
+                      {/* Offers info */}
+                      {(sib.offer_text || sib.card_offer || sib.cashback) && (
+                        <p className="text-xs text-slate-600 mt-1">
+                          🎁 {sib.offer_text || sib.card_offer || sib.cashback}
+                        </p>
+                      )}
+                    </div>
                   </div>
 
                   {/* Price & Action */}
