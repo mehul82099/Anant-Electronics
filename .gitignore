@@ -6,10 +6,15 @@ external/
 .env.*
 !.env.example
 
-# Dependencies & build output
+# Dependencies & Build output & caches
 node_modules/
+.next/
 dist/
 build/
+*.tsbuildinfo
+
+# Application runtime database / sync cache
+data/
 
 # OS / editor files
 .DS_Store

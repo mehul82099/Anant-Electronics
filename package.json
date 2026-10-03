@@ -1,0 +1,35 @@
+{
+  "name": "anant-electronics",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Anant Electronics – live mobile price, offer & customer presentation system. Google Sheet is the source of truth.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build --webpack",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "sync": "tsx scripts/sync.ts",
+    "analyze-source": "tsx scripts/analyze-source.ts"
+  },
+  "dependencies": {
+    "google-auth-library": "^10.0.0",
+    "next": "16.3.8",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0",
+    "vitest": "^5.0.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

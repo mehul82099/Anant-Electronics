@@ -1,0 +1,1147 @@
+{
+  "file": "C:\\Users\\Mehul\\Downloads\\MOBILE SHOP CATLOG FOR PHONES\\data\\MOP LIST NEW 28.10.25.xlsx",
+  "sha256": "1b1fa266a5b0e79ec7f45e542cd277299e5ac2fab07009af13da6a8b07462951",
+  "bytes": 864057,
+  "inspected_at": "2026-10-03T14:55:47.851969",
+  "sheet_count": 18,
+  "sheetnames": [
+    "MI",
+    "GOOGLE",
+    "SAMSUNG",
+    "OPPO",
+    "REALME",
+    "MOTOROLA",
+    "VIVO  IQOO",
+    "LENOVO",
+    "NOKIA",
+    "APPLE",
+    "INFINIX  TECNO",
+    "NOTHING",
+    "Sheet100",
+    "ONEPLUS",
+    "ACCESSORIES",
+    "ACC. 2",
+    "SERVICE CENTER",
+    "NO WEEK OFF CALENDER"
+  ],
+  "sheets": [
+    {
+      "name": "MI",
+      "max_row": 1021,
+      "max_column": 28,
+      "non_blank_cells": 127,
+      "density_pct": 0.44,
+      "header_row": 1,
+      "header_map": {
+        "B": {
+          "raw": "MOP",
+          "type": "price"
+        },
+        "C": {
+          "raw": "OFFER",
+          "type": "offer"
+        },
+        "E": {
+          "raw": "CASHBACK",
+          "type": "cashback"
+        }
+      },
+      "detected_columns": {
+        "A": 55,
+        "B": 54,
+        "C": 17,
+        "E": 1
+      },
+      "column_first_rows": {
+        "A": 2,
+        "B": 1,
+        "C": 1,
+        "E": 1
+      },
+      "keyword_hits": {
+        "offer": 15,
+        "mrp": 1,
+        "icb/emi/card": 14,
+        "cashback": 1,
+        "ram/storage": 45
+      },
+      "kind_guess": "products",
+      "product_row_count": 53,
+      "product_rows_first10": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        10,
+        12,
+        13
+      ],
+      "product_rows_last5": [
+        63,
+        64,
+        65,
+        66,
+        67
+      ],
+      "blank_row_count": 965,
+      "section_or_label_only_rows": [
+        1,
+        56,
+        58
+      ],
+      "merged_ranges": [
+        "B55:B56",
+        "C55:C56",
+        "B57:B58",
+        "C57:C58"
+      ],
+      "hidden": "visible"
+    },
+    {
+      "name": "GOOGLE",
+      "max_row": 991,
+      "max_column": 26,
+      "non_blank_cells": 40,
+      "density_pct": 0.16,
+      "header_row": 1,
+      "header_map": {
+        "A": {
+          "raw": "MODEL",
+          "type": "model"
+        },
+        "B": {
+          "raw": "MOP",
+          "type": "price"
+        },
+        "C": {
+          "raw": "OFFER PRICE",
+          "type": "price"
+        },
+        "D": {
+          "raw": "CARD OFFER",
+          "type": "offer"
+        }
+      },
+      "detected_columns": {
+        "A": 10,
+        "B": 10,
+        "C": 10,
+        "D": 10
+      },
+      "column_first_rows": {
+        "A": 1,
+        "B": 1,
+        "C": 1,
+        "D": 1
+      },
+      "keyword_hits": {
+        "offer": 2,
+        "icb/emi/card": 9
+      },
+      "kind_guess": "accessories",
+      "product_row_count": 9,
+      "product_rows_first10": [
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "product_rows_last5": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "blank_row_count": 981,
+      "section_or_label_only_rows": [
+        1
+      ],
+      "merged_ranges": [],
+      "hidden": "visible"
+    },
+    {
+      "name": "SAMSUNG",
+      "max_row": 1100,
+      "max_column": 30,
+      "non_blank_cells": 436,
+      "density_pct": 1.32,
+      "header_row": 1,
+      "header_map": {
+        "A": {
+          "raw": "MODEL",
+          "type": "model"
+        },
+        "B": {
+          "raw": "MOP",
+          "type": "price"
+        },
+        "D": {
+          "raw": "OFFER",
+          "type": "offer"
+        }
+      },
+      "detected_columns": {
+        "A": 156,
+        "B": 156,
+        "D": 124
+      },
+      "column_first_rows": {
+        "A": 1,
+        "B": 1,
+        "D": 1
+      },
+      "keyword_hits": {
+        "ram/storage": 133,
+        "offer": 198,
+        "mrp": 4,
+        "icb/emi/card": 97,
+        "cashback": 87
+      },
+      "kind_guess": "products",
+      "product_row_count": 28,
+      "product_rows_first10": [
+        8,
+        37,
+        38,
+        46,
+        77,
+        78,
+        79,
+        80,
+        87,
+        88
+      ],
+      "product_rows_last5": [
+        174,
+        175,
+        176,
+        177,
+        178
+      ],
+      "blank_row_count": 944,
+      "section_or_label_only_rows": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        10,
+        11,
+        12,
+        14,
+        15,
+        16,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        25,
+        26,
+        27,
+        28,
+        29,
+        31
+      ],
+      "merged_ranges": [],
+      "hidden": "visible"
+    },
+    {
+      "name": "OPPO",
+      "max_row": 1020,
+      "max_column": 27,
+      "non_blank_cells": 133,
+      "density_pct": 0.48,
+      "header_row": 1,
+      "header_map": {
+        "A": {
+          "raw": "MODEL",
+          "type": "model"
+        },
+        "B": {
+          "raw": "MOP",
+          "type": "price"
+        },
+        "C": {
+          "raw": "CARD OFFER",
+          "type": "offer"
+        }
+      },
+      "detected_columns": {
+        "A": 48,
+        "B": 48,
+        "C": 37
+      },
+      "column_first_rows": {
+        "A": 1,
+        "B": 1,
+        "C": 1
+      },
+      "keyword_hits": {
+        "ram/storage": 45,
+        "offer": 37,
+        "icb/emi/card": 36
+      },
+      "kind_guess": "products",
+      "product_row_count": 47,
+      "product_rows_first10": [
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13
+      ],
+      "product_rows_last5": [
+        52,
+        54,
+        55,
+        57,
+        58
+      ],
+      "blank_row_count": 972,
+      "section_or_label_only_rows": [
+        1
+      ],
+      "merged_ranges": [],
+      "hidden": "visible"
+    },
+    {
+      "name": "REALME",
+      "max_row": 1023,
+      "max_column": 27,
+      "non_blank_cells": 145,
+      "density_pct": 0.52,
+      "header_row": 1,
+      "header_map": {
+        "A": {
+          "raw": "MODEL",
+          "type": "model"
+        },
+        "B": {
+          "raw": "MOP",
+          "type": "price"
+        },
+        "C": {
+          "raw": "OFFER PRICE",
+          "type": "price"
+        }
+      },
+      "detected_columns": {
+        "A": 65,
+        "B": 64,
+        "C": 16
+      },
+      "column_first_rows": {
+        "A": 1,
+        "B": 1,
+        "C": 1
+      },
+      "keyword_hits": {
+        "ram/storage": 64,
+        "offer": 1,
+        "icb/emi/card": 15,
+        "mrp": 2
+      },
+      "kind_guess": "products",
+      "product_row_count": 63,
+      "product_rows_first10": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "product_rows_last5": [
+        68,
+        69,
+        70,
+        71,
+        72
+      ],
+      "blank_row_count": 958,
+      "section_or_label_only_rows": [
+        1,
+        41
+      ],
+      "merged_ranges": [],
+      "hidden": "visible"
+    },
+    {
+      "name": "MOTOROLA",
+      "max_row": 1024,
+      "max_column": 27,
+      "non_blank_cells": 95,
+      "density_pct": 0.34,
+      "header_row": 2,
+      "header_map": {
+        "C": {
+          "raw": "13999/- fix LAUREL OAK / TAPSTRY  COLOR  OLD MRP STOCK  ;(15750 TILL 7 OCT )  1250 INSTANT OFF ON IDFC - ICICI- SBI TILL 7 OCT",
+          "type": "price"
+        }
+      },
+      "detected_columns": {
+        "A": 45,
+        "B": 35,
+        "C": 15
+      },
+      "column_first_rows": {
+        "A": 2,
+        "B": 2,
+        "C": 2
+      },
+      "keyword_hits": {
+        "ram/storage": 44,
+        "icb/emi/card": 14,
+        "mrp": 1,
+        "cashback": 6
+      },
+      "kind_guess": "products",
+      "product_row_count": 35,
+      "product_rows_first10": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "product_rows_last5": [
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "blank_row_count": 979,
+      "section_or_label_only_rows": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "merged_ranges": [
+        "A42:C42",
+        "A49:C49",
+        "A44:C44",
+        "A47:C47",
+        "A45:C45",
+        "A46:C46",
+        "A48:C48",
+        "A43:C43"
+      ],
+      "hidden": "visible"
+    },
+    {
+      "name": "VIVO  IQOO",
+      "max_row": 1001,
+      "max_column": 27,
+      "non_blank_cells": 152,
+      "density_pct": 0.56,
+      "header_row": 1,
+      "header_map": {
+        "B": {
+          "raw": "MOP",
+          "type": "price"
+        },
+        "C": {
+          "raw": "CASHBACK OFFER",
+          "type": "offer"
+        }
+      },
+      "detected_columns": {
+        "A": 56,
+        "B": 56,
+        "C": 40
+      },
+      "column_first_rows": {
+        "A": 2,
+        "B": 1,
+        "C": 1
+      },
+      "keyword_hits": {
+        "cashback": 1,
+        "offer": 1,
+        "icb/emi/card": 39,
+        "ram/storage": 56
+      },
+      "kind_guess": "products",
+      "product_row_count": 55,
+      "product_rows_first10": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "product_rows_last5": [
+        59,
+        60,
+        61,
+        62,
+        63
+      ],
+      "blank_row_count": 944,
+      "section_or_label_only_rows": [
+        1,
+        31
+      ],
+      "merged_ranges": [],
+      "hidden": "visible"
+    },
+    {
+      "name": "LENOVO",
+      "max_row": 1001,
+      "max_column": 24,
+      "non_blank_cells": 22,
+      "density_pct": 0.09,
+      "header_row": null,
+      "header_map": {},
+      "detected_columns": {
+        "A": 11,
+        "B": 11
+      },
+      "column_first_rows": {
+        "A": 2,
+        "B": 2
+      },
+      "keyword_hits": {
+        "ram/storage": 10
+      },
+      "kind_guess": "products",
+      "product_row_count": 11,
+      "product_rows_first10": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "product_rows_last5": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "blank_row_count": 990,
+      "section_or_label_only_rows": [],
+      "merged_ranges": [],
+      "hidden": "visible"
+    },
+    {
+      "name": "NOKIA",
+      "max_row": 1014,
+      "max_column": 28,
+      "non_blank_cells": 59,
+      "density_pct": 0.21,
+      "header_row": 1,
+      "header_map": {
+        "A": {
+          "raw": "MODEL",
+          "type": "model"
+        },
+        "B": {
+          "raw": "MOP",
+          "type": "price"
+        }
+      },
+      "detected_columns": {
+        "A": 29,
+        "B": 29,
+        "C": 1
+      },
+      "column_first_rows": {
+        "A": 1,
+        "B": 1,
+        "C": 33
+      },
+      "keyword_hits": {
+        "ram/storage": 12
+      },
+      "kind_guess": "products",
+      "product_row_count": 24,
+      "product_rows_first10": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ],
+      "product_rows_last5": [
+        24,
+        26,
+        29,
+        30,
+        31
+      ],
+      "blank_row_count": 985,
+      "section_or_label_only_rows": [
+        1,
+        33
+      ],
+      "merged_ranges": [],
+      "hidden": "visible"
+    },
+    {
+      "name": "APPLE",
+      "max_row": 1010,
+      "max_column": 26,
+      "non_blank_cells": 104,
+      "density_pct": 0.4,
+      "header_row": 1,
+      "header_map": {
+        "B": {
+          "raw": "PRICE",
+          "type": "price"
+        },
+        "C": {
+          "raw": "CASHBACK",
+          "type": "cashback"
+        }
+      },
+      "detected_columns": {
+        "A": 40,
+        "B": 40,
+        "C": 23,
+        "D": 1
+      },
+      "column_first_rows": {
+        "A": 2,
+        "B": 1,
+        "C": 1,
+        "D": 8
+      },
+      "keyword_hits": {
+        "cashback": 30,
+        "icb/emi/card": 29,
+        "ram/storage": 17
+      },
+      "kind_guess": "products",
+      "product_row_count": 30,
+      "product_rows_first10": [
+        2,
+        4,
+        6,
+        7,
+        9,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "product_rows_last5": [
+        33,
+        34,
+        35,
+        36,
+        48
+      ],
+      "blank_row_count": 968,
+      "section_or_label_only_rows": [
+        1,
+        5,
+        8,
+        38,
+        39,
+        40,
+        41,
+        44,
+        45,
+        46,
+        49,
+        50
+      ],
+      "merged_ranges": [
+        "B44:C44",
+        "B45:C45",
+        "B46:C46",
+        "C50:D50",
+        "C48:D48",
+        "C49:D49"
+      ],
+      "hidden": "visible"
+    },
+    {
+      "name": "INFINIX  TECNO",
+      "max_row": 1028,
+      "max_column": 25,
+      "non_blank_cells": 137,
+      "density_pct": 0.53,
+      "header_row": 1,
+      "header_map": {
+        "A": {
+          "raw": "MODEL",
+          "type": "model"
+        },
+        "B": {
+          "raw": "MOP",
+          "type": "price"
+        }
+      },
+      "detected_columns": {
+        "A": 66,
+        "B": 59,
+        "C": 10,
+        "D": 1,
+        "G": 1
+      },
+      "column_first_rows": {
+        "A": 1,
+        "B": 1,
+        "C": 7,
+        "D": 19,
+        "G": 18
+      },
+      "keyword_hits": {
+        "ram/storage": 51,
+        "icb/emi/card": 8,
+        "mrp": 2
+      },
+      "kind_guess": "products",
+      "product_row_count": 53,
+      "product_rows_first10": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "product_rows_last5": [
+        68,
+        69,
+        70,
+        71,
+        72
+      ],
+      "blank_row_count": 962,
+      "section_or_label_only_rows": [
+        1,
+        2,
+        20,
+        22,
+        34,
+        40,
+        41,
+        43,
+        45,
+        50,
+        51,
+        52,
+        55
+      ],
+      "merged_ranges": [],
+      "hidden": "visible"
+    },
+    {
+      "name": "NOTHING",
+      "max_row": 977,
+      "max_column": 27,
+      "non_blank_cells": 30,
+      "density_pct": 0.11,
+      "header_row": 3,
+      "header_map": {
+        "C": {
+          "raw": "1000/- INSTANT OFF ON FS UPI & FS HDFC,SBI AXIS (BENOW HDFC) & 1000 OFF ON EMI HDFC, AXIS, INDUSLAND, KOTAK, AU &  ONE CARD, KOTAK, SBI TLL 30SEP",
+          "type": "card_offer"
+        }
+      },
+      "detected_columns": {
+        "A": 10,
+        "B": 10,
+        "C": 10
+      },
+      "column_first_rows": {
+        "A": 3,
+        "B": 3,
+        "C": 3
+      },
+      "keyword_hits": {
+        "ram/storage": 10,
+        "icb/emi/card": 10,
+        "mrp": 4
+      },
+      "kind_guess": "products",
+      "product_row_count": 10,
+      "product_rows_first10": [
+        3,
+        4,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        14,
+        15
+      ],
+      "product_rows_last5": [
+        10,
+        11,
+        12,
+        14,
+        15
+      ],
+      "blank_row_count": 967,
+      "section_or_label_only_rows": [],
+      "merged_ranges": [],
+      "hidden": "visible"
+    },
+    {
+      "name": "Sheet100",
+      "max_row": 1,
+      "max_column": 1,
+      "non_blank_cells": 0,
+      "density_pct": 0.0,
+      "header_row": null,
+      "header_map": {},
+      "detected_columns": {},
+      "column_first_rows": {},
+      "keyword_hits": {},
+      "kind_guess": "non-product",
+      "product_row_count": 0,
+      "product_rows_first10": [],
+      "product_rows_last5": [],
+      "blank_row_count": 1,
+      "section_or_label_only_rows": [],
+      "merged_ranges": [],
+      "hidden": "visible"
+    },
+    {
+      "name": "ONEPLUS",
+      "max_row": 995,
+      "max_column": 26,
+      "non_blank_cells": 10,
+      "density_pct": 0.04,
+      "header_row": 1,
+      "header_map": {
+        "A": {
+          "raw": "MODEL",
+          "type": "model"
+        },
+        "B": {
+          "raw": "PRICE",
+          "type": "price"
+        }
+      },
+      "detected_columns": {
+        "A": 5,
+        "B": 5
+      },
+      "column_first_rows": {
+        "A": 1,
+        "B": 1
+      },
+      "keyword_hits": {
+        "ram/storage": 4
+      },
+      "kind_guess": "products",
+      "product_row_count": 4,
+      "product_rows_first10": [
+        3,
+        4,
+        6,
+        7
+      ],
+      "product_rows_last5": [
+        3,
+        4,
+        6,
+        7
+      ],
+      "blank_row_count": 990,
+      "section_or_label_only_rows": [
+        1
+      ],
+      "merged_ranges": [],
+      "hidden": "visible"
+    },
+    {
+      "name": "ACCESSORIES",
+      "max_row": 1004,
+      "max_column": 25,
+      "non_blank_cells": 101,
+      "density_pct": 0.4,
+      "header_row": null,
+      "header_map": {},
+      "detected_columns": {
+        "A": 37,
+        "E": 36,
+        "F": 28
+      },
+      "column_first_rows": {
+        "A": 1,
+        "E": 1,
+        "F": 2
+      },
+      "keyword_hits": {},
+      "kind_guess": "accessories",
+      "product_row_count": 12,
+      "product_rows_first10": [
+        20,
+        22,
+        23,
+        26,
+        28,
+        29,
+        30,
+        31,
+        36,
+        37
+      ],
+      "product_rows_last5": [
+        31,
+        36,
+        37,
+        38,
+        39
+      ],
+      "blank_row_count": 961,
+      "section_or_label_only_rows": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        18,
+        19,
+        21,
+        24,
+        25,
+        27,
+        32,
+        33,
+        34
+      ],
+      "merged_ranges": [
+        "F3:G3",
+        "F4:G4",
+        "F2:G2",
+        "F11:G11",
+        "F12:G12",
+        "F15:G15",
+        "F16:G16",
+        "F10:G10",
+        "I10:J10",
+        "I2:J2",
+        "F5:G5",
+        "F6:G6",
+        "F14:G14",
+        "F13:G13",
+        "F9:G9",
+        "F7:G7",
+        "F8:G8"
+      ],
+      "hidden": "visible"
+    },
+    {
+      "name": "ACC. 2",
+      "max_row": 1001,
+      "max_column": 26,
+      "non_blank_cells": 22,
+      "density_pct": 0.08,
+      "header_row": null,
+      "header_map": {},
+      "detected_columns": {
+        "A": 22
+      },
+      "column_first_rows": {
+        "A": 1
+      },
+      "keyword_hits": {},
+      "kind_guess": "non-product",
+      "product_row_count": 0,
+      "product_rows_first10": [],
+      "product_rows_last5": [],
+      "blank_row_count": 979,
+      "section_or_label_only_rows": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        14,
+        15,
+        16,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        25,
+        26
+      ],
+      "merged_ranges": [],
+      "hidden": "visible"
+    },
+    {
+      "name": "SERVICE CENTER",
+      "max_row": 987,
+      "max_column": 27,
+      "non_blank_cells": 111,
+      "density_pct": 0.42,
+      "header_row": 3,
+      "header_map": {
+        "B": {
+          "raw": "The Asian Sale & Services - Address : A-4, Shiv Shakti Tower, Murti kala Col, Nearr Gopalpura police choki & Byepass, Jaipur, 302018",
+          "type": "warranty"
+        }
+      },
+      "detected_columns": {
+        "A": 44,
+        "B": 66,
+        "C": 1
+      },
+      "column_first_rows": {
+        "A": 2,
+        "B": 1,
+        "C": 90
+      },
+      "keyword_hits": {
+        "icb/emi/card": 2
+      },
+      "kind_guess": "non-product",
+      "product_row_count": 0,
+      "product_rows_first10": [],
+      "product_rows_last5": [],
+      "blank_row_count": 919,
+      "section_or_label_only_rows": [
+        1,
+        13,
+        18,
+        22,
+        26,
+        30,
+        34,
+        37,
+        41,
+        46,
+        52,
+        55,
+        58,
+        59,
+        61,
+        66,
+        69,
+        72,
+        75,
+        82,
+        85,
+        88,
+        89,
+        90
+      ],
+      "merged_ranges": [],
+      "hidden": "visible"
+    },
+    {
+      "name": "NO WEEK OFF CALENDER",
+      "max_row": 9,
+      "max_column": 4,
+      "non_blank_cells": 12,
+      "density_pct": 33.33,
+      "header_row": 7,
+      "header_map": {
+        "B": {
+          "raw": "RAM NAVMI",
+          "type": "variant"
+        }
+      },
+      "detected_columns": {
+        "A": 7,
+        "B": 5
+      },
+      "column_first_rows": {
+        "A": 1,
+        "B": 3
+      },
+      "keyword_hits": {},
+      "kind_guess": "non-product",
+      "product_row_count": 0,
+      "product_rows_first10": [],
+      "product_rows_last5": [],
+      "blank_row_count": 2,
+      "section_or_label_only_rows": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "merged_ranges": [],
+      "hidden": "visible"
+    }
+  ]
+}

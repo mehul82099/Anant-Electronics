@@ -1,0 +1,5635 @@
+{
+ "MI": {
+  "sheet": "MI",
+  "state": "visible",
+  "max_row": 1021,
+  "max_col": 28,
+  "populated_rows": 56,
+  "first_row": 1,
+  "last_row": 67,
+  "rows": [
+   {
+    "row": 1,
+    "cells": {
+     "B": "MOP",
+     "C": "OFFER",
+     "E": "CASHBACK"
+    }
+   },
+   {
+    "row": 2,
+    "cells": {
+     "A": "POCO C85X  5G  (4/64)",
+     "B": "15500",
+     "C": "15000/- LAST CASH PRICE"
+    }
+   },
+   {
+    "row": 3,
+    "cells": {
+     "A": "A7 (3/64) 4G",
+     "B": "13500"
+    }
+   },
+   {
+    "row": 4,
+    "cells": {
+     "A": "A7 PRO (4/64) 4G",
+     "B": "14500"
+    }
+   },
+   {
+    "row": 5,
+    "cells": {
+     "A": "A7 PRO (4/64) 5G",
+     "B": "13500"
+    }
+   },
+   {
+    "row": 6,
+    "cells": {
+     "A": "A7 PRO (4/128) 5G",
+     "B": "15000"
+    }
+   },
+   {
+    "row": 8,
+    "cells": {
+     "A": "REDMI 15A (4/64)",
+     "B": "17000"
+    }
+   },
+   {
+    "row": 9,
+    "cells": {
+     "A": "REDMI 15A (4/128)",
+     "B": "19000"
+    }
+   },
+   {
+    "row": 10,
+    "cells": {
+     "A": "REDMI 15A (6/128)",
+     "B": "21000",
+     "C": "OLD MRP STOCK AVAILABLE 19999/- ( BLACK & BLUE )"
+    }
+   },
+   {
+    "row": 12,
+    "cells": {
+     "A": "REDMI 15C (4/128)",
+     "B": "19000"
+    }
+   },
+   {
+    "row": 13,
+    "cells": {
+     "A": "REDMI 15C (6/128)",
+     "B": "21000"
+    }
+   },
+   {
+    "row": 14,
+    "cells": {
+     "A": "REDMI 15C (8/128)",
+     "B": "23000"
+    }
+   },
+   {
+    "row": 16,
+    "cells": {
+     "A": "REDMI 15 (6/128)",
+     "B": "22000"
+    }
+   },
+   {
+    "row": 17,
+    "cells": {
+     "A": "REDMI 15 (8/128)",
+     "B": "24000"
+    }
+   },
+   {
+    "row": 18,
+    "cells": {
+     "A": "REDMI 15 (8/256)",
+     "B": "26000"
+    }
+   },
+   {
+    "row": 19,
+    "cells": {
+     "A": "REDMI 17 (6/128)",
+     "B": "24500"
+    }
+   },
+   {
+    "row": 20,
+    "cells": {
+     "A": "REDMI 17 (8/128)",
+     "B": "27500"
+    }
+   },
+   {
+    "row": 22,
+    "cells": {
+     "A": "NOTE 15 (8/128)",
+     "B": "29500",
+     "C": "2000/- ICB ON AXIS/ICICI/HDFC/SBI/KOTAK/IDFC CC EMI ( NCE UPTO 3M ) & 1500/- ICB ON ICICI/AXIS/SBI CC FS ( OFFER TILL 31 OCT )"
+    }
+   },
+   {
+    "row": 23,
+    "cells": {
+     "A": "NOTE 15 (8/256)",
+     "B": "32500"
+    }
+   },
+   {
+    "row": 25,
+    "cells": {
+     "A": "NOTE 15 PRO (8/128)",
+     "B": "32500",
+     "C": "3000/- ICB ON AXIS/ICICI/HDFC/SBI/KOTAK/IDFC CC EMI ( NCE UPTO 6M ) & 2000/- ICB ON ICICI/AXIS/SBI CC FS ( OFFER TILL 31 OCT )"
+    }
+   },
+   {
+    "row": 26,
+    "cells": {
+     "A": "NOTE 15 PRO (8/256)",
+     "B": "35500"
+    }
+   },
+   {
+    "row": 27,
+    "cells": {
+     "A": "NOTE 15 PRO PLUS (8/256)",
+     "B": "40500",
+     "C": "3000/- ICB ON AXIS/ICICI/HDFC/SBI/KOTAK/IDFC CC EMI ( NCE UPTO 6M ) & 2000/- ICB ON ICICI/AXIS/SBI CC FS ( OFFER TILL 31 OCT )"
+    }
+   },
+   {
+    "row": 28,
+    "cells": {
+     "A": "NOTE 15 PRO PLUS (12/256)",
+     "B": "42500",
+     "C": "3000/- ICB ON AXIS/ICICI/HDFC/SBI/KOTAK/IDFC CC EMI ( NCE UPTO 6M ) & 2000/- ICB ON ICICI/AXIS/SBI CC FS ( OFFER TILL 31 OCT )"
+    }
+   },
+   {
+    "row": 29,
+    "cells": {
+     "A": "NOTE 15 PRO PLUS (12/512)",
+     "B": "45500",
+     "C": "3000/- ICB ON AXIS/ICICI/HDFC/SBI/KOTAK/IDFC CC EMI ( NCE UPTO 6M ) & 2000/- ICB ON ICICI/AXIS/SBI CC FS ( OFFER TILL 31 OCT )"
+    }
+   },
+   {
+    "row": 31,
+    "cells": {
+     "A": "NOTE 17 (6/128)",
+     "B": "28500",
+     "C": "2000/- ICB ON AXIS/KOTAK/IDFC/ICICI/SBI/HDFC CC EMI ( NCEM UPTO 3M ) & 1500/- ICB ON UPI/AXIS/ICICI/SBI CC FS ( OFFER TILL 31 OCT )"
+    }
+   },
+   {
+    "row": 32,
+    "cells": {
+     "A": "NOTE 17 (8/128)",
+     "B": "31500",
+     "C": "2000/- ICB ON AXIS/KOTAK/IDFC/ICICI/SBI/HDFC CC EMI ( NCEM UPTO 3M ) & 1500/- ICB ON UPI/AXIS/ICICI/SBI CC FS ( OFFER TILL 31 OCT )"
+    }
+   },
+   {
+    "row": 33,
+    "cells": {
+     "A": "NOTE 17 PRO (8/128)",
+     "B": "37500",
+     "C": "3000/- ICB ON AXIS/ICICI/HDFC/SBI/KOTAK/IDFC CC EMI ( NCE UPTO 6M ) & 2000/- ICB ON UPI/ICICI/AXIS/SBI CC FS ( OFFER TILL 31 OCT )"
+    }
+   },
+   {
+    "row": 34,
+    "cells": {
+     "A": "NOTE 17 PRO (8/256)",
+     "B": "40500",
+     "C": "3000/- ICB ON AXIS/ICICI/HDFC/SBI/KOTAK/IDFC CC EMI ( NCE UPTO 6M ) & 2000/- ICB ON UPI/ICICI/AXIS/SBI CC FS ( OFFER TILL 31 OCT )"
+    }
+   },
+   {
+    "row": 35,
+    "cells": {
+     "A": "NOTE 17 PRO MAX (8/256)",
+     "B": "50500",
+     "C": "5000/- ICB ON AXIS/ICICI/HDFC/SBI/KOTAK/IDFC CC EMI ( NCE UPTO 6M ) & 4000/- ICB ON UPI/ICICI/AXIS/SBI CC FS ( OFFER TILL 31 OCT )"
+    }
+   },
+   {
+    "row": 36,
+    "cells": {
+     "A": "NOTE 17 PRO MAX (12/256)",
+     "B": "56500",
+     "C": "5000/- ICB ON AXIS/ICICI/HDFC/SBI/KOTAK/IDFC CC EMI ( NCE UPTO 6M ) & 4000/- ICB ON UPI/ICICI/AXIS/SBI CC FS ( OFFER TILL 31 OCT )"
+    }
+   },
+   {
+    "row": 38,
+    "cells": {
+     "A": "REDMI TURBO 5G (8/256)",
+     "B": "42500"
+    }
+   },
+   {
+    "row": 39,
+    "cells": {
+     "A": "REDMI TURBO 5G (12/256)",
+     "B": "47500"
+    }
+   },
+   {
+    "row": 40,
+    "cells": {
+     "A": "XIAOMI 17T (12/256)",
+     "B": "70500",
+     "C": "5000/- ICB ON AXIS/ICICI/HDFC/SBI/KOTAK/IDFC CC EMI ( NCE UPTO 6M ) & 5000/- ICB ON ICICI/AXIS/SBI CC FS ( OFFER TILL 31 OCT )"
+    }
+   },
+   {
+    "row": 41,
+    "cells": {
+     "A": "XIAOMI 17T (12/512)",
+     "B": "75500",
+     "C": "5000/- ICB ON AXIS/ICICI/HDFC/SBI/KOTAK/IDFC CC EMI ( NCE UPTO 6M ) & 5000/- ICB ON ICICI/AXIS/SBI CC FS ( OFFER TILL 31 OCT )"
+    }
+   },
+   {
+    "row": 42,
+    "cells": {
+     "A": "XIAOMI 17  (12/512)",
+     "B": "90000",
+     "C": "10000/- ICB ON AXIS/ICICI/HDFC/SBI/KOTAK/IDFC CC EMI ( NCE UPTO 6M ) & 8000/- ICB ON ICICI/AXIS/SBI CC FS ( 7000/- UPI ) ( OFFER TILL 31 OCT )"
+    }
+   },
+   {
+    "row": 43,
+    "cells": {
+     "A": "XIAOMI 17 ULTRA (16/512)",
+     "B": "140000"
+    }
+   },
+   {
+    "row": 45,
+    "cells": {
+     "A": "REDMI PAD 2  (6/128)  (4G-LTE)",
+     "B": "24500"
+    }
+   },
+   {
+    "row": 46,
+    "cells": {
+     "A": "REDMI PAD 2  (8/256)  (4G-LTE)",
+     "B": "26500"
+    }
+   },
+   {
+    "row": 48,
+    "cells": {
+     "A": "REDMI PAD PRO 2 WIFI (8/128)",
+     "B": "29500"
+    }
+   },
+   {
+    "row": 49,
+    "cells": {
+     "A": "REDMI PAD PRO 2 5G (8/128)",
+     "B": "32500"
+    }
+   },
+   {
+    "row": 50,
+    "cells": {
+     "A": "REDMI PAD PRO 2 5G (8/256)",
+     "B": "35500"
+    }
+   },
+   {
+    "row": 52,
+    "cells": {
+     "A": "XIAOMI PAD 8 (8/128)",
+     "B": "39500"
+    }
+   },
+   {
+    "row": 53,
+    "cells": {
+     "A": "XIAOMI PAD 8 (12/256)",
+     "B": "47500"
+    }
+   },
+   {
+    "row": 54,
+    "cells": {
+     "A": "XIAOMI PAD 8 (12/256) WITH PEN",
+     "B": "52500"
+    }
+   },
+   {
+    "row": 55,
+    "cells": {
+     "A": "XIAOMI PAD 8 (12/256)",
+     "B": "49500"
+    }
+   },
+   {
+    "row": 56,
+    "cells": {
+     "A": "NANO TEXTURE DISPLAY  -"
+    }
+   },
+   {
+    "row": 57,
+    "cells": {
+     "A": "XIAOMI PAD 8 (12/256)",
+     "B": "54500"
+    }
+   },
+   {
+    "row": 58,
+    "cells": {
+     "A": "NANO TEXTURE DISPLAY  - WITH PEN"
+    }
+   },
+   {
+    "row": 60,
+    "cells": {
+     "A": "HD  - 32\" A SERIES 2025",
+     "B": "13500"
+    }
+   },
+   {
+    "row": 61,
+    "cells": {
+     "A": "FHD  - 43\" A SERIES 2025",
+     "B": "21500"
+    }
+   },
+   {
+    "row": 62,
+    "cells": {
+     "A": "4K  -  43\"  X SERIES 2025",
+     "B": "26500"
+    }
+   },
+   {
+    "row": 63,
+    "cells": {
+     "A": "4K  -  50\" X SERIES 2025",
+     "B": "30500"
+    }
+   },
+   {
+    "row": 64,
+    "cells": {
+     "A": "4K - 55\" X SERIES 2025",
+     "B": "36500"
+    }
+   },
+   {
+    "row": 65,
+    "cells": {
+     "A": "QLED  -  43\"  X PRO SERIES 2025",
+     "B": "29500"
+    }
+   },
+   {
+    "row": 66,
+    "cells": {
+     "A": "QLED  -  55\"  X PRO SERIES 2025",
+     "B": "41500"
+    }
+   },
+   {
+    "row": 67,
+    "cells": {
+     "A": "QLED  -  65\"  X PRO SERIES 2025",
+     "B": "56500"
+    }
+   }
+  ]
+ },
+ "GOOGLE": {
+  "sheet": "GOOGLE",
+  "state": "visible",
+  "max_row": 991,
+  "max_col": 26,
+  "populated_rows": 10,
+  "first_row": 1,
+  "last_row": 11,
+  "rows": [
+   {
+    "row": 1,
+    "cells": {
+     "A": "MODEL",
+     "B": "MOP",
+     "C": "OFFER PRICE",
+     "D": "CARD OFFER"
+    }
+   },
+   {
+    "row": 2,
+    "cells": {
+     "A": "10A  256GB",
+     "B": "55999",
+     "C": "55999",
+     "D": "2000 INSTANT OFF ON FS HDFC  CARD &  3000 ON EMI TRANSACTION ONLY UPTO 6M (TILL 31 OCT)"
+    }
+   },
+   {
+    "row": 3,
+    "cells": {
+     "A": "10  256gb",
+     "B": "79999",
+     "C": "75000",
+     "D": "4000 INSTANT OFF ON HDFC CARD FS & 5000 ON EMI TRANSACTION ONLY UPTO 6M & 9M  (TILL 31 OCT)"
+    }
+   },
+   {
+    "row": 5,
+    "cells": {
+     "A": "11 (256gb)",
+     "B": "89999",
+     "C": "89999",
+     "D": "5000 INSTANT OFF ON HDFC CARD FS & 7000 ON EMI TRANSACTION ONLY UPTO 6M & 9M  (TILL 31 OCT)"
+    }
+   },
+   {
+    "row": 6,
+    "cells": {
+     "A": "11 (512gb)",
+     "B": "104999",
+     "C": "104999",
+     "D": "5000 INSTANT OFF ON HDFC CARD FS & 7000 ON EMI TRANSACTION ONLY UPTO 6M & 9M  (TILL 31 OCT)"
+    }
+   },
+   {
+    "row": 7,
+    "cells": {
+     "A": "11 PRO (256gb)",
+     "B": "119999",
+     "C": "119999",
+     "D": "8000 INSTANT OFF ON HDFC CARD FS & 10000 ON EMI TRANSACTION ONLY UPTO 6M & 9M (TILL 31 OCT)"
+    }
+   },
+   {
+    "row": 8,
+    "cells": {
+     "A": "11 PRO (512gb)",
+     "B": "134999",
+     "C": "134999",
+     "D": "8000 INSTANT OFF ON HDFC CARD FS & 10000 ON EMI TRANSACTION ONLY UPTO 6M & 9M (TILL 31 OCT)"
+    }
+   },
+   {
+    "row": 9,
+    "cells": {
+     "A": "11 PRO XL (256gb)",
+     "B": "134999",
+     "C": "134999",
+     "D": "8000 INSTANT OFF ON HDFC CARD FS & 10000 ON EMI TRANSACTION ONLY UPTO 6M & 9M (TILL 31 OCT)"
+    }
+   },
+   {
+    "row": 10,
+    "cells": {
+     "A": "11 PRO XL (512gb)",
+     "B": "149999",
+     "C": "149999",
+     "D": "8000 INSTANT OFF ON HDFC CARD FS & 10000 ON EMI TRANSACTION ONLY UPTO 6M & 9M (TILL 31 OCT)"
+    }
+   },
+   {
+    "row": 11,
+    "cells": {
+     "A": "11 PRO FOLD (512gb)",
+     "B": "186999",
+     "C": "186999",
+     "D": "8000 INSTANT OFF ON HDFC CARD FS & 10000 ON EMI TRANSACTION ONLY UPTO 6M & 9M (TILL 31 OCT)"
+    }
+   }
+  ]
+ },
+ "SAMSUNG": {
+  "sheet": "SAMSUNG",
+  "state": "visible",
+  "max_row": 1100,
+  "max_col": 30,
+  "populated_rows": 156,
+  "first_row": 1,
+  "last_row": 178,
+  "rows": [
+   {
+    "row": 1,
+    "cells": {
+     "A": "MODEL",
+     "B": "MOP",
+     "D": "OFFER"
+    }
+   },
+   {
+    "row": 2,
+    "cells": {
+     "A": "A06 5G (4/64)",
+     "B": "15999/-   15499/- OFFER 28 SEPT"
+    }
+   },
+   {
+    "row": 3,
+    "cells": {
+     "A": "A06 5G (4/128)",
+     "B": "17999     17499/-  OFFER 28 SEPT"
+    }
+   },
+   {
+    "row": 4,
+    "cells": {
+     "A": "A06 5G (6/128)",
+     "B": "19999/-   19499/- OFFER 28 SEPT"
+    }
+   },
+   {
+    "row": 5,
+    "cells": {
+     "A": "A07 4G (4/64)",
+     "B": "13499/-"
+    }
+   },
+   {
+    "row": 6,
+    "cells": {
+     "A": "A07 5G (4/128)",
+     "B": "20999/-    20499/- OFFER 31 OCT"
+    }
+   },
+   {
+    "row": 7,
+    "cells": {
+     "A": "A07 5G (6/128)",
+     "B": "23999/-    23499/- OFFER 31 OCT",
+     "D": "( 22999 MRP ONLY 1 UNIT GREEN )"
+    }
+   },
+   {
+    "row": 8,
+    "cells": {
+     "A": "A08 4G (4/64)",
+     "B": "18499"
+    }
+   },
+   {
+    "row": 10,
+    "cells": {
+     "A": "A17  5G  (6/128)",
+     "B": "27999/-    27499/- OFFER 31 OCT"
+    }
+   },
+   {
+    "row": 11,
+    "cells": {
+     "A": "A17  5G  (8/128)",
+     "B": "30999/-    30499/- OFFER 31 OCT"
+    }
+   },
+   {
+    "row": 12,
+    "cells": {
+     "A": "A17  5G  (8/256)",
+     "B": "36499/-    35999/- OFFER 31 OCT"
+    }
+   },
+   {
+    "row": 14,
+    "cells": {
+     "A": "A27 (6/128)",
+     "B": "33999/-",
+     "D": "2400 UPGRADE OFFER ONLY FINANCE & CASH 28 SEPT / 3000 UPI / HDFC, ICICI, SBI FULL SWIPE & EMI OFFER TILL 10 OCT"
+    }
+   },
+   {
+    "row": 15,
+    "cells": {
+     "A": "A27 (8/128)",
+     "B": "38999/-",
+     "D": "2400 UPGRADE OFFER ONLY FINANCE & CASH 28 SEPT / 3000 UPI / HDFC, ICICI, SBI FULL SWIPE & EMI OFFER TILL 10 OCT"
+    }
+   },
+   {
+    "row": 16,
+    "cells": {
+     "A": "A27 (8/256)",
+     "B": "45499/-",
+     "D": "2400 UPGRADE OFFER ONLY FINANCE & CASH 28 SEPT / 3000 UPI / HDFC, ICICI, SBI FULL SWIPE & EMI OFFER TILL 10 OCT"
+    }
+   },
+   {
+    "row": 18,
+    "cells": {
+     "A": "A36 (8/128)",
+     "B": "36999/-",
+     "D": "2800 UPGRADE OFFER CASH 31 AUG / 2000 UPI / HDFC, SBI, ICICI, Axis, Kotak, IDFC, Bank of Baroda, Federal Bank, CC FULL / CC EMI OFFER 10 OCT"
+    }
+   },
+   {
+    "row": 19,
+    "cells": {
+     "A": "A36 (8/256)",
+     "B": "40999/-",
+     "D": "2800 UPGRADE OFFER CASH 31 AUG / 2000 UPI / HDFC, SBI, ICICI, Axis, Kotak, IDFC, Bank of Baroda, Federal Bank, CC FULL / CC EMI OFFER 10 OCT"
+    }
+   },
+   {
+    "row": 20,
+    "cells": {
+     "A": "A36 (12/256)",
+     "B": "46499/-",
+     "D": "2800 UPGRADE OFFER CASH 31 AUG / 2000 UPI / HDFC, SBI, ICICI, Axis, Kotak, IDFC, Bank of Baroda, Federal Bank, CC FULL / CC EMI OFFER 10 OCT"
+    }
+   },
+   {
+    "row": 21,
+    "cells": {
+     "A": "A37 (8/128)",
+     "B": "46999/-",
+     "D": "2400 UPGRADE OFFER CASH OFFER 6 OCT / 3000 UPI / HDFC, ICICI,SBI,AXIS CC INSTANT CASHBACK OFFER 6 OCT"
+    }
+   },
+   {
+    "row": 22,
+    "cells": {
+     "A": "A37 (8/256)",
+     "B": "54499/-      52999/- OFFER 30 SEPT",
+     "D": "2400 UPGRADE OFFER CASH OFFER 6 OCT / 3000 UPI / HDFC, ICICI,SBI,AXIS CC INSTANT CASHBACK OFFER 6 OCT"
+    }
+   },
+   {
+    "row": 23,
+    "cells": {
+     "A": "A37 (12/256)",
+     "B": "63999/-      62499/- OFFER 30 SEPT",
+     "D": "2400 UPGRADE OFFER CASH OFFER 6 OCT / 3000 UPI / HDFC, ICICI,SBI,AXIS CC INSTANT CASHBACK OFFER 6 OCT"
+    }
+   },
+   {
+    "row": 25,
+    "cells": {
+     "A": "A56 (8/128)",
+     "B": "44999/-     40999/- OFFER 31 AUG",
+     "D": "4000 UPGRADE OFFER CASH 31 AUG / 2000 HDFC, SBI, ICICI, Axis, Kotak, IDFC, Bank of Baroda, Federal Bank, CC FULL / CC EMI OFFER 10 OCT"
+    }
+   },
+   {
+    "row": 26,
+    "cells": {
+     "A": "A56 (8/256)",
+     "B": "48999/-     44999/- OFFER 31 AUG",
+     "D": "4000 UPGRADE OFFER CASH 31 AUG / 2000 HDFC, SBI, ICICI, Axis, Kotak, IDFC, Bank of Baroda, Federal Bank, CC FULL / CC EMI OFFER 10 OCT"
+    }
+   },
+   {
+    "row": 27,
+    "cells": {
+     "A": "A56 (12/256)",
+     "B": "54499/-     50499/- OFFER 31 AUG",
+     "D": "4000 UPGRADE OFFER CASH 31 AUG / 2000 HDFC, SBI, ICICI, Axis, Kotak, IDFC, Bank of Baroda, Federal Bank, CC FULL / CC EMI OFFER 10 OCT"
+    }
+   },
+   {
+    "row": 28,
+    "cells": {
+     "A": "A57 (8/256)",
+     "B": "62999/-     59999/- OFFER 30 SEPT",
+     "D": "2400 UPGRADE OFFER ONLY CASH OFFER 6 OCT / 3000 UPI / HDFC, ICICI,SBI,AXIS CC INSTANT CASHBACK OFFER 10 OCT"
+    }
+   },
+   {
+    "row": 29,
+    "cells": {
+     "A": "A57 (12/256)",
+     "B": "72499/-     67999/- OFFER 30 SEPT",
+     "D": "2400 UPGRADE OFFER ONLY CASH OFFER 6 OCT / 3000 UPI / HDFC, ICICI,SBI,AXIS CC INSTANT CASHBACK OFFER 10 OCT"
+    }
+   },
+   {
+    "row": 31,
+    "cells": {
+     "A": "S25 FE (8/128)",
+     "B": "59999/-",
+     "D": "8000 UPGRADE OFFER ONLY CASH 16 AUG / 4000 UPI / ALL REGULAR ONLY FULL SWIPE CASHBACK OFFER 10 OCT"
+    }
+   },
+   {
+    "row": 32,
+    "cells": {
+     "A": "S25 FE (8/256)",
+     "B": "65999/-",
+     "D": "8000 UPGRADE OFFER ONLY CASH 16 AUG / 1000 UPI / ALL REGULAR ONLY FULL SWIPE CASHBACK OFFER 10 OCT"
+    }
+   },
+   {
+    "row": 33,
+    "cells": {
+     "A": "S25 FE (8/512)",
+     "B": "77999/-",
+     "D": "5000 UPGRADE OFFER ONLY CASH 16 AUG / 5000 UPI / ALL REGULAR ONLY FULL SWIPE CASHBACK OFFER 16 AUG"
+    }
+   },
+   {
+    "row": 34,
+    "cells": {
+     "A": "S25 (12/128)",
+     "B": "75000/-      72000 OFFER  21 JUN",
+     "D": "9000 UPI / ALL REGULAR ONLY FULL SWIPE CASHBACK OFFER 10 OCT / 9000 UPGRADE OFFER ONLY CASH 16 AUG"
+    }
+   },
+   {
+    "row": 35,
+    "cells": {
+     "A": "S25 (12/256)",
+     "B": "85000/-      78000 OFFER 21 JUN",
+     "D": "12000 UPI / ALL REGULAR ONLY FULL SWIPE CASHBACK OFFER 10 OCT / 12000 UPGRADE OFFER ONLY CASH 16 AUG"
+    }
+   },
+   {
+    "row": 36,
+    "cells": {
+     "A": "S25 (12/512)",
+     "B": "105000/-      90000 OFFER 21 JUN",
+     "D": "17000 UPI / ALL REGULAR ONLY FULL SWIPE CASHBACK OFFER 10 OCT / 8000 UPGRADE OFFER ONLY CASH 31 AUG"
+    }
+   },
+   {
+    "row": 37,
+    "cells": {
+     "A": "S25 PLUS (12/256)",
+     "B": "100000",
+     "D": "9000 UPGRADE ONLY CASH 30 APR + 14000 HDFC FULL SWIPE 10 OCT"
+    }
+   },
+   {
+    "row": 38,
+    "cells": {
+     "A": "S25 PLUS (12/512)",
+     "B": "112000",
+     "D": "9000 UPGRADE ONLY CASH 30 APR + 14000 HDFC FULL SWIPE 10 OCT"
+    }
+   },
+   {
+    "row": 39,
+    "cells": {
+     "A": "S25 EDGE (12/256)",
+     "B": "110000/-     85000/- OFFER 31 OCT",
+     "D": "11000 UPGRADE ONLY CASH OFFER 31 OCT / 9000 UPGRADE ONLY CC FULL SWIPE + 5000 HDFC CC ONLY FULL 10 OCT"
+    }
+   },
+   {
+    "row": 41,
+    "cells": {
+     "A": "S25 EDGE (12/512)",
+     "B": "122000/-     97000/- OFFER 31 OCT",
+     "D": "11000 UPGRADE ONLY CASH OFFER 31 OCT / 9000 UPGRADE ONLY CC FULL SWIPE + 5000 HDFC CC ONLY FULL 10 OCT"
+    }
+   },
+   {
+    "row": 42,
+    "cells": {
+     "A": "S25 ULTRA (12/256)",
+     "B": "120000/-     115000/- OFFER 21 JUN",
+     "D": "14000 UPI / ALL REGULAR ONLY FULL SWIPE CASHBACK OFFER 16 AUG / 14000 UPGRADE OFFER CASH & FINANCE OFFER 31 AUG"
+    }
+   },
+   {
+    "row": 43,
+    "cells": {
+     "A": "S25 ULTRA (12/512)",
+     "B": "140000/-     135000/- OFFER 21 JUN",
+     "D": "19000 UPI / ALL REGULAR ONLY FULL SWIPE CASHBACK OFFER 16 AUG / 19000 UPGRADE OFFER CASH & FINANCE OFFER 31 AUG"
+    }
+   },
+   {
+    "row": 44,
+    "cells": {
+     "A": "S25 ULTRA (12/1 TB)",
+     "B": "170000/-     165000/- OFFER 21 JUN",
+     "D": "19000 UPI / ALL REGULAR ONLY FULL SWIPE CASHBACK OFFER 16 AUG / 19000 UPGRADE OFFER CASH & FINANCE OFFER 31 AUG"
+    }
+   },
+   {
+    "row": 46,
+    "cells": {
+     "A": "S26 FE (8/128)",
+     "B": "69999"
+    }
+   },
+   {
+    "row": 47,
+    "cells": {
+     "A": "S26 FE (8/256)",
+     "B": "79999/-        72999/- OFFER 31 OCT",
+     "D": "3000 UPGRADE ONLY FINANCE / 7000 UPGRADE ONLY CASH OFFER/ 7000 UPI / HDFC,ICICI,SBI,AXIS ONLY FULL SWIPE CASHBACK OFFER TILL 30 SEPT"
+    }
+   },
+   {
+    "row": 48,
+    "cells": {
+     "A": "S26 (12/256)",
+     "B": "102999/-      89999/- OFFER 31 OCT",
+     "D": "( 97999/- OLD MRP STOCK AVAILABLE ) 8000 UPI / ALL BANK CC FULL SWIPE / 4000 HDFC CC ONLY EMI OFFER 30 SEPT / 7000 UPGRADE ONLY CASH 30 SEPT"
+    }
+   },
+   {
+    "row": 49,
+    "cells": {
+     "A": "S26 (12/512)",
+     "B": "122999/-     109999/- OFFER 31 OCT",
+     "D": "( 117999/- OLD MRP SKY BLUE STOCK AVAILABLE ) 8000 UPI / ALL BANK CC FULL SWIPE / 4000 HDFC CC ONLY EMI OFFER 30 SEPT / 7000 UPGRADE ONLY CASH 30 SEPT"
+    }
+   },
+   {
+    "row": 50,
+    "cells": {
+     "A": "S26 PLUS (12/256)",
+     "B": "134999/-     109999/- OFFER 30 SEPT",
+     "D": "9000 UPI / ALL BANK CC ONLY FULL SWIPE / 5000 HDFC CC EMI 9M ONLY 31 MAY / 8000 UPGRADE ONLY CASH OFFER 31 MAY"
+    }
+   },
+   {
+    "row": 51,
+    "cells": {
+     "A": "S26 PLUS (12/512)",
+     "B": "154999/-     129999/- OFFER 30 SEPT",
+     "D": "9000 UPI / ALL BANK CC ONLY FULL SWIPE / 5000 HDFC CC EMI 9M ONLY 5 MAY / 8000 UPGRADE ONLY CASH OFFER 5 MAY"
+    }
+   },
+   {
+    "row": 52,
+    "cells": {
+     "A": "S26 ULTRA (12/256)",
+     "B": "154999/-     139999/- OFFER 31 OCT",
+     "D": "( 139999/- OLD MRP BLACK STOCK AVAILABLE )  9000 UPI / ALL BANK CC ONLY FULL SWIPE / 5000 HDFC CC EMI 9M ONLY 30 SEPT / 8000 UPGRADE ONLY CASH OFFER 30 SEPT"
+    }
+   },
+   {
+    "row": 53,
+    "cells": {
+     "A": "S26 ULTRA (12/512)",
+     "B": "174999/-     159999/- OFFER 31 OCT",
+     "D": "9000 UPI / ALL BANK CC ONLY FULL SWIPE / 5000 HDFC CC EMI 9M ONLY 30 SEPT / 8000 UPGRADE ONLY CASH OFFER 30 SEPT"
+    }
+   },
+   {
+    "row": 54,
+    "cells": {
+     "A": "S26 ULTRA (16/1 TB)",
+     "B": "214999/-     199999/- OFFER 31 OCT",
+     "D": "9000 UPI / ALL BANK CC ONLY FULL SWIPE / 5000 HDFC CC EMI 9M ONLY 30 SEPT / 8000 UPGRADE ONLY CASH OFFER 30 SEP"
+    }
+   },
+   {
+    "row": 56,
+    "cells": {
+     "A": "Z FLIP 7 FE  (8/128)",
+     "B": "89999/-",
+     "D": "10000 UPI / ALL BANK CC FULL SWIPE / EMI OFFER 10 OCT"
+    }
+   },
+   {
+    "row": 57,
+    "cells": {
+     "A": "Z FLIP 7 FE  (8/256)",
+     "B": "95999/-",
+     "D": "10000 UPI / ALL BANK CC FULL SWIPE / EMI OFFER 10 OCT"
+    }
+   },
+   {
+    "row": 58,
+    "cells": {
+     "A": "Z FLIP 7  (12/256)",
+     "B": "109999/-",
+     "D": "10000 UPI / ALL BANK CC FULL SWIPE / EMI OFFER 10 OCT"
+    }
+   },
+   {
+    "row": 59,
+    "cells": {
+     "A": "Z FLIP 7 (12/512)",
+     "B": "121999/-",
+     "D": "10000 UPI / ALL BANK CC FULL SWIPE / EMI OFFER 10 OCT"
+    }
+   },
+   {
+    "row": 60,
+    "cells": {
+     "A": "Z FOLD 7 (12/256)",
+     "B": "174999/-",
+     "D": "2000 UPGRADE ONLY FINANCE / 6000 UPGRADE ONLY CASH OFFER 31 OCT / 7000 UPI / ALL BANK CC FULL SWIPE / 3000 EMI CC OFFER 10 OCT"
+    }
+   },
+   {
+    "row": 61,
+    "cells": {
+     "A": "Z FOLD 7 (12/512)",
+     "B": "186999/-",
+     "D": "2000 UPGRADE ONLY FINANCE / 6000 UPGRADE ONLY CASH OFFER 31 OCT / 7000 UPI / ALL BANK CC FULL SWIPE / 3000 EMI CC OFFER 10 OCT"
+    }
+   },
+   {
+    "row": 62,
+    "cells": {
+     "A": "Z FOLD 7 (12/ 1TB)",
+     "B": "216999/-",
+     "D": "2000 UPGRADE ONLY FINANCE / 6000 UPGRADE ONLY CASH OFFER 31 OCT / 7000 UPI / ALL BANK CC FULL SWIPE / 3000 EMI CC OFFER 10 OCT"
+    }
+   },
+   {
+    "row": 64,
+    "cells": {
+     "A": "FLIP 8 (12/256)",
+     "B": "124999/-      114999/- OFFER 31 OCT",
+     "D": "2000 UPGRADE OFFER ONLY FINANCE / 4000 UPGRADE OFFER ONLY CASH OFFER 31 OCT / 4000 UPI / HDFC, ICICI, SBI, AXIS OFFER / 2000 HDFC,ICICI,SBI,AXIS CC EMI 10 OCT"
+    }
+   },
+   {
+    "row": 65,
+    "cells": {
+     "A": "FLIP 8 (12/512)",
+     "B": "144999/-      134999/- OFFER 31 OCT",
+     "D": "2000 UPGRADE OFFER ONLY FINANCE / 4000 UPGRADE OFFER ONLY CASH OFFER 31 OCT / 4000 UPI / HDFC, ICICI, SBI, AXIS OFFER / 2000 HDFC,ICICI,SBI,AXIS CC EMI TILL 10 OCT"
+    }
+   },
+   {
+    "row": 66,
+    "cells": {
+     "A": "FOLD 8 (12/256)",
+     "B": "179999/-      174999/- OFFER 31 OCT",
+     "D": "3000 UPGRADE OFFER ONLY FINANCE / 7000 UPGRADE OFFER ONLY CASH OFFER 31 OCT / 7000 UPI / HDFC, ICICI, SBI, AXIS OFFER / 3000 HDFC,ICICI,SBI,AXIS CC EMI TILL 10 OCT"
+    }
+   },
+   {
+    "row": 67,
+    "cells": {
+     "A": "FOLD 8 (12/512)",
+     "B": "199999/-      194999/- OFFER 31 OCT",
+     "D": "3000 UPGRADE OFFER ONLY FINANCE / 7000 UPGRADE OFFER ONLY CASH OFFER 31 OCT / 7000 UPI / HDFC, ICICI, SBI, AXIS OFFER / 3000 HDFC,ICICI,SBI,AXIS CC EMI TILL 10 OCT"
+    }
+   },
+   {
+    "row": 68,
+    "cells": {
+     "A": "FOLD 8 (16 / 1 TB)",
+     "B": "239999/-      234999/- OFFER 31 OCT",
+     "D": "3000 UPGRADE OFFER ONLY FINANCE / 7000 UPGRADE OFFER ONLY CASH OFFER 31 OCT / 7000 UPI / HDFC, ICICI, SBI, AXIS OFFER/ 3000 HDFC,ICICI,SBI,AXIS CC EMI TILL 10 OCT"
+    }
+   },
+   {
+    "row": 69,
+    "cells": {
+     "A": "FOLD 8 ULTRA (12/256)",
+     "B": "199999/-      194999/- OFFER 31 OCT",
+     "D": "3000 UPGRADE OFFER ONLY FINANCE / 7000 UPGRADE OFFER ONLY CASH OFFER 31 OCT / 7000 UPI / HDFC, ICICI, SBI, AXIS OFFER TILL 30 SEPT / 3000 HDFC,ICICI,SBI,AXIS CC EMI TILL 10 OCT"
+    }
+   },
+   {
+    "row": 70,
+    "cells": {
+     "A": "FOLD 8 ULTRA (12/512)",
+     "B": "219999/-      214999/- OFFER 31 OCT",
+     "D": "3000 UPGRADE OFFER ONLY FINANCE / 7000 UPGRADE OFFER ONLY CASH OFFER 31 OCT / 7000 UPI / HDFC, ICICI, SBI, AXIS OFFER TILL 30 SEPT / 3000 HDFC,ICICI,SBI,AXIS CC EMI TILL 10 OCT"
+    }
+   },
+   {
+    "row": 71,
+    "cells": {
+     "A": "FOLD 8 ULTRA (16 / 1 TB)",
+     "B": "259999/-      254999/- OFFER 31 OCT",
+     "D": "3000 UPGRADE OFFER ONLY FINANCE / 7000 UPGRADE OFFER ONLY CASH OFFER 31 OCT / 7000 UPI / HDFC, ICICI, SBI, AXIS OFFER / 3000 HDFC,ICICI,SBI,AXIS CC EMI TILL 10 OCT"
+    }
+   },
+   {
+    "row": 74,
+    "cells": {
+     "A": "M06  5G (4/64)",
+     "B": "13000  FIX"
+    }
+   },
+   {
+    "row": 75,
+    "cells": {
+     "A": "M06  5G (4/128)",
+     "B": "14500  FIX"
+    }
+   },
+   {
+    "row": 76,
+    "cells": {
+     "A": "M06  5G (6/128)",
+     "B": "18999/-"
+    }
+   },
+   {
+    "row": 77,
+    "cells": {
+     "A": "M07 4G (4/64)",
+     "B": "11500"
+    }
+   },
+   {
+    "row": 78,
+    "cells": {
+     "A": "M08 4G (4/64)",
+     "B": "16999"
+    }
+   },
+   {
+    "row": 79,
+    "cells": {
+     "A": "M17E (4/128)",
+     "B": "18499",
+     "D": "1000 ICICI CC INSTANT CASHBACK OFFER 30 SEPT"
+    }
+   },
+   {
+    "row": 80,
+    "cells": {
+     "A": "M17E (6/128)",
+     "B": "21499",
+     "D": "1000 ICICI CC INSTANT CASHBACK OFFER 30 SEPT"
+    }
+   },
+   {
+    "row": 81,
+    "cells": {
+     "A": "M17 (4/128)",
+     "B": "19999/-",
+     "D": "1000 ICICI CC INSTANT CASHBACK OFFER 31 AUG"
+    }
+   },
+   {
+    "row": 82,
+    "cells": {
+     "A": "M17 (6/128)",
+     "B": "22999/-",
+     "D": "1000 ICICI CC INSTANT CASHBACK OFFER 31 AUG"
+    }
+   },
+   {
+    "row": 83,
+    "cells": {
+     "A": "M17 (8/128)",
+     "B": "25999/-",
+     "D": "1000 ICICI CC INSTANT CASHBACK OFFER 31 AUG"
+    }
+   },
+   {
+    "row": 84,
+    "cells": {
+     "A": "M36 (6/128)",
+     "B": "21999/-",
+     "D": "3000 HDFC CC INSTANT CASHBACK 16 AUG"
+    }
+   },
+   {
+    "row": 85,
+    "cells": {
+     "A": "M36 (8/128)",
+     "B": "23999/-",
+     "D": "3000 HDFC CC INSTANT CASHBACK 16 AUG"
+    }
+   },
+   {
+    "row": 86,
+    "cells": {
+     "A": "M36 (8/256)",
+     "B": "27999/-",
+     "D": "3000 HDFC CC INSTANT CASHBACK 16 AUG"
+    }
+   },
+   {
+    "row": 87,
+    "cells": {
+     "A": "M47 (6/128)",
+     "B": "35999",
+     "D": "4500 ICICI CC INSTANT CASHBACK OFFER 31 AUG"
+    }
+   },
+   {
+    "row": 88,
+    "cells": {
+     "A": "M47 (8/128)",
+     "B": "39999",
+     "D": "4500 ICICI CC INSTANT CASHBACK OFFER 31 AUG"
+    }
+   },
+   {
+    "row": 89,
+    "cells": {
+     "A": "M47 (8/256)",
+     "B": "44999",
+     "D": "4500 ICICI CC INSTANT CASHBACK OFFER 31 AUG"
+    }
+   },
+   {
+    "row": 90,
+    "cells": {
+     "A": "M56 (8/128)",
+     "B": "27999/-      24999/- OFFER 7 APR",
+     "D": "1500 HDFC CC INSTANT CASHBACK OFFER TILL 30 APR"
+    }
+   },
+   {
+    "row": 91,
+    "cells": {
+     "A": "M56 (8/256)",
+     "B": "30999/-      27999/- OFFER 7 APR",
+     "D": "1500 HDFC CC INSTANT CASHBACK OFFER TILL 30 APR"
+    }
+   },
+   {
+    "row": 93,
+    "cells": {
+     "A": "F07 (4/64)",
+     "B": "11500"
+    }
+   },
+   {
+    "row": 94,
+    "cells": {
+     "A": "F08  4G (4/64)",
+     "B": "17000"
+    }
+   },
+   {
+    "row": 95,
+    "cells": {
+     "A": "F70E (4/128)",
+     "B": "18499",
+     "D": "500 ICICI CC INSTANT CASHBACK OFFER 31 AUG"
+    }
+   },
+   {
+    "row": 96,
+    "cells": {
+     "A": "F70E (6/128)",
+     "B": "21499",
+     "D": "500 ICICI CC INSTANT CASHBACK OFFER 31 AUG"
+    }
+   },
+   {
+    "row": 97,
+    "cells": {
+     "A": "F17 (4/128) 5G",
+     "B": "23499/-     22999/- OFFER 31 OCT"
+    }
+   },
+   {
+    "row": 98,
+    "cells": {
+     "A": "F17 (6/128) 5G",
+     "B": "26499/-     25999/- OFFER 31 OCT"
+    }
+   },
+   {
+    "row": 99,
+    "cells": {
+     "A": "F17 (8/128) 5G",
+     "B": "29499/-     28999/- OFFER 31 OCT"
+    }
+   },
+   {
+    "row": 100,
+    "cells": {
+     "A": "F36 (6/128)",
+     "B": "21999/-",
+     "D": "3000 HDFC CC INSTANT CASHBACK 16 AUG"
+    }
+   },
+   {
+    "row": 101,
+    "cells": {
+     "A": "F36 (8/128)",
+     "B": "23999/-",
+     "D": "3000 HDFC CC INSTANT CASHBACK 16 AUG"
+    }
+   },
+   {
+    "row": 102,
+    "cells": {
+     "A": "F36 (8/256)",
+     "B": "27999/-",
+     "D": "3000 HDFC CC INSTANT CASHBACK 16 AUG"
+    }
+   },
+   {
+    "row": 103,
+    "cells": {
+     "A": "F56 (8/128) 5G",
+     "B": "24999/-"
+    }
+   },
+   {
+    "row": 104,
+    "cells": {
+     "A": "F56 (8/256) 5G",
+     "B": "27999/-"
+    }
+   },
+   {
+    "row": 105,
+    "cells": {
+     "A": "F70 PRO (6/128)",
+     "B": "35999",
+     "D": "4500 ICICI CC INSTANT CASHBACK OFFER 31 AUG"
+    }
+   },
+   {
+    "row": 106,
+    "cells": {
+     "A": "F70 PRO (8/128)",
+     "B": "39999",
+     "D": "4500 ICICI CC INSTANT CASHBACK OFFER 31 AUG"
+    }
+   },
+   {
+    "row": 107,
+    "cells": {
+     "A": "F70 PRO (8/256)",
+     "B": "44999",
+     "D": "4500 ICICI CC INSTANT CASHBACK OFFER 31 AUG"
+    }
+   },
+   {
+    "row": 109,
+    "cells": {
+     "A": "TAB - S10 LITE  WIFI (6/128)",
+     "B": "42000/-    37500 OFFER 30 SEPT",
+     "D": "2000 HDFC CC INSTANT CASHBACK 10 OCT"
+    }
+   },
+   {
+    "row": 110,
+    "cells": {
+     "A": "TAB - S10 LITE  WIFI (8/256)",
+     "B": "54000/-     51000 OFFER 30 SEPT",
+     "D": "2000 HDFC CC INSTANT CASHBACK 10 OCT"
+    }
+   },
+   {
+    "row": 111,
+    "cells": {
+     "A": "TAB - S10 LITE  5G (6/128)",
+     "B": "47000/-     41500 OFFER 30 SEPT",
+     "D": "2000 HDFC CC INSTANT CASHBACK 10 OCT"
+    }
+   },
+   {
+    "row": 112,
+    "cells": {
+     "A": "TAB - S10 LITE  5G (8/256)",
+     "B": "59000/-     56000 OFFER 30 SEPT",
+     "D": "2000 HDFC CC INSTANT CASHBACK 10 OCT"
+    }
+   },
+   {
+    "row": 114,
+    "cells": {
+     "A": "TAB S10 FE  WIFI (8/128)",
+     "B": "55000/-   53000/- OFFER 30 SEPT",
+     "D": "3000 HDFC / ICICI CC INSTANT CASHBACK OFFER TILL 10 OCT"
+    }
+   },
+   {
+    "row": 115,
+    "cells": {
+     "A": "TAB S10 FE  WIFI (12/256)",
+     "B": "69000/-   67000/- OFFER 30 SEPT",
+     "D": "3000 HDFC / ICICI CC INSTANT CASHBACK OFFER TILL 10 OCT"
+    }
+   },
+   {
+    "row": 116,
+    "cells": {
+     "A": "TAB S10 FE 5G  (8/128)",
+     "B": "65000/-   63000/- OFFER 30 SEPT",
+     "D": "3000 HDFC / ICICI CC INSTANT CASHBACK OFFER TILL 10 OCT"
+    }
+   },
+   {
+    "row": 117,
+    "cells": {
+     "A": "TAB S10 FE 5G  (12/256)",
+     "B": "79000/-    77000/- OFFER 30 SEPT",
+     "D": "3000 HDFC / ICICI CC INSTANT CASHBACK OFFER TILL 10 OCT"
+    }
+   },
+   {
+    "row": 118,
+    "cells": {
+     "A": "TAB S10 FE PLUS WIFI (8/128)",
+     "B": "71000/-    69000/- OFFER 30 SEPT",
+     "D": "7000 HDFC / ICICI CC INSTANT CASHBACK OFFER TILL 10 OCT"
+    }
+   },
+   {
+    "row": 119,
+    "cells": {
+     "A": "TAB S10 FE PLUS WIFI (12/256)",
+     "B": "83000/-    81000/- OFFER 30 SEPT",
+     "D": "7000 HDFC / ICICI CC INSTANT CASHBACK OFFER TILL 10 OCT"
+    }
+   },
+   {
+    "row": 120,
+    "cells": {
+     "A": "TAB S10 FE PLUS  5G (8/128)",
+     "B": "81000/-    79000/- OFFER 30 SEPT",
+     "D": "7000 HDFC / ICICI CC INSTANT CASHBACK OFFER TILL 10 OCT"
+    }
+   },
+   {
+    "row": 121,
+    "cells": {
+     "A": "TAB S10 FE PLUS  5G (12/256)",
+     "B": "93000/-    91000/- OFFER 30 SEPT",
+     "D": "7000 HDFC / ICICI CC INSTANT CASHBACK OFFER TILL 10 OCT"
+    }
+   },
+   {
+    "row": 123,
+    "cells": {
+     "A": "TAB - S10 PLUS WIFI  (12/256)",
+     "B": "106000/-    89000/- OFFER 30 SEPT",
+     "D": "7000 HDFC CC INSTANT CASHBACK OFFER TILL 31 JUL"
+    }
+   },
+   {
+    "row": 124,
+    "cells": {
+     "A": "TAB - S10 PLUS 5G  (12/256)",
+     "B": "121000/-   104000/- OFFER 30 SEPT",
+     "D": "7000 HDFC CC INSTANT CASHBACK OFFER TILL 31 JUL"
+    }
+   },
+   {
+    "row": 125,
+    "cells": {
+     "A": "TAB - S10 ULTRA  WIFI  (12/256)",
+     "B": "109000/-    79000/- OFFER 30 JUN",
+     "D": "30000 HDFC CC INSTANT CASHBACK OFFER TILL 30 SEPT"
+    }
+   },
+   {
+    "row": 126,
+    "cells": {
+     "A": "TAB - S10 ULTRA  WIFI  (12/512)",
+     "B": "120000/-    85000/- OFFER 30 JUN",
+     "D": "30000 HDFC CC INSTANT CASHBACK OFFER TILL 30 SEPT"
+    }
+   },
+   {
+    "row": 127,
+    "cells": {
+     "A": "TAB - S10 ULTRA  5G  (12/256)",
+     "B": "123000/-     83000/- OFFER 30 JUN",
+     "D": "35000 HDFC CC INSTANT CASHBACK OFFER TILL 30 SEPT"
+    }
+   },
+   {
+    "row": 128,
+    "cells": {
+     "A": "TAB - S10 ULTRA  5G  (12/512)",
+     "B": "134000/-     89000/- OFFER 30 JUN",
+     "D": "40000 HDFC CC INSTANT CASHBACK OFFER TILL 30 SEPT"
+    }
+   },
+   {
+    "row": 130,
+    "cells": {
+     "A": "TAB - A11  WIFI (4/64)",
+     "B": "21000/-    13000/- OFFER 26 JAN",
+     "D": "2000 HDFC CC INSTANT CASHBACK OFFER 10 OCT"
+    }
+   },
+   {
+    "row": 131,
+    "cells": {
+     "A": "TAB - A11  WIFI (8/128)",
+     "B": "26000/-   16000/- OFFER 26 JAN",
+     "D": "2000 HDFC CC INSTANT CASHBACK OFFER 10 OCT"
+    }
+   },
+   {
+    "row": 132,
+    "cells": {
+     "A": "TAB - A11  4G (4/64)",
+     "B": "23000/-    16000/- OFFER 26 JAN",
+     "D": "2000 HDFC CC INSTANT CASHBACK OFFER 10 OCT"
+    }
+   },
+   {
+    "row": 133,
+    "cells": {
+     "A": "TAB - A11  4G (8/128)",
+     "B": "28000/-    26500/- OFFER 30 SEPT",
+     "D": "2000 HDFC CC INSTANT CASHBACK OFFER 10 OCT"
+    }
+   },
+   {
+    "row": 134,
+    "cells": {
+     "A": "TAB - A11 PLUS (6/128) WIFI",
+     "B": "31000/-    30000/- OFFER 30 SEPT",
+     "D": "2000 HDFC CC INSTANT CASHBACK OFFER 10 OCT"
+    }
+   },
+   {
+    "row": 135,
+    "cells": {
+     "A": "TAB - A11 PLUS (8/256) WIFI",
+     "B": "39000/-    38000/- OFFER 30 SEPT",
+     "D": "2000 HDFC CC INSTANT CASHBACK OFFER 10 OCT"
+    }
+   },
+   {
+    "row": 136,
+    "cells": {
+     "A": "TAB - A11 PLUS (6/128) 5G",
+     "B": "35000/-     32000/- OFFER 30 SEPT",
+     "D": "2000 HDFC CC INSTANT CASHBACK OFFER 10 OCT"
+    }
+   },
+   {
+    "row": 137,
+    "cells": {
+     "A": "TAB - A11 PLUS (8/256) 5G",
+     "B": "44000/-     43000/- OFFER 30 SEPT",
+     "D": "2000 HDFC CC INSTANT CASHBACK OFFER 10 OCT"
+    }
+   },
+   {
+    "row": 139,
+    "cells": {
+     "A": "TAB - S11 WIFI (12/128)",
+     "B": "102000/-     79000/- OFFER 31 JAN",
+     "D": "5000 HDFC CC INSTANT CASHBACK OFFER 10 OCT"
+    }
+   },
+   {
+    "row": 140,
+    "cells": {
+     "A": "TAB - S11 WIFI (12/256)",
+     "B": "110000/-     85000/- OFFER 31 JAN",
+     "D": "5000 HDFC CC INSTANT CASHBACK OFFER 10 OCT"
+    }
+   },
+   {
+    "row": 141,
+    "cells": {
+     "A": "TAB - S11 WIFI (12/512)",
+     "B": "128000/-     96000/- OFFER 18 JAN",
+     "D": "5000 HDFC CC INSTANT CASHBACK OFFER 10 OCT"
+    }
+   },
+   {
+    "row": 142,
+    "cells": {
+     "A": "TAB - S11  5G (12/128)",
+     "B": "117000/-     92000/- OFFER 31 JAN",
+     "D": "5000 HDFC CC INSTANT CASHBACK OFFER 10 OCT"
+    }
+   },
+   {
+    "row": 143,
+    "cells": {
+     "A": "TAB - S11  5G (12/256)",
+     "B": "127000/-     97000/- OFFER 31 JAN",
+     "D": "5000 HDFC CC INSTANT CASHBACK OFFER 10 OCT"
+    }
+   },
+   {
+    "row": 144,
+    "cells": {
+     "A": "TAB - S11 ULTRA  WIFI (12/256)",
+     "B": "138000/-   136000/- OFFER 30 SEPT",
+     "D": "5000 HDFC CC INSTANT CASHBACK OFFER 10 OCT"
+    }
+   },
+   {
+    "row": 145,
+    "cells": {
+     "A": "TAB - S11 ULTRA  WIFI (12/512)",
+     "B": "157000/-   155000/- OFFER 30 SEPT",
+     "D": "5000 HDFC CC INSTANT CASHBACK OFFER 10 OCT"
+    }
+   },
+   {
+    "row": 146,
+    "cells": {
+     "A": "TAB - S11 ULTRA  5G (12/256)",
+     "B": "154000/-   152000/- OFFER 30 SEPT",
+     "D": "5000 HDFC CC INSTANT CASHBACK OFFER 10 OCT"
+    }
+   },
+   {
+    "row": 147,
+    "cells": {
+     "A": "TAB - S11 ULTRA  5G (12/512)",
+     "B": "172000/-   170000/- OFFER 30 SEPT",
+     "D": "5000 HDFC CC INSTANT CASHBACK OFFER 10 OCT"
+    }
+   },
+   {
+    "row": 149,
+    "cells": {
+     "A": "TAB - S12 PLUS  WIFI (12/256)",
+     "B": "129999/-"
+    }
+   },
+   {
+    "row": 150,
+    "cells": {
+     "A": "TAB - S12 PLUS  WIFI (12/512)",
+     "B": "149999/-"
+    }
+   },
+   {
+    "row": 151,
+    "cells": {
+     "A": "TAB - S12 PLUS  5G (12/256)",
+     "B": "144999/-"
+    }
+   },
+   {
+    "row": 152,
+    "cells": {
+     "A": "TAB - S12 PLUS  5G (12/512)",
+     "B": "164999/-"
+    }
+   },
+   {
+    "row": 153,
+    "cells": {
+     "A": "TAB - S12 ULTRA WIFI  (12/256)",
+     "B": "149999/-"
+    }
+   },
+   {
+    "row": 154,
+    "cells": {
+     "A": "TAB - S12 ULTRA WIFI  (12/512)",
+     "B": "169999/-"
+    }
+   },
+   {
+    "row": 155,
+    "cells": {
+     "A": "TAB - S12 ULTRA 5G  (12/256)",
+     "B": "164999/-"
+    }
+   },
+   {
+    "row": 156,
+    "cells": {
+     "A": "TAB - S12 ULTRA 5G  (12/512)",
+     "B": "184999/-"
+    }
+   },
+   {
+    "row": 158,
+    "cells": {
+     "A": "BUDS 3 FE",
+     "B": "12999",
+     "D": "3000 UPGRADE OFFER TILL 31 OCT / 3000 ALL REGULAR BANK CASHBACK OFFER TILL 10 OCT"
+    }
+   },
+   {
+    "row": 159,
+    "cells": {
+     "A": "BUDS 3",
+     "B": "14999",
+     "D": "3000 UPGRADE OFFER TILL 10 OCT / 3000 ALL REGULAR BANK CASHBACK OFFER TILL 10 OCT"
+    }
+   },
+   {
+    "row": 160,
+    "cells": {
+     "A": "BUDS 3 PRO",
+     "B": "19999    17999 OFFER TILL 31 OCT",
+     "D": "2000 UPGRADE OFFER TILL 31 OCT / 2000 ALL REGULAR BANK CASHBACK OFFER TILL 10 OCT"
+    }
+   },
+   {
+    "row": 161,
+    "cells": {
+     "A": "BUDS 4",
+     "B": "16999"
+    }
+   },
+   {
+    "row": 162,
+    "cells": {
+     "A": "BUDS 4 PRO",
+     "B": "22999"
+    }
+   },
+   {
+    "row": 164,
+    "cells": {
+     "A": "WATCH FIT 3",
+     "B": "4999",
+     "D": "1500 INSTANT CASHBACK OFFER ALL REGULAR BANK CC OFFER TILL 13 JAN"
+    }
+   },
+   {
+    "row": 165,
+    "cells": {
+     "A": "WATCH ULTRA",
+     "B": "59999      49999 OFFER 31 OCT",
+     "D": "3500 UPGRADE OFFER 31 OCT / 3500 ALL REGULAR BANK CASHBACK OFFER TILL 10 OCT"
+    }
+   },
+   {
+    "row": 167,
+    "cells": {
+     "A": "WATCH 8 40mm BT",
+     "B": "32999      26999 OFFER 31 OCT",
+     "D": "1500 UPGRADE OFFER ONLY CASH 31 OCT  / 1500 ALL REGULAR BANK CASHBACK OFFER 10 OCT"
+    }
+   },
+   {
+    "row": 168,
+    "cells": {
+     "A": "WATCH 8 40mm LTE",
+     "B": "36999      30999 OFFER 31 OCT",
+     "D": "1500 UPGRADE OFFER ONLY CASH 31 OCT  / 1500 ALL REGULAR BANK CASHBACK OFFER 10 OCT"
+    }
+   },
+   {
+    "row": 169,
+    "cells": {
+     "A": "WATCH 8 44mm BT",
+     "B": "35999      27999 OFFER 31 OCT",
+     "D": "1500 UPGRADE OFFER ONLY CASH 31 OCT / 1500 ALL REGULAR BANK CASHBACK OFFER 10 OCT"
+    }
+   },
+   {
+    "row": 170,
+    "cells": {
+     "A": "WATCH 8 44mm LTE",
+     "B": "39999      31999 OFFER 31 OCT",
+     "D": "1500 UPGRADE OFFER ONLY CASH 31 OCT / 1500 ALL REGULAR BANK CASHBACK OFFER 10 OCT"
+    }
+   },
+   {
+    "row": 171,
+    "cells": {
+     "A": "WATCH 8 CLASSIC 44mm BT",
+     "B": "46999      36999 OFFER 31 OCT",
+     "D": "1500 UPGRADE OFFER ONLY CASH 31 OCT  / 1500 ALL REGULAR BANK CASHBACK OFFER 10 OCT"
+    }
+   },
+   {
+    "row": 172,
+    "cells": {
+     "A": "WATCH 8 CLASSIC 44mm LTE",
+     "B": "50999      40999 OFFER 31 OCT",
+     "D": "1500 UPGRADE OFFER ONLY CASH 31 OCT / 1500 ALL REGULAR BANK CASHBACK OFFER 10 OCT"
+    }
+   },
+   {
+    "row": 174,
+    "cells": {
+     "A": "WATCH 9 40mm BT",
+     "B": "37999",
+     "D": "4000 UPGRADE OFFER ONLY CASH 31 OCT / 4000 ALL REGULAR BANK CASHBACK OFFER TILL 10 OCT"
+    }
+   },
+   {
+    "row": 175,
+    "cells": {
+     "A": "WATCH 9 40mm LTE",
+     "B": "41999",
+     "D": "4000 UPGRADE OFFER ONLY CASH 31 OCT / 4000 ALL REGULAR BANK CASHBACK OFFER TILL 10 OCT"
+    }
+   },
+   {
+    "row": 176,
+    "cells": {
+     "A": "WATCH 9 44mm BT",
+     "B": "40999",
+     "D": "4500 UPGRADE OFFER ONLY CASH 31 OCT / 4500 ALL REGULAR BANK CASHBACK OFFER TILL 10 OCT"
+    }
+   },
+   {
+    "row": 177,
+    "cells": {
+     "A": "WATCH 9 44mm LTE",
+     "B": "44999",
+     "D": "4500 UPGRADE OFFER ONLY CASH 31 OCT / 4500 ALL REGULAR BANK CASHBACK OFFER TILL 10 OCT"
+    }
+   },
+   {
+    "row": 178,
+    "cells": {
+     "A": "WATCH ULTRA 2",
+     "B": "64999",
+     "D": "6500 UPGRADE OFFER ONLY CASH 31 OCT / 6500 ALL REGULAR BANK CASHBACK OFFER TILL 10 OCT"
+    }
+   }
+  ]
+ },
+ "OPPO": {
+  "sheet": "OPPO",
+  "state": "visible",
+  "max_row": 1020,
+  "max_col": 27,
+  "populated_rows": 48,
+  "first_row": 1,
+  "last_row": 58,
+  "rows": [
+   {
+    "row": 1,
+    "cells": {
+     "A": "MODEL",
+     "B": "MOP",
+     "C": "CARD OFFER"
+    }
+   },
+   {
+    "row": 2,
+    "cells": {
+     "A": "A6X (4/64) 4G",
+     "B": "12999"
+    }
+   },
+   {
+    "row": 3,
+    "cells": {
+     "A": "A6C 4G (4/64)",
+     "B": "17999"
+    }
+   },
+   {
+    "row": 4,
+    "cells": {
+     "A": "A6C 4G (4/128)",
+     "B": "19999"
+    }
+   },
+   {
+    "row": 6,
+    "cells": {
+     "A": "A6X (4/64) 5G",
+     "B": "19999"
+    }
+   },
+   {
+    "row": 7,
+    "cells": {
+     "A": "A6X (4/128) 5G",
+     "B": "23999"
+    }
+   },
+   {
+    "row": 8,
+    "cells": {
+     "A": "A6X (6/128) 5G",
+     "B": "26999"
+    }
+   },
+   {
+    "row": 10,
+    "cells": {
+     "A": "A6 5G (4/128)",
+     "B": "29999",
+     "C": "1500/- INSTANT OFF ON _ EMI _ SBI , HDFC , KOTAK , IDFC, BOB , YES , FEDRAL , DBS, J&K , INDUSIND  (OFFER TILL 31 OCT)"
+    }
+   },
+   {
+    "row": 11,
+    "cells": {
+     "A": "A6 5G (6/128)",
+     "B": "31999",
+     "C": "1500/- INSTANT OFF ON _ EMI _ SBI , HDFC , KOTAK , IDFC, BOB , YES , FEDRAL , DBS, J&K , INDUSIND  (OFFER TILL 31 OCT)"
+    }
+   },
+   {
+    "row": 12,
+    "cells": {
+     "A": "A6 5G (6/256)",
+     "B": "35999",
+     "C": "1500/- INSTANT OFF ON _ EMI _ SBI , HDFC , KOTAK , IDFC, BOB , YES , FEDRAL , DBS, J&K , INDUSIND  (OFFER TILL 31 OCT)"
+    }
+   },
+   {
+    "row": 13,
+    "cells": {
+     "A": "A6s  5G (4/128)",
+     "B": "24999",
+     "C": "1000/- INSTANT OFF ON _ EMI _ SBI , HDFC , KOTAK , IDFC, BOB , YES , FEDRAL , DBS, J&K , INDUSIND  (OFFER TILL 31 OCT)"
+    }
+   },
+   {
+    "row": 14,
+    "cells": {
+     "A": "A6s  5G (6/128)",
+     "B": "27999",
+     "C": "1000/- INSTANT OFF ON _ EMI _ SBI , HDFC , KOTAK , IDFC, BOB , YES , FEDRAL , DBS, J&K , INDUSIND  (OFFER TILL 31 OCT)"
+    }
+   },
+   {
+    "row": 15,
+    "cells": {
+     "A": "A6 PRO (8/128) 5G",
+     "B": "32999",
+     "C": "10% OFF UPTO 2000/- INSTANT OFF ON _ EMI _ SBI , HDFC , KOTAK , IDFC, BOB , FEDRAL , DBS, J&K , INDUSIND  (OFFER TILL 31 OCT)"
+    }
+   },
+   {
+    "row": 16,
+    "cells": {
+     "A": "A6 PRO (8/256) 5G",
+     "B": "35999",
+     "C": "10% OFF UPTO 2000/- INSTANT OFF ON _ EMI _ SBI , HDFC , KOTAK , IDFC, BOB , FEDRAL , DBS, J&K , INDUSIND  (OFFER TILL 31 OCT)"
+    }
+   },
+   {
+    "row": 18,
+    "cells": {
+     "A": "K14X (4/64) 5G",
+     "B": "19500",
+     "C": "1000/- INSTANT OFF ON EMI SBI, AXIS , IDFC, YES, FEDERAL , DBS , J&K  (OFFER TILL 31 OCT)"
+    }
+   },
+   {
+    "row": 19,
+    "cells": {
+     "A": "K14X (4/128) 5G",
+     "B": "22500",
+     "C": "1500/- INSTANT OFF ON EMI SBI, AXIS , IDFC, YES, FEDERAL , DBS , J&K  (OFFER TILL 31 OCT)"
+    }
+   },
+   {
+    "row": 20,
+    "cells": {
+     "A": "K14X (6/128) 5G",
+     "B": "25500",
+     "C": "1500/- INSTANT OFF ON EMI SBI, AXIS , IDFC, YES, FEDERAL , DBS , J&K  (OFFER TILL 31 OCT)"
+    }
+   },
+   {
+    "row": 21,
+    "cells": {
+     "A": "K14 (6/128) 5G",
+     "B": "26500",
+     "C": "1500/- INSTANT OFF ON EMI SBI, AXIS , IDFC, YES, FEDERAL , DBS , J&K  (OFFER TILL 31 OCT)"
+    }
+   },
+   {
+    "row": 22,
+    "cells": {
+     "A": "K14 (6/256) 5G",
+     "B": "29500",
+     "C": "1500/- INSTANT OFF ON EMI SBI, AXIS , IDFC, YES, FEDERAL , DBS , J&K  (OFFER TILL 31 OCT)"
+    }
+   },
+   {
+    "row": 23,
+    "cells": {
+     "A": "K14 (8/128) 5G",
+     "B": "29500",
+     "C": "1500/- INSTANT OFF ON EMI SBI, AXIS , IDFC, YES, FEDERAL , DBS , J&K  (OFFER TILL 31 OCT)"
+    }
+   },
+   {
+    "row": 25,
+    "cells": {
+     "A": "F33 (6/128)",
+     "B": "34999",
+     "C": "5% OFF UPTO 2500/- INSTANT OFF ON _ UPI / FS / EMI _ SBI , HDFC , KOTAK , IDFC, BOB , DBS, J&K , INDUSIND , AXIS  (OFFER TILL 31 OCT)"
+    }
+   },
+   {
+    "row": 26,
+    "cells": {
+     "A": "F33 (8/128)",
+     "B": "36999",
+     "C": "5% OFF UPTO 2500/- INSTANT OFF ON _ UPI / FS / EMI _ SBI , HDFC , KOTAK , IDFC, BOB , DBS, J&K , INDUSIND , AXIS  (OFFER TILL 31 OCT)"
+    }
+   },
+   {
+    "row": 27,
+    "cells": {
+     "A": "F33 (8/256)",
+     "B": "39999",
+     "C": "5% OFF UPTO 2500/- INSTANT OFF ON _ UPI / FS / EMI _ SBI , HDFC , KOTAK , IDFC, BOB , DBS, J&K , INDUSIND , AXIS  (OFFER TILL 31 OCT)"
+    }
+   },
+   {
+    "row": 28,
+    "cells": {
+     "A": "F33 PRO (8/128)",
+     "B": "39999",
+     "C": "7.5% OFF UPTO 3000/- INSTANT OFF ON _ UPI / FS / EMI _ SBI , HDFC , KOTAK , IDFC, BOB , DBS, J&K , INDUSIND (OFFER TILL 31 OCT)"
+    }
+   },
+   {
+    "row": 29,
+    "cells": {
+     "A": "F33 PRO (8/256)",
+     "B": "43999",
+     "C": "7.5% OFF UPTO 3000/- INSTANT OFF ON _ UPI / FS / EMI _ SBI , HDFC , KOTAK , IDFC, BOB , DBS, J&K , INDUSIND (OFFER TILL 31 OCT)"
+    }
+   },
+   {
+    "row": 31,
+    "cells": {
+     "A": "RENO 14 (8/256)",
+     "B": "44999",
+     "C": "UPTO 1000/- INSTANT OFF ON _ EMI _ SBI , HDFC , KOTAK , IDFC, BOB , DBS, J&K , INDUSIND , AXIS , ICICI  (OFFER TILL 31 OCT)"
+    }
+   },
+   {
+    "row": 33,
+    "cells": {
+     "A": "RENO 15C (8/256)",
+     "B": "41999",
+     "C": "5% OFF UPTO 3000/- INSTANT OFF ON _ UPI / FS / EMI _ SBI , HDFC , KOTAK , IDFC, BOB , DBS, J&K , INDUSIND , AXIS  (OFFER TILL 31 OCT)"
+    }
+   },
+   {
+    "row": 34,
+    "cells": {
+     "A": "RENO 15C (12/256)",
+     "B": "44999",
+     "C": "5% OFF UPTO 3000/- INSTANT OFF ON _ UPI / FS / EMI _ SBI , HDFC , KOTAK , IDFC, BOB , DBS, J&K , INDUSIND , AXIS  (OFFER TILL 31 OCT)"
+    }
+   },
+   {
+    "row": 35,
+    "cells": {
+     "A": "RENO 15 (8/256)",
+     "B": "47999",
+     "C": "5% OFF UPTO 3000/- INSTANT OFF ON _ UPI / FS / EMI _ SBI , HDFC , KOTAK , IDFC, BOB , DBS, J&K , INDUSIND , AXIS  (OFFER TILL 31 OCT)"
+    }
+   },
+   {
+    "row": 36,
+    "cells": {
+     "A": "RENO 15 (12/256)",
+     "B": "50999",
+     "C": "5% OFF UPTO 3000/- INSTANT OFF ON _ UPI / FS / EMI _ SBI , HDFC , KOTAK , IDFC, BOB , DBS, J&K , INDUSIND , AXIS  (OFFER TILL 31 OCT)"
+    }
+   },
+   {
+    "row": 37,
+    "cells": {
+     "A": "RENO 15 (12/512)",
+     "B": "55999",
+     "C": "5% OFF UPTO 3000/- INSTANT OFF ON _ UPI / FS / EMI _ SBI , HDFC , KOTAK , IDFC, BOB , DBS, J&K , INDUSIND , AXIS  (OFFER TILL 31 OCT)"
+    }
+   },
+   {
+    "row": 38,
+    "cells": {
+     "A": "RENO 15 PRO MINI (12/256)",
+     "B": "59999",
+     "C": "10% OFF UPTO 4000/- INSTANT OFF ON _ EMI _ SBI , HDFC , KOTAK , IDFC, BOB , DBS, J&K , INDUSIND , AXIS   (OFFER TILL 31 OCT)"
+    }
+   },
+   {
+    "row": 39,
+    "cells": {
+     "A": "RENO 15 PRO MINI (12/512)",
+     "B": "64999",
+     "C": "10% OFF UPTO 4000/- INSTANT OFF ON _ EMI _ SBI , HDFC , KOTAK , IDFC, BOB , DBS, J&K , INDUSIND , AXIS  (OFFER TILL 31 OCT)"
+    }
+   },
+   {
+    "row": 40,
+    "cells": {
+     "A": "RENO 15 PRO (12/256)",
+     "B": "67999",
+     "C": "7.5% OFF UPTO 5000/- INSTANT OFF ON _ UPI / FS / EMI _ SBI , HDFC , KOTAK , IDFC, BOB , DBS, J&K , INDUSIND , AXIS , ICICI (7% OFF)   (OFFER TILL 31 OCT)"
+    }
+   },
+   {
+    "row": 41,
+    "cells": {
+     "A": "RENO 15 PRO (12/512)",
+     "B": "72999",
+     "C": "7.5% OFF UPTO 5000/- INSTANT OFF ON _ UPI / FS / EMI _ SBI , HDFC , KOTAK , IDFC, BOB , DBS, J&K , INDUSIND , AXIS , ICICI (7% OFF)   (OFFER TILL 31 OCT)"
+    }
+   },
+   {
+    "row": 43,
+    "cells": {
+     "A": "RENO 16C (8/128)",
+     "B": "52999",
+     "C": "10% INSTANT OFF ON _ UPI / FS / EMI _ SBI , HDFC , KOTAK , IDFC, BOB , J&K , DBS    /      CC ONLY ON EMI - FEDRAL , INDUSIND , ICICI  (OFFER TILL 31 OCT)"
+    }
+   },
+   {
+    "row": 44,
+    "cells": {
+     "A": "RENO 16C (8/256)",
+     "B": "57999",
+     "C": "10% INSTANT OFF ON _ UPI / FS / EMI _ SBI , HDFC , KOTAK , IDFC, BOB , J&K , DBS    /      CC ONLY ON EMI - FEDRAL , INDUSIND , ICICI  (OFFER TILL 31 OCT)"
+    }
+   },
+   {
+    "row": 45,
+    "cells": {
+     "A": "RENO 16C (12/256)",
+     "B": "62999",
+     "C": "10% INSTANT OFF ON _ UPI / FS / EMI _ SBI , HDFC , KOTAK , IDFC, BOB , J&K , DBS    /      CC ONLY ON EMI - FEDRAL , INDUSIND , ICICI  (OFFER TILL 31 OCT)"
+    }
+   },
+   {
+    "row": 46,
+    "cells": {
+     "A": "RENO 16 (8/256)",
+     "B": "66999",
+     "C": "10% INSTANT OFF ON _ UPI / FS / EMI _ SBI , HDFC , KOTAK , IDFC, BOB , J&K , DBS    /      CC ONLY ON EMI - INDUSIND , ICICI  (OFFER TILL 31 OCT)"
+    }
+   },
+   {
+    "row": 47,
+    "cells": {
+     "A": "RENO 16 (12/256)",
+     "B": "72999",
+     "C": "10% INSTANT OFF ON _ UPI / FS / EMI _ SBI , HDFC , KOTAK , IDFC, BOB , J&K , DBS    /      CC ONLY ON EMI - INDUSIND , ICICI  (OFFER TILL 31 OCT)"
+    }
+   },
+   {
+    "row": 48,
+    "cells": {
+     "A": "BUBBLE  SCREEN",
+     "B": "7999"
+    }
+   },
+   {
+    "row": 50,
+    "cells": {
+     "A": "FIND X9s (12/256) 5G",
+     "B": "84999",
+     "C": "10% INSTANT OFF ON _ UPI / FS / EMI _ SBI , AXIS , HDFC , IDFC , (ICICI CC ONLY ON EMI)  (OFFER TILL 31 OCT)"
+    }
+   },
+   {
+    "row": 51,
+    "cells": {
+     "A": "FIND X9s (12/512) 5G",
+     "B": "94999",
+     "C": "10% INSTANT OFF ON _ UPI / FS / EMI _ SBI , AXIS , HDFC , IDFC , (ICICI CC ONLY ON EMI)  (OFFER TILL 31 OCT)"
+    }
+   },
+   {
+    "row": 52,
+    "cells": {
+     "A": "FIND X9 ULTRA",
+     "B": "169999",
+     "C": "10% INSTANT OFF ON _ UPI / FS / EMI _ SBI , AXIS , HDFC , IDFC , (ICICI CC ONLY ON EMI)  (OFFER TILL 31 OCT)"
+    }
+   },
+   {
+    "row": 54,
+    "cells": {
+     "A": "OPPO PAD SE  5G (6/128)",
+     "B": "15999"
+    }
+   },
+   {
+    "row": 55,
+    "cells": {
+     "A": "OPPO PAD SE  5G (8/128)",
+     "B": "16999"
+    }
+   },
+   {
+    "row": 57,
+    "cells": {
+     "A": "PAD 5 (8/128) WIFI",
+     "B": "29999"
+    }
+   },
+   {
+    "row": 58,
+    "cells": {
+     "A": "PAD 5 (8/256)  5G",
+     "B": "34999"
+    }
+   }
+  ]
+ },
+ "REALME": {
+  "sheet": "REALME",
+  "state": "visible",
+  "max_row": 1023,
+  "max_col": 27,
+  "populated_rows": 65,
+  "first_row": 1,
+  "last_row": 72,
+  "rows": [
+   {
+    "row": 1,
+    "cells": {
+     "A": "MODEL",
+     "B": "MOP",
+     "C": "OFFER PRICE"
+    }
+   },
+   {
+    "row": 2,
+    "cells": {
+     "A": "C71 (4/64)  4G",
+     "B": "13500"
+    }
+   },
+   {
+    "row": 3,
+    "cells": {
+     "A": "C71 (6/128)",
+     "B": "10200"
+    }
+   },
+   {
+    "row": 4,
+    "cells": {
+     "A": "C100i (4/64)",
+     "B": "15500"
+    }
+   },
+   {
+    "row": 5,
+    "cells": {
+     "A": "C100X (4/64)   4G",
+     "B": "18500"
+    }
+   },
+   {
+    "row": 6,
+    "cells": {
+     "A": "C85 (4/128)",
+     "B": "22500"
+    }
+   },
+   {
+    "row": 7,
+    "cells": {
+     "A": "C85 (6/128)",
+     "B": "24500"
+    }
+   },
+   {
+    "row": 8,
+    "cells": {
+     "A": "C83 5G (4/64)",
+     "B": "20500"
+    }
+   },
+   {
+    "row": 9,
+    "cells": {
+     "A": "C83 5G (4/128)",
+     "B": "24500"
+    }
+   },
+   {
+    "row": 10,
+    "cells": {
+     "A": "C83 5G (6/128)",
+     "B": "27500"
+    }
+   },
+   {
+    "row": 12,
+    "cells": {
+     "A": "15X (8/128)",
+     "B": "26500"
+    }
+   },
+   {
+    "row": 13,
+    "cells": {
+     "A": "15T (8/128)",
+     "B": "28500"
+    }
+   },
+   {
+    "row": 14,
+    "cells": {
+     "A": "15T (8/256)",
+     "B": "30500"
+    }
+   },
+   {
+    "row": 15,
+    "cells": {
+     "A": "15T (12/256)",
+     "B": "32500"
+    }
+   },
+   {
+    "row": 16,
+    "cells": {
+     "A": "15 (8/128)",
+     "B": "30500"
+    }
+   },
+   {
+    "row": 17,
+    "cells": {
+     "A": "15 (8/256)",
+     "B": "32500"
+    }
+   },
+   {
+    "row": 18,
+    "cells": {
+     "A": "15 (12/256)",
+     "B": "34500"
+    }
+   },
+   {
+    "row": 20,
+    "cells": {
+     "A": "16X (4/128)",
+     "B": "29500",
+     "C": "1000/- INSTANT OFF ON EMI ROAR BANK / JUPITER / IDFC / KOTAK / ONECARD / AU / PNB / BOB / FEDERAL / AXIS & HDFC TILL 31 OCT"
+    }
+   },
+   {
+    "row": 21,
+    "cells": {
+     "A": "16X (6/128)",
+     "B": "31500",
+     "C": "1000/- INSTANT OFF ON EMI ROAR BANK / JUPITER / IDFC / KOTAK / ONECARD / AU / PNB / BOB / FEDERAL / AXIS & HDFC TILL 31 OCT"
+    }
+   },
+   {
+    "row": 22,
+    "cells": {
+     "A": "16X (6/256)",
+     "B": "34500",
+     "C": "1000/- INSTANT OFF ON EMI ROAR BANK / JUPITER / IDFC / KOTAK / ONECARD / AU / PNB / BOB / FEDERAL / AXIS & HDFC TILL 31 OCT"
+    }
+   },
+   {
+    "row": 23,
+    "cells": {
+     "A": "16T (6/128)",
+     "B": "31500",
+     "C": "1000/- INSTANT OFF ON EMI ROAR BANK / JUPITER / IDFC / KOTAK / ONECARD / AU / PNB / BOB / FEDERAL / AXIS & HDFC TILL 31 OCT"
+    }
+   },
+   {
+    "row": 24,
+    "cells": {
+     "A": "16T (8/128)",
+     "B": "33500",
+     "C": "1000/- INSTANT OFF ON EMI ROAR BANK / JUPITER / IDFC / KOTAK / ONECARD / AU / PNB / BOB / FEDERAL / AXIS & HDFC TILL 31 OCT"
+    }
+   },
+   {
+    "row": 25,
+    "cells": {
+     "A": "16T (8/256)",
+     "B": "36500",
+     "C": "1000/- INSTANT OFF ON EMI ROAR BANK / JUPITER / IDFC / KOTAK / ONECARD / AU / PNB / BOB / FEDERAL / AXIS & HDFC TILL 31 OCT"
+    }
+   },
+   {
+    "row": 26,
+    "cells": {
+     "A": "16 (8/128)",
+     "B": "37500",
+     "C": "3000/- INSTANT OFF ON EMI ROAR BANK / JUPITER / IDFC / KOTAK / ONECARD / AU / PNB / BOB / FEDERAL / AXIS & HDFC 2000 OFF ON FS - UPI yes bank SBI / AXIS / ONECARD / AU / BOB / FEDERAL TILL 31 OCT"
+    }
+   },
+   {
+    "row": 27,
+    "cells": {
+     "A": "16 (8/256)",
+     "B": "40500",
+     "C": "3000/- INSTANT OFF ON EMI ROAR BANK / JUPITER / IDFC / KOTAK / ONECARD / AU / PNB / BOB / FEDERAL / AXIS & HDFC 2000 OFF ON FS - UPI yes bank SBI / AXIS / ONECARD / AU / BOB / FEDERAL TILL 31 OCT"
+    }
+   },
+   {
+    "row": 28,
+    "cells": {
+     "A": "16 (12/256)",
+     "B": "43500",
+     "C": "3000/- INSTANT OFF ON EMI ROAR BANK / JUPITER / IDFC / KOTAK / ONECARD / AU / PNB / BOB / FEDERAL / AXIS & HDFC 2000 OFF ON FS - UPI yes bank SBI / AXIS / ONECARD / AU / BOB / FEDERAL TILL 31 OCT"
+    }
+   },
+   {
+    "row": 29,
+    "cells": {
+     "A": "16 PRO (8/128)",
+     "B": "45500",
+     "C": "10% OFF OFF ON EMI  ROAR BANK , PNB JUPITAR, HDFC, IDFC, KOTAK, ONECARD, AU, AXIS FEDERAL  BOB  & J&K & 10%  OFF ON FS - UPI yes bank SBI, AXIS, ONECARD, AU BOB FEDERAL & JK TILL 31 OCT"
+    }
+   },
+   {
+    "row": 30,
+    "cells": {
+     "A": "16 PRO (8/256)",
+     "B": "47500",
+     "C": "10% OFF OFF ON EMI  ROAR BANK , PNB JUPITAR, HDFC, IDFC, KOTAK, ONECARD, AU, AXIS FEDERAL  BOB  & J&K & 10%  OFF ON FS - UPI yes bank SBI, AXIS, ONECARD, AU BOB FEDERAL & JK TILL 31 OCT"
+    }
+   },
+   {
+    "row": 31,
+    "cells": {
+     "A": "16 PRO (12/256)",
+     "B": "50500",
+     "C": "10% OFF OFF ON EMI  ROAR BANK , PNB JUPITAR, HDFC, IDFC, KOTAK, ONECARD, AU, AXIS FEDERAL  BOB  & J&K & 10%  OFF ON FS - UPI  yes bank SBI, AXIS, ONECARD, AU BOB FEDERAL & JK TILL 31 OCT"
+    }
+   },
+   {
+    "row": 32,
+    "cells": {
+     "A": "16 PRO PLUS (8/128)",
+     "B": "54500",
+     "C": "OLD MRP STOCK AVAILABLE - 43999/- FIX 10% OFF OFF ON EMI  ROAR BANK , PNB JUPITAR, HDFC, IDFC, KOTAK, ONECARD, AU, AXIS FEDERAL  BOB  & J&K & 10%  OFF ON FS - UPI  yes bank SBI, AXIS, ONECARD, AU BOB FEDERAL & JK TILL 31 OCT"
+    }
+   },
+   {
+    "row": 33,
+    "cells": {
+     "A": "16 PRO PLUS (8/256)",
+     "B": "56500",
+     "C": "10% OFF OFF ON EMI  ROAR BANK , PNB JUPITAR, HDFC, IDFC, KOTAK, ONECARD, AU, AXIS FEDERAL  BOB  & J&K & 10%  OFF ON FS - UPI yes bank SBI, AXIS, ONECARD, AU BOB FEDERAL & JK TILL 31 OCT"
+    }
+   },
+   {
+    "row": 34,
+    "cells": {
+     "A": "16 PRO PLUS (12/256)",
+     "B": "59500",
+     "C": "OLD MRP STOCK AVAILABLE - 48999/- FIX 10% OFF OFF ON EMI  ROAR BANK , PNB JUPITAR, HDFC, IDFC, KOTAK, ONECARD, AU, AXIS FEDERAL  BOB  & J&K & 10%  OFF ON FS - UPI yes bank SBI, AXIS, ONECARD, AU BOB FEDERAL & JK TILL 30 SEP"
+    }
+   },
+   {
+    "row": 36,
+    "cells": {
+     "A": "NARZO 100 LITE (4/128) 5G",
+     "B": "17000"
+    }
+   },
+   {
+    "row": 37,
+    "cells": {
+     "A": "C100i (4/64)",
+     "B": "15500"
+    }
+   },
+   {
+    "row": 39,
+    "cells": {
+     "A": "P4X (6/128)",
+     "B": "23500"
+    }
+   },
+   {
+    "row": 40,
+    "cells": {
+     "A": "P4X (8/128)",
+     "B": "25500"
+    }
+   },
+   {
+    "row": 41,
+    "cells": {
+     "A": "P4X (8/256)"
+    }
+   },
+   {
+    "row": 42,
+    "cells": {
+     "A": "P4 LITE (4/64)",
+     "B": "19500"
+    }
+   },
+   {
+    "row": 43,
+    "cells": {
+     "A": "P4 LITE (4/128)",
+     "B": "21500"
+    }
+   },
+   {
+    "row": 44,
+    "cells": {
+     "A": "P4R (4/128)",
+     "B": "21500"
+    }
+   },
+   {
+    "row": 45,
+    "cells": {
+     "A": "P4R (6/128)",
+     "B": "26500"
+    }
+   },
+   {
+    "row": 46,
+    "cells": {
+     "A": "P4R (6/256)",
+     "B": "29500"
+    }
+   },
+   {
+    "row": 47,
+    "cells": {
+     "A": "P4  POWER (8/128)",
+     "B": "30500"
+    }
+   },
+   {
+    "row": 48,
+    "cells": {
+     "A": "P4  POWER (8/256)",
+     "B": "32500"
+    }
+   },
+   {
+    "row": 49,
+    "cells": {
+     "A": "P4  POWER (12/256)",
+     "B": "35500"
+    }
+   },
+   {
+    "row": 50,
+    "cells": {
+     "A": "P4 (6/128)",
+     "B": "26500"
+    }
+   },
+   {
+    "row": 51,
+    "cells": {
+     "A": "P4 (8/128)",
+     "B": "28500"
+    }
+   },
+   {
+    "row": 52,
+    "cells": {
+     "A": "P4 (8/256)",
+     "B": "30500"
+    }
+   },
+   {
+    "row": 53,
+    "cells": {
+     "A": "P4 PRO (8/128)",
+     "B": "25500"
+    }
+   },
+   {
+    "row": 54,
+    "cells": {
+     "A": "P4 PRO (8/256)",
+     "B": "27500"
+    }
+   },
+   {
+    "row": 55,
+    "cells": {
+     "A": "P4 PRO (12/256)",
+     "B": "29500"
+    }
+   },
+   {
+    "row": 57,
+    "cells": {
+     "A": "GT 7T (8/256)",
+     "B": "35500"
+    }
+   },
+   {
+    "row": 58,
+    "cells": {
+     "A": "GT 7T (12/256)",
+     "B": "38500"
+    }
+   },
+   {
+    "row": 59,
+    "cells": {
+     "A": "GT 7T (12/512)",
+     "B": "42500"
+    }
+   },
+   {
+    "row": 61,
+    "cells": {
+     "A": "GT 7 (8/256)",
+     "B": "37500"
+    }
+   },
+   {
+    "row": 62,
+    "cells": {
+     "A": "GT 7 (12/256)",
+     "B": "40500"
+    }
+   },
+   {
+    "row": 63,
+    "cells": {
+     "A": "GT 7 (12/512)",
+     "B": "44500"
+    }
+   },
+   {
+    "row": 64,
+    "cells": {
+     "A": "GT 7 (16/512)",
+     "B": "50500"
+    }
+   },
+   {
+    "row": 66,
+    "cells": {
+     "A": "PAD 2 LITE (4/128)",
+     "B": "16500"
+    }
+   },
+   {
+    "row": 67,
+    "cells": {
+     "A": "PAD 2 LITE (8/128)",
+     "B": "18500"
+    }
+   },
+   {
+    "row": 68,
+    "cells": {
+     "A": "PAD 2 (6/128)",
+     "B": "18500"
+    }
+   },
+   {
+    "row": 69,
+    "cells": {
+     "A": "PAD 2 (8/128)",
+     "B": "15500"
+    }
+   },
+   {
+    "row": 70,
+    "cells": {
+     "A": "PAD 3 (8/128) WIFI",
+     "B": "30500"
+    }
+   },
+   {
+    "row": 71,
+    "cells": {
+     "A": "PAD 3 (8/128) 5G",
+     "B": "32500"
+    }
+   },
+   {
+    "row": 72,
+    "cells": {
+     "A": "PAD 3 (8/256) 5G",
+     "B": "34500"
+    }
+   }
+  ]
+ },
+ "MOTOROLA": {
+  "sheet": "MOTOROLA",
+  "state": "visible",
+  "max_row": 1024,
+  "max_col": 27,
+  "populated_rows": 45,
+  "first_row": 2,
+  "last_row": 49,
+  "rows": [
+   {
+    "row": 2,
+    "cells": {
+     "A": "G06 POWER (4/64)",
+     "B": "16500",
+     "C": "13999/- fix LAUREL OAK / TAPSTRY  COLOR  OLD MRP STOCK  ;(15750 TILL 7 OCT )  1250 INSTANT OFF ON IDFC - ICICI- SBI TILL 7 OCT"
+    }
+   },
+   {
+    "row": 3,
+    "cells": {
+     "A": "G37 (4/64)",
+     "B": "19500",
+     "C": "(17750 7TH OCT ) 1250 INSTANT OFF ON IDFC - ICICI- SBI TILL 7 OCT"
+    }
+   },
+   {
+    "row": 4,
+    "cells": {
+     "A": "G37 POWER (4/64)",
+     "B": "20500"
+    }
+   },
+   {
+    "row": 5,
+    "cells": {
+     "A": "G37 POWER (4/128)",
+     "B": "22500"
+    }
+   },
+   {
+    "row": 6,
+    "cells": {
+     "A": "G37 POWER (8/128)",
+     "B": "26500"
+    }
+   },
+   {
+    "row": 7,
+    "cells": {
+     "A": "G57 POWER (8/128)",
+     "B": "22500"
+    }
+   },
+   {
+    "row": 8,
+    "cells": {
+     "A": "G67 POWER 5G (8/128)",
+     "B": "23500"
+    }
+   },
+   {
+    "row": 9,
+    "cells": {
+     "A": "G67 POWER 5G (8/256)",
+     "B": "19499"
+    }
+   },
+   {
+    "row": 10,
+    "cells": {
+     "A": "G67 POWER (12/256)",
+     "B": "28500"
+    }
+   },
+   {
+    "row": 11,
+    "cells": {
+     "A": "G77 (4/128)",
+     "B": "25500",
+     "C": "( 22750 TILL 7 OCT ) 1250 INSTANT OFF ON IDFC - ICICI- SBI TILL 7 OCT"
+    }
+   },
+   {
+    "row": 12,
+    "cells": {
+     "A": "G77 (8/128) 5G",
+     "B": "28500",
+     "C": "1250 INSTANT OFF ON IDFC - ICICI- SBI TILL 7 OCT"
+    }
+   },
+   {
+    "row": 13,
+    "cells": {
+     "A": "G96 (8/128)",
+     "B": "19500"
+    }
+   },
+   {
+    "row": 14,
+    "cells": {
+     "A": "G96 (8/256)",
+     "B": "20500"
+    }
+   },
+   {
+    "row": 15,
+    "cells": {
+     "A": "G MAX  (6/128)",
+     "B": "28500",
+     "C": "2000 INSTANT OFF ON IDFC - ICICI- SBI TILL 7 OCT"
+    }
+   },
+   {
+    "row": 17,
+    "cells": {
+     "A": "EDGE 60 FUSION (8/128)",
+     "B": "23500"
+    }
+   },
+   {
+    "row": 18,
+    "cells": {
+     "A": "EDGE 60 FUSION (8/256)",
+     "B": "25500"
+    }
+   },
+   {
+    "row": 19,
+    "cells": {
+     "A": "EDGE 60 FUSION (12/256)",
+     "B": "30500",
+     "C": "2000/- INSTATNT CASHBACK ON SBI / IDFC FS & 1500/-   ( TILL 20 SEP )"
+    }
+   },
+   {
+    "row": 20,
+    "cells": {
+     "A": "EDGE 60 PRO (8/256)",
+     "B": "30500"
+    }
+   },
+   {
+    "row": 21,
+    "cells": {
+     "A": "EDGE 60 PRO (12/256)",
+     "B": "34500",
+     "C": "2000/- INSTATNT CASHBACK ON SBI / ICICI / IDFC FS & EMI  (AND KOTAK CARD ONLY ON EMI )  ( TILL 16 AUG )"
+    }
+   },
+   {
+    "row": 22,
+    "cells": {
+     "A": "EDGE 60 PRO (16/512)",
+     "B": "38500"
+    }
+   },
+   {
+    "row": 23,
+    "cells": {
+     "A": "EDGE 70 (8/256)",
+     "B": "30500",
+     "C": "28500 (TILL 20 SEP )"
+    }
+   },
+   {
+    "row": 24,
+    "cells": {
+     "A": "EDGE 70 FUSION (8/128)",
+     "B": "31500"
+    }
+   },
+   {
+    "row": 25,
+    "cells": {
+     "A": "EDGE 70 FUSION (8/256)",
+     "B": "33500"
+    }
+   },
+   {
+    "row": 26,
+    "cells": {
+     "A": "EDGE 70 FUSION (12/256)",
+     "B": "35500",
+     "C": "1000/- INSTATNT CASHBACK ON SBI / IDFC FS & 1500/-   ( TILL 20 SEP )"
+    }
+   },
+   {
+    "row": 27,
+    "cells": {
+     "A": "EDGE 70 FUSION (12/512)",
+     "B": "39500",
+     "C": "1000/- INSTATNT CASHBACK ON SBI / IDFC FS & 1500/-   ( TILL 20 SEP )"
+    }
+   },
+   {
+    "row": 28,
+    "cells": {
+     "A": "EDGE 70 PRO (8/256)",
+     "B": "40500",
+     "C": "2000/- INSTATNT CASHBACK ON SBI / IDFC FS & 1500/-   ( TILL 20 SEP )"
+    }
+   },
+   {
+    "row": 29,
+    "cells": {
+     "A": "EDGE 70 PRO (12/256)",
+     "B": "43500",
+     "C": "2000/- INSTATNT CASHBACK ON SBI / IDFC FS & 1500/-   ( TILL 20 SEP )"
+    }
+   },
+   {
+    "row": 30,
+    "cells": {
+     "A": "EDGE 70 PRO PLUS (12/256)",
+     "B": "48500",
+     "C": "3000 INSTANT OFF ON IDFC - ICICI- SBI TILL 7 OCT"
+    }
+   },
+   {
+    "row": 31,
+    "cells": {
+     "A": "EDGE 70 PRO MAX  (8/256)",
+     "B": "55500",
+     "C": "3000 INSTANT OFF ON IDFC - ICICI- SBI TILL 7 OCT"
+    }
+   },
+   {
+    "row": 32,
+    "cells": {
+     "A": "EDGE 70 PRO MAX  (12/256)",
+     "B": "60500",
+     "C": "3000 INSTANT OFF ON IDFC - ICICI- SBI TILL 7 OCT"
+    }
+   },
+   {
+    "row": 34,
+    "cells": {
+     "A": "SIGNATURE (12/256)",
+     "B": "60500"
+    }
+   },
+   {
+    "row": 35,
+    "cells": {
+     "A": "SIGNATURE (16/512)",
+     "B": "65500"
+    }
+   },
+   {
+    "row": 36,
+    "cells": {
+     "A": "SIGNATURE (16 / 1TB)",
+     "B": "70500"
+    }
+   },
+   {
+    "row": 37,
+    "cells": {
+     "A": "RAZR FOLD (12/256)",
+     "B": "150000"
+    }
+   },
+   {
+    "row": 38,
+    "cells": {
+     "A": "RAZR FOLD (16/512)",
+     "B": "160000"
+    }
+   },
+   {
+    "row": 40,
+    "cells": {
+     "A": "TABLET"
+    }
+   },
+   {
+    "row": 41,
+    "cells": {
+     "A": "PAD 60 NEO - WITH PEN  (6/128) WIFI    -  25500/-"
+    }
+   },
+   {
+    "row": 42,
+    "cells": {
+     "A": "PAD 60 NEO - WITH PEN  (8/128) WIFI  -  27500/-"
+    }
+   },
+   {
+    "row": 43,
+    "cells": {
+     "A": "PAD 60 NEO - WITH PEN  (6/128)  5G   -  28500/-"
+    }
+   },
+   {
+    "row": 44,
+    "cells": {
+     "A": "PAD 60 NEO - WITH PEN  (8/128) 5G    -  30500/-"
+    }
+   },
+   {
+    "row": 45,
+    "cells": {
+     "A": "PAD 70 PRO - WITH PEN (8/128)  WIFI   -  41500"
+    }
+   },
+   {
+    "row": 46,
+    "cells": {
+     "A": "PAD 70 PRO - WITH PEN + KEYBOARD (8/128)  WIFI   -  47500/-"
+    }
+   },
+   {
+    "row": 47,
+    "cells": {
+     "A": "PAD 70 PRO - WITH PEN (8/256)  WIFI    -  44500/-"
+    }
+   },
+   {
+    "row": 48,
+    "cells": {
+     "A": "PAD 70 PRO - WITH PEN + KEYBOARD (8/256)  WIFI   -  50500/-"
+    }
+   },
+   {
+    "row": 49,
+    "cells": {
+     "A": "PAD 70  GROOVE (8/256) WIFI  -   39500/-"
+    }
+   }
+  ]
+ },
+ "VIVO  IQOO": {
+  "sheet": "VIVO  IQOO",
+  "state": "visible",
+  "max_row": 1001,
+  "max_col": 27,
+  "populated_rows": 57,
+  "first_row": 1,
+  "last_row": 63,
+  "rows": [
+   {
+    "row": 1,
+    "cells": {
+     "B": "MOP",
+     "C": "CASHBACK OFFER"
+    }
+   },
+   {
+    "row": 2,
+    "cells": {
+     "A": "Y05 (4/64) 4G",
+     "B": "15999"
+    }
+   },
+   {
+    "row": 3,
+    "cells": {
+     "A": "Y11 (4/64) 5G",
+     "B": "18999",
+     "C": "INSTANT OFF UPTO 1000 ON EMI SBI, IDFC, DBS, YES, BOB, , AXIS, HDFC,INDUSLAND , ONE CARD  TILL 30 SEP"
+    }
+   },
+   {
+    "row": 4,
+    "cells": {
+     "A": "Y11 (4/128) 5G",
+     "B": "22499",
+     "C": "INSTANT OFF UPTO 1000 ON EMI SBI, IDFC, DBS, YES, BOB, , AXIS, HDFC,INDUSLAND , ONE CARD  TILL 30 SEP"
+    }
+   },
+   {
+    "row": 5,
+    "cells": {
+     "A": "Y21 (4/64)  5G",
+     "B": "20999",
+     "C": "INSTANT OFF UPTO 1000 ON EMI SBI, IDFC, DBS, YES, BOB, , AXIS, HDFC,INDUSLAND , ONE CARD  TILL 30 SEP"
+    }
+   },
+   {
+    "row": 6,
+    "cells": {
+     "A": "Y21 (4/128) 5G",
+     "B": "23999",
+     "C": "INSTANT OFF UPTO 1000 ON EMI SBI, IDFC, DBS, YES, BOB, , AXIS, HDFC,INDUSLAND , ONE CARD  TILL 30 SEP"
+    }
+   },
+   {
+    "row": 7,
+    "cells": {
+     "A": "Y21 (6/128) 5G",
+     "B": "27999",
+     "C": "INSTANT OFF UPTO 1000 ON EMI SBI, IDFC, DBS, YES, BOB, , AXIS, HDFC,INDUSLAND , ONE CARD  TILL 30 SEP"
+    }
+   },
+   {
+    "row": 8,
+    "cells": {
+     "A": "Y21 (8/128) 5G",
+     "B": "22999",
+     "C": "INSTANT OFF UPTO 1000 ON EMI SBI, IDFC, DBS, YES, BOB, , AXIS, HDFC,INDUSLAND , ONE CARD  TILL 30 SEP"
+    }
+   },
+   {
+    "row": 9,
+    "cells": {
+     "A": "Y31 (4/128)",
+     "B": "19999",
+     "C": "INSTANT OFF UPTO 1000 ON EMI SBI, IDFC, DBS, YES, BOB, , AXIS, HDFC,INDUSLAND , ONE CARD  TILL 30 SEP"
+    }
+   },
+   {
+    "row": 10,
+    "cells": {
+     "A": "Y31 (6/128)",
+     "B": "27999",
+     "C": "INSTANT OFF UPTO 1000 ON EMI SBI, IDFC, DBS, YES, BOB, , AXIS, HDFC,INDUSLAND , ONE CARD  TILL 30 SEP"
+    }
+   },
+   {
+    "row": 11,
+    "cells": {
+     "A": "Y31 (6/256)",
+     "B": "31999",
+     "C": "INSTANT OFF UPTO 1000 ON EMI SBI, IDFC, DBS, YES, BOB, , AXIS, HDFC,INDUSLAND , ONE CARD  TILL 30 SEP"
+    }
+   },
+   {
+    "row": 12,
+    "cells": {
+     "A": "Y31T (4/128)",
+     "B": "26999",
+     "C": "INSTANT OFF UPTO 1500 ON EMI SBI, IDFC, DBS, YES, BOB, , AXIS, HDFC,INDUSLAND ,  TILL 30 SEP"
+    }
+   },
+   {
+    "row": 13,
+    "cells": {
+     "A": "Y31T (6/128)",
+     "B": "31499",
+     "C": "INSTANT OFF UPTO 1500 ON EMI SBI, IDFC, DBS, YES, BOB, , AXIS, HDFC,INDUSLAND ,  TILL 30 SEP"
+    }
+   },
+   {
+    "row": 14,
+    "cells": {
+     "A": "Y31T (6/256)",
+     "B": "34999",
+     "C": "INSTANT OFF UPTO 1500 ON EMI SBI, IDFC, DBS, YES, BOB, , AXIS, HDFC,INDUSLAND ,  TILL 30 SEP"
+    }
+   },
+   {
+    "row": 16,
+    "cells": {
+     "A": "Y51 PRO (8/128)",
+     "B": "34999",
+     "C": "INSTANT OFF UPTO 2000 ON EMI SBI, IDFC, DBS, YES, BOB, , AXIS, HDFC,INDUSLAND , ONE CARD  TILL 30 SEP"
+    }
+   },
+   {
+    "row": 17,
+    "cells": {
+     "A": "Y51 PRO (8/256)",
+     "B": "37999",
+     "C": "INSTANT OFF UPTO 2000 ON EMI SBI, IDFC, DBS, YES, BOB, , AXIS, HDFC,INDUSLAND , ONE CARD  TILL 30 SEP"
+    }
+   },
+   {
+    "row": 19,
+    "cells": {
+     "A": "Y400 (8/128)",
+     "B": "31999",
+     "C": "INSTANT OFF UPTO 1500 ON EMI SBI, IDFC, DBS, YES, BOB, , AXIS, HDFC,INDUSLAND , ONE CARD  TILL 30 SEP"
+    }
+   },
+   {
+    "row": 20,
+    "cells": {
+     "A": "Y400 (8/256)",
+     "B": "34999",
+     "C": "INSTANT OFF UPTO 1500 ON EMI SBI, IDFC, DBS, YES, BOB, , AXIS, HDFC,INDUSLAND , ONE CARD  TILL 30 SEP"
+    }
+   },
+   {
+    "row": 21,
+    "cells": {
+     "A": "S2 (8/128)",
+     "B": "42999",
+     "C": "INSTANT OFF 10% UPTO 3000 & 1500 OFF ON FS - UPI IDFC, DBS, SBI, YES, BOB, HDFC,  INDUSLAND, TILL 30 SEP"
+    }
+   },
+   {
+    "row": 22,
+    "cells": {
+     "A": "S2 (8/256)",
+     "B": "48999",
+     "C": "INSTANT OFF 10% UPTO 3000 & 1500 OFF ON FS - UPI IDFC, DBS, SBI, YES, BOB, HDFC,  INDUSLAND, TILL 30 SEP"
+    }
+   },
+   {
+    "row": 24,
+    "cells": {
+     "A": "V70 FE (8/128)",
+     "B": "44999",
+     "C": "10% INSTANT OFF  ON  FULL / UPI  ,10%  ON EMI  IDFC, DBS, SBI, YES, BOB, INDUSLAND , HDFC, KOTAK,AXIS , ONE CARD TILL 30 SEP"
+    }
+   },
+   {
+    "row": 25,
+    "cells": {
+     "A": "V70 FE (8/256)",
+     "B": "49999",
+     "C": "10% INSTANT OFF  ON  FULL / UPI  ,10%  ON EMI  IDFC, DBS, SBI, YES, BOB, INDUSLAND , HDFC, KOTAK,AXIS , ONE CARD TILL 30 SEP"
+    }
+   },
+   {
+    "row": 26,
+    "cells": {
+     "A": "V70 FE (12/256)",
+     "B": "51999",
+     "C": "10% INSTANT OFF  ON  FULL / UPI  ,10%  ON EMI  IDFC, DBS, SBI, YES, BOB, INDUSLAND , HDFC, KOTAK,AXIS , ONE CARD TILL 30 SEP"
+    }
+   },
+   {
+    "row": 27,
+    "cells": {
+     "A": "V70 (8/256)",
+     "B": "59999",
+     "C": "INSTATNT OF EMI UPTO 4000 & 2000 ON FULL SWIPE /UPI  IDFC, DBS, SBI, YES, BOB, ONE CARD, INDUSLAND, KOTAK, HDFC TILL 30 SEP"
+    }
+   },
+   {
+    "row": 28,
+    "cells": {
+     "A": "V70 (12/256)",
+     "B": "64999",
+     "C": "INSTATNT OF EMI UPTO 4000 & 2000 ON FULL SWIPE /UPI  IDFC, DBS, SBI, YES, BOB, ONE CARD, INDUSLAND, KOTAK, HDFC TILL 30 SEP"
+    }
+   },
+   {
+    "row": 29,
+    "cells": {
+     "A": "V70 ELITE (8/256)",
+     "B": "66999",
+     "C": "INSTATNT OF EMI UPTO 5000 & 3000 ON FULL SWIPE /UPI  IDFC, DBS, SBI, YES, BOB, ONE CARD, INDUSLAND, KOTAK, HDFC  TILL 30 SEP"
+    }
+   },
+   {
+    "row": 30,
+    "cells": {
+     "A": "V70 ELITE (12/256)",
+     "B": "71999",
+     "C": "INSTATNT OF EMI UPTO 5000 & 3000 ON FULL SWIPE /UPI  IDFC, DBS, SBI, YES, BOB, ONE CARD, INDUSLAND, KOTAK, HDFC  TILL 30 SEP"
+    }
+   },
+   {
+    "row": 31,
+    "cells": {
+     "A": "V70 ELITE (12/512)",
+     "C": "INSTATNT OF EMI UPTO 5000 & 3000 ON FULL SWIPE /UPI  IDFC, DBS, SBI, YES, BOB, ONE CARD, INDUSLAND, KOTAK, HDFC  TILL 30 SEP"
+    }
+   },
+   {
+    "row": 33,
+    "cells": {
+     "A": "T5E (4/64) 4G",
+     "B": "14500"
+    }
+   },
+   {
+    "row": 34,
+    "cells": {
+     "A": "T5 LITE (4/64)",
+     "B": "18500"
+    }
+   },
+   {
+    "row": 35,
+    "cells": {
+     "A": "T5 LITE (4/128)",
+     "B": "21000",
+     "C": "500 INSTANT OFF ON FS & EMI IDFC DBS YES SBI BOB INDUSLAND TILL 24 SEP"
+    }
+   },
+   {
+    "row": 36,
+    "cells": {
+     "A": "T5 LITE (6/128)",
+     "B": "23500",
+     "C": "500 INSTANT OFF ON FS & EMI IDFC DBS YES SBI BOB INDUSLAND TILL 24 SEP"
+    }
+   },
+   {
+    "row": 37,
+    "cells": {
+     "A": "T5 LITE (6/256)",
+     "B": "27500"
+    }
+   },
+   {
+    "row": 38,
+    "cells": {
+     "A": "T5X (6/128)",
+     "B": "28500",
+     "C": "1000 INSTANT OFF ON FS & ON LCE IDFC, SBI, DBS, YES, BOB, YES,  INDUSLAND ( TILL 24 SEP)"
+    }
+   },
+   {
+    "row": 39,
+    "cells": {
+     "A": "T5X (8/128)",
+     "B": "31500",
+     "C": "1000 INSTANT OFF ON FS & ON LCE IDFC, SBI, DBS, YES, BOB, YES,  INDUSLAND ( TILL 24 SEP)"
+    }
+   },
+   {
+    "row": 40,
+    "cells": {
+     "A": "T5X (8/256)",
+     "B": "35500",
+     "C": "1000 INSTANT OFF ON FS & ON LCE IDFC, SBI, DBS, YES, BOB, YES,  INDUSLAND ( TILL 24 SEP)"
+    }
+   },
+   {
+    "row": 41,
+    "cells": {
+     "A": "T5 (6/128)",
+     "B": "35500"
+    }
+   },
+   {
+    "row": 42,
+    "cells": {
+     "A": "T5 (8/128)",
+     "B": "40500"
+    }
+   },
+   {
+    "row": 43,
+    "cells": {
+     "A": "T5 (8/256)",
+     "B": "45500"
+    }
+   },
+   {
+    "row": 44,
+    "cells": {
+     "A": "T5 (12/256)",
+     "B": "50500"
+    }
+   },
+   {
+    "row": 45,
+    "cells": {
+     "A": "T5 PRO (8/128)",
+     "B": "42500",
+     "C": "2000 INSTANT OFF ON FS & ON LCE IDFC, SBI, DBS, YES, BOB, YES,  INDUSLAND ( TILL 23 SEP)"
+    }
+   },
+   {
+    "row": 46,
+    "cells": {
+     "A": "T5 PRO (8/256)",
+     "B": "47500",
+     "C": "2000 INSTANT OFF ON FS & ON LCE IDFC, SBI, DBS, YES, BOB, YES,  INDUSLAND ( TILL 23 SEP)"
+    }
+   },
+   {
+    "row": 48,
+    "cells": {
+     "A": "X300 FE (8/256)",
+     "B": "89999",
+     "C": "10% INSTANT / FULL / EMI / UPI  - IDFC, DBS, SBI, YES,  KOTAK, AXIS, HDFC, ,  TILL 30 SEP"
+    }
+   },
+   {
+    "row": 49,
+    "cells": {
+     "A": "X300 FE (12/256)",
+     "B": "94999",
+     "C": "10% INSTANT / FULL / EMI / UPI  - IDFC, DBS, SBI, YES,  KOTAK, AXIS, HDFC, ONE CARD ,  TILL 30 SEP"
+    }
+   },
+   {
+    "row": 50,
+    "cells": {
+     "A": "X300 FE (12/512)",
+     "B": "99999",
+     "C": "10% INSTANT / FULL / EMI / UPI  - IDFC, DBS, SBI, YES,  KOTAK, AXIS, HDFC, ,  TILL 30 SEP"
+    }
+   },
+   {
+    "row": 51,
+    "cells": {
+     "A": "X300 PRO (16/512)",
+     "B": "119999",
+     "C": "10% INSTANT  OFF UPTO 10000/ FULL / EMI /  - IDFC, DBS, SBI, YES, AMEX, KOTAK, AXIS, HDFC ,ONE CARD, TILL 30 SEP"
+    }
+   },
+   {
+    "row": 52,
+    "cells": {
+     "A": "X300 ULTRA (16/512)",
+     "B": "159999",
+     "C": "10% INSTANT / FULL / EMI /  - IDFC, DBS, SBI, YES, AMEX, KOTAK, AXIS, HDFC ,ONE CARD, TILL 30 SEP"
+    }
+   },
+   {
+    "row": 53,
+    "cells": {
+     "A": "X FOLD 5 (16/512)",
+     "B": "149999",
+     "C": "INSTANT/FULL/EMI/UPI 12000 - IDFC, DBS, SBI, YES, HDFC, KOTAK, AMEX,"
+    }
+   },
+   {
+    "row": 55,
+    "cells": {
+     "A": "IQOO Z11 LITE (4/128)",
+     "B": "20500"
+    }
+   },
+   {
+    "row": 56,
+    "cells": {
+     "A": "IQOO Z11 LITE (6/128)",
+     "B": "23000"
+    }
+   },
+   {
+    "row": 57,
+    "cells": {
+     "A": "IQOO Z11 LITE (6/256)",
+     "B": "27000"
+    }
+   },
+   {
+    "row": 58,
+    "cells": {
+     "A": "IQOO Z11X (6/128)",
+     "B": "28500"
+    }
+   },
+   {
+    "row": 59,
+    "cells": {
+     "A": "IQOO Z11X (8/128)",
+     "B": "31500"
+    }
+   },
+   {
+    "row": 60,
+    "cells": {
+     "A": "IQOO Z11X (8/256)",
+     "B": "35500"
+    }
+   },
+   {
+    "row": 61,
+    "cells": {
+     "A": "IQOO Z15R (8/256)",
+     "B": "47500"
+    }
+   },
+   {
+    "row": 62,
+    "cells": {
+     "A": "IQOO Z15R (12/256)",
+     "B": "51500"
+    }
+   },
+   {
+    "row": 63,
+    "cells": {
+     "A": "IQOO Z15R (12/512)",
+     "B": "58500"
+    }
+   }
+  ]
+ },
+ "LENOVO": {
+  "sheet": "LENOVO",
+  "state": "visible",
+  "max_row": 1001,
+  "max_col": 24,
+  "populated_rows": 11,
+  "first_row": 2,
+  "last_row": 12,
+  "rows": [
+   {
+    "row": 2,
+    "cells": {
+     "A": "TAB + CLEAR CASE (4/64) 4G  (041in)",
+     "B": "17500"
+    }
+   },
+   {
+    "row": 3,
+    "cells": {
+     "A": "M11 (4/128)  ZADB0092IN",
+     "B": "16500"
+    }
+   },
+   {
+    "row": 4,
+    "cells": {
+     "A": "TAB PLUS (8/256) WIFI (099IN)",
+     "B": "26500"
+    }
+   },
+   {
+    "row": 5,
+    "cells": {
+     "A": "IDEA TAB with PEN (8/256) WIFI + 5G (0706IN)",
+     "B": "32500"
+    }
+   },
+   {
+    "row": 6,
+    "cells": {
+     "A": "IDEA TAB with PEN (8/256) wifi (897IN)",
+     "B": "25500"
+    }
+   },
+   {
+    "row": 7,
+    "cells": {
+     "A": "IDEA TAB PRO with PEN PLUS (8/128)  WIFI (199IN)",
+     "B": "29500"
+    }
+   },
+   {
+    "row": 8,
+    "cells": {
+     "A": "IDEA TAB PLUS with PEN (12/256) 5G (150IN)",
+     "B": "40500"
+    }
+   },
+   {
+    "row": 9,
+    "cells": {
+     "A": "IDEA TAB  5G 8/256 (708IN)",
+     "B": "30500"
+    }
+   },
+   {
+    "row": 10,
+    "cells": {
+     "A": "IDEA TAB WITH PEN AND KEYBOARD  (746IN)",
+     "B": "36500"
+    }
+   },
+   {
+    "row": 11,
+    "cells": {
+     "A": "TAB PLUS GEN 2 12.1 (8/128) WIFI  (0118IN)",
+     "B": "36500"
+    }
+   },
+   {
+    "row": 12,
+    "cells": {
+     "A": "LENOVO IDEA TAB WITH TAB PEN 6/128 WIFI + 5G (0783IN)",
+     "B": "28500"
+    }
+   }
+  ]
+ },
+ "NOKIA": {
+  "sheet": "NOKIA",
+  "state": "visible",
+  "max_row": 1014,
+  "max_col": 28,
+  "populated_rows": 29,
+  "first_row": 1,
+  "last_row": 33,
+  "rows": [
+   {
+    "row": 1,
+    "cells": {
+     "A": "MODEL",
+     "B": "MOP"
+    }
+   },
+   {
+    "row": 2,
+    "cells": {
+     "A": "HMD 100 single sim",
+     "B": "1000"
+    }
+   },
+   {
+    "row": 3,
+    "cells": {
+     "A": "HMD 100 dual sim",
+     "B": "1100"
+    }
+   },
+   {
+    "row": 4,
+    "cells": {
+     "A": "HMD 105 dual sim",
+     "B": "1200"
+    }
+   },
+   {
+    "row": 5,
+    "cells": {
+     "A": "HMD 110",
+     "B": "1400"
+    }
+   },
+   {
+    "row": 6,
+    "cells": {
+     "A": "HMD 101 4G",
+     "B": "2000"
+    }
+   },
+   {
+    "row": 7,
+    "cells": {
+     "A": "HMD 102 4G",
+     "B": "2200"
+    }
+   },
+   {
+    "row": 8,
+    "cells": {
+     "A": "HMD 105 4G",
+     "B": "2300"
+    }
+   },
+   {
+    "row": 9,
+    "cells": {
+     "A": "HMD 110 4G",
+     "B": "2500"
+    }
+   },
+   {
+    "row": 10,
+    "cells": {
+     "A": "HMD 130 MUSIC",
+     "B": "1900"
+    }
+   },
+   {
+    "row": 12,
+    "cells": {
+     "A": "105 CLASSIC SS (WITH CHARGER)",
+     "B": "1400"
+    }
+   },
+   {
+    "row": 13,
+    "cells": {
+     "A": "106 (2023) SINGLE SIM",
+     "B": "1650"
+    }
+   },
+   {
+    "row": 14,
+    "cells": {
+     "A": "106 (2023) DUAL SIM",
+     "B": "1800"
+    }
+   },
+   {
+    "row": 15,
+    "cells": {
+     "A": "110",
+     "B": "1900"
+    }
+   },
+   {
+    "row": 16,
+    "cells": {
+     "A": "106 4G",
+     "B": "2500"
+    }
+   },
+   {
+    "row": 17,
+    "cells": {
+     "A": "130 MUSIC",
+     "B": "2200"
+    }
+   },
+   {
+    "row": 18,
+    "cells": {
+     "A": "130 MUSIC  GOLD",
+     "B": "2250"
+    }
+   },
+   {
+    "row": 19,
+    "cells": {
+     "A": "110 4G NEW",
+     "B": "2700"
+    }
+   },
+   {
+    "row": 20,
+    "cells": {
+     "A": "125 NEW",
+     "B": "2300"
+    }
+   },
+   {
+    "row": 22,
+    "cells": {
+     "A": "150 NEW",
+     "B": "2900"
+    }
+   },
+   {
+    "row": 23,
+    "cells": {
+     "A": "235 4G NEW",
+     "B": "4100"
+    }
+   },
+   {
+    "row": 24,
+    "cells": {
+     "A": "220 4G  NEW",
+     "B": "3600"
+    }
+   },
+   {
+    "row": 26,
+    "cells": {
+     "A": "3210  4G NEW",
+     "B": "4350"
+    }
+   },
+   {
+    "row": 27,
+    "cells": {
+     "A": "5310",
+     "B": "3900"
+    }
+   },
+   {
+    "row": 28,
+    "cells": {
+     "A": "6310",
+     "B": "3800"
+    }
+   },
+   {
+    "row": 29,
+    "cells": {
+     "A": "2660  FLIP",
+     "B": "5200"
+    }
+   },
+   {
+    "row": 30,
+    "cells": {
+     "A": "8210  4G",
+     "B": "4100"
+    }
+   },
+   {
+    "row": 31,
+    "cells": {
+     "A": "5710 4G",
+     "B": "5000"
+    }
+   },
+   {
+    "row": 33,
+    "cells": {
+     "A": "HMD VIBE 2 5G  (4/128)",
+     "B": "15000/-",
+     "C": "14500/- LAST"
+    }
+   }
+  ]
+ },
+ "APPLE": {
+  "sheet": "APPLE",
+  "state": "visible",
+  "max_row": 1010,
+  "max_col": 26,
+  "populated_rows": 42,
+  "first_row": 1,
+  "last_row": 50,
+  "rows": [
+   {
+    "row": 1,
+    "cells": {
+     "B": "PRICE",
+     "C": "CASHBACK"
+    }
+   },
+   {
+    "row": 2,
+    "cells": {
+     "A": "15 (128)",
+     "B": "74900",
+     "C": "1000/- INSTANT CASHBACK ON ICICI , AXIS CC FS & 2000/- ON EMI ICICI, SBI AND AXIS CC"
+    }
+   },
+   {
+    "row": 4,
+    "cells": {
+     "A": "16E  (128)",
+     "B": "69900",
+     "C": "1000/- INSTANT CASHBACK ON ICICI, SBI,  AXIS CC FS & 2000/- ON EMI ICICI, SBI AND AXIS CC"
+    }
+   },
+   {
+    "row": 5,
+    "cells": {
+     "A": "16E  (256)",
+     "C": "1000/- INSTANT CASHBACK ON ICICI, SBI,  AXIS CC FS & 2000/- ON EMI ICICI, SBI AND AXIS CC"
+    }
+   },
+   {
+    "row": 6,
+    "cells": {
+     "A": "17E (256gb)",
+     "B": "79900",
+     "C": "2000/- INSTANT CASHBACK ON ICICI, SBI,  AXIS CC FS & 3000/- ON EMI ICICI, SBI AND AXIS CC"
+    }
+   },
+   {
+    "row": 7,
+    "cells": {
+     "A": "17E (512gb)",
+     "B": "104900",
+     "C": "2000/- INSTANT CASHBACK ON ICICI, SBI,  AXIS CC FS & 3000/- ON EMI ICICI, SBI AND AXIS CC"
+    }
+   },
+   {
+    "row": 8,
+    "cells": {
+     "D": "RBNNN4"
+    }
+   },
+   {
+    "row": 9,
+    "cells": {
+     "A": "16 (128)",
+     "B": "89900",
+     "C": "2000/- INSTANT CASHBACK ON ICICI, SBI,  AXIS CC FS & 3000/- ON EMI ICICI, SBI AND AXIS CC"
+    }
+   },
+   {
+    "row": 12,
+    "cells": {
+     "A": "17 (256)",
+     "B": "99900",
+     "C": "4000/- INSTANT CASHBACK ON ICICI , SBI,  AXIS CC FS & 5000/- ON EMI ICICI. SBI AND AXIS CC"
+    }
+   },
+   {
+    "row": 13,
+    "cells": {
+     "A": "17 (512)",
+     "B": "124900",
+     "C": "4000/- INSTANT CASHBACK ON ICICI , SBI,  AXIS CC FS & 5000/- ON EMI ICICI. SBI AND AXIS CC"
+    }
+   },
+   {
+    "row": 14,
+    "cells": {
+     "A": "AIR (256)",
+     "B": "149900",
+     "C": "3000/- INSTANT CASHBACK ON ICICI , SBI,  AXIS CC FS & 4000/- ON EMI ICICI, SBI,  AND AXIS CC"
+    }
+   },
+   {
+    "row": 15,
+    "cells": {
+     "A": "AIR (512)",
+     "B": "174900",
+     "C": "3000/- INSTANT CASHBACK ON ICICI , SBI,  AXIS CC FS & 4000/- ON EMI ICICI, SBI,  AND AXIS CC"
+    }
+   },
+   {
+    "row": 16,
+    "cells": {
+     "A": "AIR (1TB)",
+     "B": "224900",
+     "C": "3000/- INSTANT CASHBACK ON ICICI , SBI,  AXIS CC FS & 4000/- ON EMI ICICI, SBI,  AND AXIS CC"
+    }
+   },
+   {
+    "row": 17,
+    "cells": {
+     "A": "17 PRO (256gb)",
+     "B": "134900"
+    }
+   },
+   {
+    "row": 18,
+    "cells": {
+     "A": "17 PRO (512gb)",
+     "B": "154900"
+    }
+   },
+   {
+    "row": 19,
+    "cells": {
+     "A": "17 PRO (1TB)",
+     "B": "174900"
+    }
+   },
+   {
+    "row": 20,
+    "cells": {
+     "A": "17 PRO MAX (256gb)",
+     "B": "149900"
+    }
+   },
+   {
+    "row": 21,
+    "cells": {
+     "A": "17 PRO MAX (512gb)",
+     "B": "169900"
+    }
+   },
+   {
+    "row": 22,
+    "cells": {
+     "A": "17 PRO MAX (1TB)",
+     "B": "189900"
+    }
+   },
+   {
+    "row": 23,
+    "cells": {
+     "A": "17 PRO MAX (2TB)",
+     "B": "229900"
+    }
+   },
+   {
+    "row": 25,
+    "cells": {
+     "A": "18 PRO (256)",
+     "B": "164900",
+     "C": "6000/- INSTANT CASHBACK ON ICICI , SBI,  AXIS CC FS & 7000/- ON EMI ICICI. SBI AND AXIS CC"
+    }
+   },
+   {
+    "row": 26,
+    "cells": {
+     "A": "18 PRO (512)",
+     "B": "189900",
+     "C": "6000/- INSTANT CASHBACK ON ICICI , SBI,  AXIS CC FS & 7000/- ON EMI ICICI. SBI AND AXIS CC"
+    }
+   },
+   {
+    "row": 27,
+    "cells": {
+     "A": "18 PRO (1 TB)",
+     "B": "239900",
+     "C": "6000/- INSTANT CASHBACK ON ICICI , SBI,  AXIS CC FS & 7000/- ON EMI ICICI. SBI AND AXIS CC"
+    }
+   },
+   {
+    "row": 28,
+    "cells": {
+     "A": "18 PRO (2 TB)",
+     "B": "314900",
+     "C": "6000/- INSTANT CASHBACK ON ICICI , SBI,  AXIS CC FS & 7000/- ON EMI ICICI. SBI AND AXIS CC"
+    }
+   },
+   {
+    "row": 29,
+    "cells": {
+     "A": "18 PRO MAX (256)",
+     "B": "179900",
+     "C": "6000/- INSTANT CASHBACK ON ICICI , SBI,  AXIS CC FS & 7000/- ON EMI ICICI. SBI AND AXIS CC"
+    }
+   },
+   {
+    "row": 30,
+    "cells": {
+     "A": "18 PRO MAX (512)",
+     "B": "204900",
+     "C": "6000/- INSTANT CASHBACK ON ICICI , SBI,  AXIS CC FS & 7000/- ON EMI ICICI. SBI AND AXIS CC"
+    }
+   },
+   {
+    "row": 31,
+    "cells": {
+     "A": "18 PRO MAX (1 TB)",
+     "B": "254900",
+     "C": "6000/- INSTANT CASHBACK ON ICICI , SBI,  AXIS CC FS & 7000/- ON EMI ICICI. SBI AND AXIS CC"
+    }
+   },
+   {
+    "row": 32,
+    "cells": {
+     "A": "18 PRO MAX (2 TB)",
+     "B": "329900",
+     "C": "6000/- INSTANT CASHBACK ON ICICI , SBI,  AXIS CC FS & 7000/- ON EMI ICICI. SBI AND AXIS CC"
+    }
+   },
+   {
+    "row": 33,
+    "cells": {
+     "A": "DUO (256)",
+     "B": "299900"
+    }
+   },
+   {
+    "row": 34,
+    "cells": {
+     "A": "DUO (512)",
+     "B": "324900"
+    }
+   },
+   {
+    "row": 35,
+    "cells": {
+     "A": "DUO (1 TB)",
+     "B": "374900"
+    }
+   },
+   {
+    "row": 36,
+    "cells": {
+     "A": "DUO (2 TB)",
+     "B": "449900"
+    }
+   },
+   {
+    "row": 38,
+    "cells": {
+     "A": "IPAD PRO",
+     "B": "4000/- INSTANT CASHBACK ON ICICI , SBI,  AXIS CC FS & 4000/- ON EMI ICICI, SBI,  AND AXIS CC"
+    }
+   },
+   {
+    "row": 39,
+    "cells": {
+     "A": "IPAD AIR",
+     "B": "4000/- INSTANT CASHBACK ON ICICI , SBI,  AXIS CC FS & 4000/- ON EMI ICICI, SBI,  AND AXIS CC"
+    }
+   },
+   {
+    "row": 40,
+    "cells": {
+     "A": "IPAD MINI",
+     "B": "4000/- INSTANT CASHBACK ON ICICI , SBI,  AXIS CC FS & 4000/- ON EMI ICICI, SBI,  AND AXIS CC"
+    }
+   },
+   {
+    "row": 41,
+    "cells": {
+     "A": "IPAD 11th GEN (A16)",
+     "B": "6000/- INSTANT CASHBACK ON ICICI , SBI,  AXIS CC FS & 6000/- ON EMI ICICI, SBI,  AND AXIS CC"
+    }
+   },
+   {
+    "row": 44,
+    "cells": {
+     "A": "WATCH ULTRA  3",
+     "B": "3000/- INSTANT CASHBACK ON ICICI , SBI,  AXIS CC FS & 3000/- ON EMI ICICI, SBI,  AND AXIS CC"
+    }
+   },
+   {
+    "row": 45,
+    "cells": {
+     "A": "WATCH SERIES 11",
+     "B": "2500/- INSTANT CASHBACK ON ICICI , SBI,  AXIS CC FS & 2500/- ON EMI ICICI, SBI,  AND AXIS CC"
+    }
+   },
+   {
+    "row": 46,
+    "cells": {
+     "A": "WATCH SERIES SE 3",
+     "B": "2000/- INSTANT CASHBACK ON ICICI , SBI,  AXIS CC FS & 2000/- ON EMI ICICI, SBI,  AND AXIS CC"
+    }
+   },
+   {
+    "row": 48,
+    "cells": {
+     "A": "AIRPODS PRO 3rd GEN",
+     "B": "25900",
+     "C": "2000/- INSTANT CASHBACK ON ICICI , SBI,  AXIS CC FS & 2000/- ON EMI ICICI, SBI,  AND AXIS CC"
+    }
+   },
+   {
+    "row": 49,
+    "cells": {
+     "A": "AIRPODS 4",
+     "B": "12900/-",
+     "C": "1000/- INSTANT CASHBACK ON ICICI , SBI,  AXIS CC FS & 1000/- ON EMI ICICI, SBI,  AND AXIS CC"
+    }
+   },
+   {
+    "row": 50,
+    "cells": {
+     "A": "AIRPODS 4 ANC",
+     "B": "17900/-",
+     "C": "1500/- INSTANT CASHBACK ON ICICI , SBI,  AXIS CC FS & 1500/- ON EMI ICICI, SBI,  AND AXIS CC"
+    }
+   }
+  ]
+ },
+ "INFINIX  TECNO": {
+  "sheet": "INFINIX  TECNO",
+  "state": "visible",
+  "max_row": 1028,
+  "max_col": 25,
+  "populated_rows": 66,
+  "first_row": 1,
+  "last_row": 72,
+  "rows": [
+   {
+    "row": 1,
+    "cells": {
+     "A": "MODEL",
+     "B": "MOP"
+    }
+   },
+   {
+    "row": 2,
+    "cells": {
+     "A": "INFINIX"
+    }
+   },
+   {
+    "row": 3,
+    "cells": {
+     "A": "SMART 20 (4/64)  4G",
+     "B": "13500"
+    }
+   },
+   {
+    "row": 4,
+    "cells": {
+     "A": "SMART 20 (4/128)  4G",
+     "B": "15000"
+    }
+   },
+   {
+    "row": 5,
+    "cells": {
+     "A": "HOT 60i  (4/128)  5G",
+     "B": "18000"
+    }
+   },
+   {
+    "row": 6,
+    "cells": {
+     "A": "HOT 60 (6/128)  5G",
+     "B": "18500"
+    }
+   },
+   {
+    "row": 7,
+    "cells": {
+     "A": "HOT 70 PRO (6/128)",
+     "B": "25500",
+     "C": "2000 INSTANT OFF ON FS HDFC CC"
+    }
+   },
+   {
+    "row": 8,
+    "cells": {
+     "A": "HOT 70 PRO (8/128)",
+     "B": "28500",
+     "C": "2000 INSTANT OFF ON FS HDFC CC"
+    }
+   },
+   {
+    "row": 9,
+    "cells": {
+     "A": "NOTE EDGE (6/128)",
+     "B": "27500",
+     "C": "2000 INSTANT OFF ON FS HDFC CC"
+    }
+   },
+   {
+    "row": 10,
+    "cells": {
+     "A": "NOTE EDGE (8/128)",
+     "B": "29500",
+     "C": "2000 INSTANT OFF ON FS HDFC CC"
+    }
+   },
+   {
+    "row": 11,
+    "cells": {
+     "A": "NOTE EDGE (8/256)",
+     "B": "31500",
+     "C": "2000 INSTANT OFF ON FS HDFC CC"
+    }
+   },
+   {
+    "row": 12,
+    "cells": {
+     "A": "NOTE EDGE (8/256)  JBL EDITION",
+     "B": "31500",
+     "C": "2000 INSTANT OFF ON FS HDFC CC"
+    }
+   },
+   {
+    "row": 13,
+    "cells": {
+     "A": "GT 30 (8/128)",
+     "B": "22500"
+    }
+   },
+   {
+    "row": 14,
+    "cells": {
+     "A": "GT 30 (8/256)",
+     "B": "24500"
+    }
+   },
+   {
+    "row": 15,
+    "cells": {
+     "A": "GT 30 PRO (8/256)",
+     "B": "30500"
+    }
+   },
+   {
+    "row": 16,
+    "cells": {
+     "A": "GT 30 PRO (12/256)",
+     "B": "33500"
+    }
+   },
+   {
+    "row": 17,
+    "cells": {
+     "A": "NOTE 60 PRO (8/128)",
+     "B": "36500",
+     "C": "3000 INSTANT OFF ON FS HDFC CC"
+    }
+   },
+   {
+    "row": 18,
+    "cells": {
+     "A": "NOTE 60 PRO (8/256)",
+     "B": "40500",
+     "C": "3000 INSTANT OFF ON FS HDFC CC",
+     "G": "------"
+    }
+   },
+   {
+    "row": 19,
+    "cells": {
+     "A": "X PAD (8/256)  - 4G TABLET",
+     "B": "16000",
+     "D": "X"
+    }
+   },
+   {
+    "row": 20,
+    "cells": {
+     "A": "TV - 32\" (HD DISPLAY) (ONLY SMART - NOT ANDROID) - 9000/-"
+    }
+   },
+   {
+    "row": 22,
+    "cells": {
+     "A": "TECNO"
+    }
+   },
+   {
+    "row": 23,
+    "cells": {
+     "A": "SPARRK GO3  (4/64)",
+     "B": "13000"
+    }
+   },
+   {
+    "row": 24,
+    "cells": {
+     "A": "SPARK 50 5G (4/128)",
+     "B": "20500"
+    }
+   },
+   {
+    "row": 25,
+    "cells": {
+     "A": "SPARK 50 5G (6/128)",
+     "B": "23500"
+    }
+   },
+   {
+    "row": 26,
+    "cells": {
+     "A": "POVA 8 (6/128)",
+     "B": "30500"
+    }
+   },
+   {
+    "row": 27,
+    "cells": {
+     "A": "POVA 8 (8/128)",
+     "B": "32500"
+    }
+   },
+   {
+    "row": 28,
+    "cells": {
+     "A": "POVA 8 PRO (8/256)",
+     "B": "50500"
+    }
+   },
+   {
+    "row": 29,
+    "cells": {
+     "A": "POVA 8 PRO (12/512)",
+     "B": "55500"
+    }
+   },
+   {
+    "row": 30,
+    "cells": {
+     "A": "POVA CURVE 2 (8/128)",
+     "B": "32500"
+    }
+   },
+   {
+    "row": 31,
+    "cells": {
+     "A": "POVA CURVE 2 (8/256)",
+     "B": "34500"
+    }
+   },
+   {
+    "row": 34,
+    "cells": {
+     "A": "LAVA"
+    }
+   },
+   {
+    "row": 35,
+    "cells": {
+     "A": "hero Shakti 2025",
+     "B": "1000"
+    }
+   },
+   {
+    "row": 36,
+    "cells": {
+     "A": "A1 josh",
+     "B": "1100"
+    }
+   },
+   {
+    "row": 37,
+    "cells": {
+     "A": "A5 2025",
+     "B": "1400"
+    }
+   },
+   {
+    "row": 38,
+    "cells": {
+     "A": "KEYPAD - GEM 2025",
+     "B": "1800"
+    }
+   },
+   {
+    "row": 39,
+    "cells": {
+     "A": "keypad - ACTION 4G",
+     "B": "2000"
+    }
+   },
+   {
+    "row": 40,
+    "cells": {
+     "A": "SMART 4 MFG  (3/32)  4G",
+     "B": "9000/-  FIX"
+    }
+   },
+   {
+    "row": 41,
+    "cells": {
+     "A": "SMART 4 PLUS (4/64)  4G",
+     "B": "10500 FIX"
+    }
+   },
+   {
+    "row": 42,
+    "cells": {
+     "A": "SHARK 2 5G (4/64)",
+     "B": "13500"
+    }
+   },
+   {
+    "row": 43,
+    "cells": {
+     "A": "VIRAT V1  5G (4/64)",
+     "B": "14000/-"
+    }
+   },
+   {
+    "row": 45,
+    "cells": {
+     "A": "ITEL"
+    }
+   },
+   {
+    "row": 46,
+    "cells": {
+     "A": "KEYPAD - it 9120 4G",
+     "B": "2000"
+    }
+   },
+   {
+    "row": 47,
+    "cells": {
+     "A": "KEYPAD - it 5330",
+     "B": "1600"
+    }
+   },
+   {
+    "row": 48,
+    "cells": {
+     "A": "KEYPAD - it 2165c",
+     "B": "1100"
+    }
+   },
+   {
+    "row": 49,
+    "cells": {
+     "A": "KEYPAD - it 5027 SLIM",
+     "B": "1300"
+    }
+   },
+   {
+    "row": 50,
+    "cells": {
+     "A": "KEYPAD - ACE 2 HEERA"
+    }
+   },
+   {
+    "row": 51,
+    "cells": {
+     "A": "ITEL A100 PRO  (3/64) 4G",
+     "B": "9000 FIX"
+    }
+   },
+   {
+    "row": 52,
+    "cells": {
+     "A": "ITEL A100 (4/64)  4G",
+     "B": "9500  FIX"
+    }
+   },
+   {
+    "row": 55,
+    "cells": {
+     "A": "Ai Plus"
+    }
+   },
+   {
+    "row": 56,
+    "cells": {
+     "A": "PULSE 1  4G (4/64)",
+     "B": "10000"
+    }
+   },
+   {
+    "row": 57,
+    "cells": {
+     "A": "PULSE 1  4G (6/128)",
+     "B": "11000",
+     "C": "OLD MRP STOCK 9999/- FIX RATE"
+    }
+   },
+   {
+    "row": 58,
+    "cells": {
+     "A": "PULSE 2  4G (4/64)",
+     "B": "12000"
+    }
+   },
+   {
+    "row": 59,
+    "cells": {
+     "A": "PULSE 2  4G (4/128)",
+     "B": "12500"
+    }
+   },
+   {
+    "row": 60,
+    "cells": {
+     "A": "PULSE 2  4G (6/128)",
+     "B": "13000"
+    }
+   },
+   {
+    "row": 61,
+    "cells": {
+     "A": "NOVA 1 5G (6/128)",
+     "B": "12000"
+    }
+   },
+   {
+    "row": 62,
+    "cells": {
+     "A": "NOVA 1  5G (8/128)",
+     "B": "14000",
+     "C": "OLD MRP STOCK 12999/-  FIX RATE"
+    }
+   },
+   {
+    "row": 63,
+    "cells": {
+     "A": "NOVA 2  5G (4/64)",
+     "B": "15000"
+    }
+   },
+   {
+    "row": 64,
+    "cells": {
+     "A": "NOVA 2  5G (4/128)",
+     "B": "16000"
+    }
+   },
+   {
+    "row": 65,
+    "cells": {
+     "A": "NOVA 2  5G (6/128)",
+     "B": "17000"
+    }
+   },
+   {
+    "row": 66,
+    "cells": {
+     "A": "NOVA 2 NEO (4/64)",
+     "B": "16000"
+    }
+   },
+   {
+    "row": 67,
+    "cells": {
+     "A": "NOVA 2 NEO (4/128)",
+     "B": "17000"
+    }
+   },
+   {
+    "row": 68,
+    "cells": {
+     "A": "NOVA 2 NEO (6/128)",
+     "B": "18000"
+    }
+   },
+   {
+    "row": 69,
+    "cells": {
+     "A": "NOVA 2 PRO (6/128)",
+     "B": "19000"
+    }
+   },
+   {
+    "row": 70,
+    "cells": {
+     "A": "NOVA 2 PRO (8/128)",
+     "B": "21000"
+    }
+   },
+   {
+    "row": 71,
+    "cells": {
+     "A": "NOVA 2 ULTRA (6/128)",
+     "B": "23000"
+    }
+   },
+   {
+    "row": 72,
+    "cells": {
+     "A": "NOVA 2 ULTRA (8/128)",
+     "B": "25000"
+    }
+   }
+  ]
+ },
+ "NOTHING": {
+  "sheet": "NOTHING",
+  "state": "visible",
+  "max_row": 977,
+  "max_col": 27,
+  "populated_rows": 10,
+  "first_row": 3,
+  "last_row": 15,
+  "rows": [
+   {
+    "row": 3,
+    "cells": {
+     "A": "3A LITE (8/128)",
+     "B": "28500",
+     "C": "1000/- INSTANT OFF ON FS UPI & FS HDFC,SBI AXIS (BENOW HDFC) & 1000 OFF ON EMI HDFC, AXIS, INDUSLAND, KOTAK, AU &  ONE CARD, KOTAK, SBI TLL 30SEP"
+    }
+   },
+   {
+    "row": 4,
+    "cells": {
+     "A": "3A LITE (8/256)",
+     "B": "30500",
+     "C": "1000/- INSTANT OFF ON FS UPI & FS HDFC,SBI AXIS (BENOW HDFC) & 1000 OFF ON EMI HDFC, AXIS, INDUSLAND, KOTAK, AU &  ONE CARD, KOTAK, SBI TLL 30SEP"
+    }
+   },
+   {
+    "row": 6,
+    "cells": {
+     "A": "4A (8/128)",
+     "B": "45500",
+     "C": "40999/- OLD MRP STOCK BLACK ONLY 7.5% UPTO 3200/-  INSTANT OFF ON  UPI & CC FS , SBI, AXIS,(BENOW HDFC) & 10% UPTO 4000 OFF ON EMI SBI, HDFC, AXIS, KOTAK,INDUSLAND ,AU & ONE CARD TLL 30 SEP"
+    }
+   },
+   {
+    "row": 7,
+    "cells": {
+     "A": "4A (8/256)",
+     "B": "50500",
+     "C": "43999/- OLD MRP STOCK BLACK BLUE WHITE ONLY  7.5% UPTO 3500/-  INSTANT OFF ON  UPI & CC FS, SBI,AXIS,(BENOW HDFC) & 10% UPTO 4000 OFF ON  EMI HDFC,AXIS,  KOTAK, SBI ,INDUSLAND, ,AU & ONE CARD TLL 30 SEP"
+    }
+   },
+   {
+    "row": 8,
+    "cells": {
+     "A": "4A (12/256)",
+     "B": "51500",
+     "C": "46999 Old MRP STOCK BLACK , BLUE ;  7.5% UPTO 3750/-  INSTANT OFF ON FS, SBI,AXIS,(BENOW HDFC)  & 10% UPTO 4000 OFF ON EMI SBI, HDFC, AXIS KOTAK,INDUSLAND, AU & ONE CARD TLL 30 SEP"
+    }
+   },
+   {
+    "row": 10,
+    "cells": {
+     "A": "4A PRO (8/128)",
+     "B": "55500",
+     "C": "7.5% UPTO 3750/- INSTANT OFF ON FS, & UPI SBI, AXIS, (BENOW HDFC) & 10% UPTO 4500 OFF ON EMI HDFC, AXIS, KOTAK,INDUSLAND ,AU & ONE CARD TLL 30 SEP"
+    }
+   },
+   {
+    "row": 11,
+    "cells": {
+     "A": "4A PRO (8/256)",
+     "B": "58500",
+     "C": "52999/- OLD MRP STOCK AVAILABLE  BLACK  ONLY ; 7.5% UPTO 4100/- INSTANT OFF ON FS,& UPI SBI,AXIS (BENOW HDFC),  & 10% UPTO 4500 OFF ON EMI HDFC,AXIS,  KOTAK,INDUSLAND ,AU & ONE CARD TLL 30 SEP"
+    }
+   },
+   {
+    "row": 12,
+    "cells": {
+     "A": "4A PRO (12/256)",
+     "B": "60500",
+     "C": "7.5% UPTO 4200/- INSTANT OFF ON FS & UPI, SBI,AXIS (BENOW HDFC),  & 10% UPTO 4500 OFF ON EMI HDFC, AXIS KOTAK,INDUSLAND, ,AU & ONE CARD TILL 30 SEP"
+    }
+   },
+   {
+    "row": 14,
+    "cells": {
+     "A": "4B (8/128)",
+     "B": "40500",
+     "C": "7.5% INSTANT OFF UPTO 2600 ON FS UPI & CC AXIX, SBI, (BENOW HDFC), & 10% OFF  UPTO 3000 ON EMI CC ONE CARD, AU, INDUSLAND, AXIS, HDFC, KOTAK,  SBI, TILL 30 SEP"
+    }
+   },
+   {
+    "row": 15,
+    "cells": {
+     "A": "4B (8/256)",
+     "B": "41500",
+     "C": "7.5% INSTANT OFF UPTO 2900 ON FS UPI & CC AXIX, SBI, (BENOW HDFC), & 10% OFF UPTO 3000 ON EMI CC ONE CARD, AU, INDUSLAND, AXIS, HDFC, KOTAK,  SBI, TILL 30 SEP"
+    }
+   }
+  ]
+ },
+ "Sheet100": {
+  "sheet": "Sheet100",
+  "state": "visible",
+  "max_row": 1,
+  "max_col": 1,
+  "populated_rows": 0,
+  "first_row": null,
+  "last_row": null,
+  "rows": []
+ },
+ "ONEPLUS": {
+  "sheet": "ONEPLUS",
+  "state": "visible",
+  "max_row": 995,
+  "max_col": 26,
+  "populated_rows": 5,
+  "first_row": 1,
+  "last_row": 7,
+  "rows": [
+   {
+    "row": 1,
+    "cells": {
+     "A": "MODEL",
+     "B": "PRICE"
+    }
+   },
+   {
+    "row": 3,
+    "cells": {
+     "A": "CE 6 LITE (8/128)",
+     "B": "31500"
+    }
+   },
+   {
+    "row": 4,
+    "cells": {
+     "A": "CE 6 LITE (8/256)",
+     "B": "35500"
+    }
+   },
+   {
+    "row": 6,
+    "cells": {
+     "A": "CE 6 (8/128)",
+     "B": "38500"
+    }
+   },
+   {
+    "row": 7,
+    "cells": {
+     "A": "CE 6 (8/256)",
+     "B": "42500"
+    }
+   }
+  ]
+ },
+ "ACCESSORIES": {
+  "sheet": "ACCESSORIES",
+  "state": "visible",
+  "max_row": 1004,
+  "max_col": 25,
+  "populated_rows": 43,
+  "first_row": 1,
+  "last_row": 47,
+  "rows": [
+   {
+    "row": 1,
+    "cells": {
+     "A": "INSTA 360",
+     "E": "MARSHALL"
+    }
+   },
+   {
+    "row": 2,
+    "cells": {
+     "A": "INSTA 360 GO3  32GB _ 32000/-",
+     "E": "WILLEN  -",
+     "F": "14999   10000/-"
+    }
+   },
+   {
+    "row": 3,
+    "cells": {
+     "A": "INSTA 360 GO3  64GB _ 34000/-",
+     "E": "WILLEN 2 -",
+     "F": "12499/-"
+    }
+   },
+   {
+    "row": 4,
+    "cells": {
+     "A": "INSTA 360 GO3  128GB _ 40000/-",
+     "E": "EMBERTON 2 -",
+     "F": "19999  15000/-"
+    }
+   },
+   {
+    "row": 5,
+    "cells": {
+     "A": "INSTA 360 X3 (360 ACTION CAMERA) _ 42500/-",
+     "E": "EMBERTON 3 -",
+     "F": "17999/-"
+    }
+   },
+   {
+    "row": 6,
+    "cells": {
+     "A": "INSTA 360 X4 (360 ACTION CAMERA) _ 55000/-",
+     "E": "ACTON 2 -",
+     "F": "29999  25000/-"
+    }
+   },
+   {
+    "row": 7,
+    "cells": {
+     "A": "INSTA 360 ACE (ACTION CAMERA) _ 40000/-",
+     "E": "ACTON 3 -",
+     "F": "31999   28000/-"
+    }
+   },
+   {
+    "row": 8,
+    "cells": {
+     "A": "INSTA 360 ACE PRO (ACTION CAMERA) _ 45000/-",
+     "E": "KILLBURN 2 -",
+     "F": "31999  25000/-"
+    }
+   },
+   {
+    "row": 9,
+    "cells": {
+     "A": "INSTA 360 FLOW (AI POWERED GIMBAL) _ 16500/-",
+     "E": "KILLBURN 3  -",
+     "F": "35999/-"
+    }
+   },
+   {
+    "row": 10,
+    "cells": {
+     "A": "INSTA INVISIBLE SELFIE STICK 120cm - 4000/-",
+     "E": "STOCKWELL 2",
+     "F": "24999   21999/-"
+    }
+   },
+   {
+    "row": 11,
+    "cells": {
+     "A": "INSTA BULLET TIME SELFIE STICK  - 6500/-",
+     "E": "MIDDLETON -",
+     "F": "31999/-"
+    }
+   },
+   {
+    "row": 12,
+    "cells": {
+     "A": "INSTA X3 LENS GUARD - 2700/-",
+     "E": "MIDDLETON 2-",
+     "F": "31999/-"
+    }
+   },
+   {
+    "row": 13,
+    "cells": {
+     "A": "INSTA X3 LENS CAP - 1200/-",
+     "E": "STANMORE 3 -",
+     "F": "41999  38000/-"
+    }
+   },
+   {
+    "row": 14,
+    "cells": {
+     "E": "TUFTON",
+     "F": "47999   40000/-"
+    }
+   },
+   {
+    "row": 15,
+    "cells": {
+     "A": "DJI",
+     "E": "WOBURN 3 -",
+     "F": "59999  55000/-"
+    }
+   },
+   {
+    "row": 16,
+    "cells": {
+     "A": "DJI GIMBLE OSMO MOBILE 6 - 14500/-",
+     "E": "MOTIF 2-  ANC",
+     "F": "19999   19000/-"
+    }
+   },
+   {
+    "row": 18,
+    "cells": {
+     "E": "BEETEL"
+    }
+   },
+   {
+    "row": 19,
+    "cells": {
+     "A": "ZOOOK",
+     "E": "C11 -"
+    }
+   },
+   {
+    "row": 20,
+    "cells": {
+     "A": "THUNDER PRO 30W - 3000/-",
+     "E": "B11 -",
+     "F": "670"
+    }
+   },
+   {
+    "row": 21,
+    "cells": {
+     "A": "THUNDER XL  50W - 5500/-",
+     "E": "B25 -"
+    }
+   },
+   {
+    "row": 22,
+    "cells": {
+     "A": "SUPERNOVA  100W - 6500/-",
+     "E": "M51 plus -",
+     "F": "960"
+    }
+   },
+   {
+    "row": 23,
+    "cells": {
+     "A": "THUNDER  XXL DUET 70W -  8500/-",
+     "E": "M500 -",
+     "F": "1200"
+    }
+   },
+   {
+    "row": 24,
+    "cells": {
+     "A": "HEARCULEAN PRO  200W - 15000/-",
+     "E": "M73 -"
+    }
+   },
+   {
+    "row": 25,
+    "cells": {
+     "A": "RESONANCE MAX  240W - 26000/-",
+     "E": "M88 -"
+    }
+   },
+   {
+    "row": 26,
+    "cells": {
+     "E": "X90 -",
+     "F": "2100"
+    }
+   },
+   {
+    "row": 27,
+    "cells": {
+     "A": "BOAT",
+     "E": "X73 -"
+    }
+   },
+   {
+    "row": 28,
+    "cells": {
+     "E": "X70 -",
+     "F": "2600"
+    }
+   },
+   {
+    "row": 29,
+    "cells": {
+     "A": "PARTYPAL 195  - 7000/-",
+     "E": "X75 -",
+     "F": "2700"
+    }
+   },
+   {
+    "row": 30,
+    "cells": {
+     "A": "PATYPAL 220  - 6500/-",
+     "E": "X92 -",
+     "F": "2700"
+    }
+   },
+   {
+    "row": 31,
+    "cells": {
+     "A": "PARTYPAL 320 -  13000/-",
+     "E": "X95 -",
+     "F": "2800"
+    }
+   },
+   {
+    "row": 32,
+    "cells": {
+     "A": "PARTYPAL 390 -  15000/-"
+    }
+   },
+   {
+    "row": 33,
+    "cells": {
+     "A": "PARTYPAL 400  - 14000/-"
+    }
+   },
+   {
+    "row": 34,
+    "cells": {
+     "A": "PARTYPAL 700 - 23000/-",
+     "E": "GIZMORE"
+    }
+   },
+   {
+    "row": 36,
+    "cells": {
+     "E": "T50 -",
+     "F": "6000"
+    }
+   },
+   {
+    "row": 37,
+    "cells": {
+     "A": "JBL",
+     "E": "T120 -",
+     "F": "8500"
+    }
+   },
+   {
+    "row": 38,
+    "cells": {
+     "E": "T200 -",
+     "F": "13500"
+    }
+   },
+   {
+    "row": 39,
+    "cells": {
+     "A": "ENCORE ESSENTIAL - 18000/-",
+     "E": "T220 PRO -",
+     "F": "15000"
+    }
+   },
+   {
+    "row": 40,
+    "cells": {
+     "A": "120 - 30000/-",
+     "E": "ST9000 -",
+     "F": "7500"
+    }
+   },
+   {
+    "row": 41,
+    "cells": {
+     "A": "320 -  45000/-"
+    }
+   },
+   {
+    "row": 42,
+    "cells": {
+     "A": "710 - 65000/-"
+    }
+   },
+   {
+    "row": 45,
+    "cells": {
+     "A": "ZEBRONICS"
+    }
+   },
+   {
+    "row": 46,
+    "cells": {
+     "A": "Thump 500 _ 7000/-"
+    }
+   },
+   {
+    "row": 47,
+    "cells": {
+     "A": "Trolley 2X8L DJ451 _ 9000/-"
+    }
+   }
+  ]
+ },
+ "ACC. 2": {
+  "sheet": "ACC. 2",
+  "state": "visible",
+  "max_row": 1001,
+  "max_col": 26,
+  "populated_rows": 22,
+  "first_row": 1,
+  "last_row": 26,
+  "rows": [
+   {
+    "row": 1,
+    "cells": {
+     "A": "TEMPERED 2.5D  -  100/-"
+    }
+   },
+   {
+    "row": 2,
+    "cells": {
+     "A": "TEMPERED FULL GLASS  D+  _ 100/-"
+    }
+   },
+   {
+    "row": 3,
+    "cells": {
+     "A": "TEMPERED MATTE FINISH - 150/-"
+    }
+   },
+   {
+    "row": 4,
+    "cells": {
+     "A": "TEMPERED PRIVACY - 300/-"
+    }
+   },
+   {
+    "row": 5,
+    "cells": {
+     "A": "TEMPERED PRIVACY + MATTE  _  300/-"
+    }
+   },
+   {
+    "row": 6,
+    "cells": {
+     "A": "TEMPERED FLAYER - 250/-"
+    }
+   },
+   {
+    "row": 7,
+    "cells": {
+     "A": "TEMPERED BOARDERLESS FLAYER  _ 250/-"
+    }
+   },
+   {
+    "row": 8,
+    "cells": {
+     "A": "UV TEMPERED - 300/-"
+    }
+   },
+   {
+    "row": 10,
+    "cells": {
+     "A": "TAB TEMPERED - 350/-"
+    }
+   },
+   {
+    "row": 11,
+    "cells": {
+     "A": "TALK TALK - 350/-"
+    }
+   },
+   {
+    "row": 12,
+    "cells": {
+     "A": "LAPTOP SCREEN GUARD - 350/-"
+    }
+   },
+   {
+    "row": 14,
+    "cells": {
+     "A": "MEMBRANE GUARD - 150/-"
+    }
+   },
+   {
+    "row": 15,
+    "cells": {
+     "A": "MACHINE CUTTING MEMBRANE GUARD - 250/-"
+    }
+   },
+   {
+    "row": 16,
+    "cells": {
+     "A": "MACHINE CUTTING PRIVACY MEMBRANE - 300/-"
+    }
+   },
+   {
+    "row": 18,
+    "cells": {
+     "A": "LAPTOP TRANSPARENT LAMINATION FOR 1 SIDE -  500/-"
+    }
+   },
+   {
+    "row": 19,
+    "cells": {
+     "A": "LAPTOP TRANSPARENT LAMINATION FOR 2 SIDE -  800/-"
+    }
+   },
+   {
+    "row": 20,
+    "cells": {
+     "A": "LAPTOP COLORFUL LAMINATION FOR 1 SIDE -  600/-"
+    }
+   },
+   {
+    "row": 21,
+    "cells": {
+     "A": "LAPTOP COLORFUL LAMINATION FOR 2 SIDE -  1000/-"
+    }
+   },
+   {
+    "row": 22,
+    "cells": {
+     "A": "LAPTOP COLORFUL EMBOSSED LAMINATION FOR 1 SIDE -  750/-"
+    }
+   },
+   {
+    "row": 23,
+    "cells": {
+     "A": "LAPTOP COLORFUL EMBOSSED LAMINATION FOR 2 SIDE -  1300/-"
+    }
+   },
+   {
+    "row": 25,
+    "cells": {
+     "A": "TABLET LAMINATION TRANSPARENT - 300/-"
+    }
+   },
+   {
+    "row": 26,
+    "cells": {
+     "A": "TABLET LAMINATION / SKIN COLORFUL - 500/-"
+    }
+   }
+  ]
+ },
+ "SERVICE CENTER": {
+  "sheet": "SERVICE CENTER",
+  "state": "visible",
+  "max_row": 987,
+  "max_col": 27,
+  "populated_rows": 68,
+  "first_row": 1,
+  "last_row": 90,
+  "rows": [
+   {
+    "row": 1,
+    "cells": {
+     "B": "SAMSUNG"
+    }
+   },
+   {
+    "row": 2,
+    "cells": {
+     "A": "1",
+     "B": "Virasat Communications -  Address : Shop No 204, 2nd Floor, City Mall C-21, Bhagwan Das Road, C- Sheme, Jaipur, 302001"
+    }
+   },
+   {
+    "row": 3,
+    "cells": {
+     "A": "2",
+     "B": "The Asian Sale & Services - Address : A-4, Shiv Shakti Tower, Murti kala Col, Nearr Gopalpura police choki & Byepass, Jaipur, 302018"
+    }
+   },
+   {
+    "row": 4,
+    "cells": {
+     "A": "3",
+     "B": "Global Services - Address : 1st Floor, Prem tower No/6, Devi Nagar, Metro Pilar No/79, New Sanganer Road , Jaipur, 302019"
+    }
+   },
+   {
+    "row": 5,
+    "cells": {
+     "A": "4",
+     "B": "Sukh Shyam Associates - Address : B-10, L.S. Nagar Naya Khera Ambavadi, Opp. Biyani Girls College,  Jaipur, 302023"
+    }
+   },
+   {
+    "row": 6,
+    "cells": {
+     "A": "5",
+     "B": "S S Associates ( Inshop Service Center ) - Address : Plot No. 18, Nityanand Nagar A, Queens Road, Vaishali Nagar, 302021"
+    }
+   },
+   {
+    "row": 7,
+    "cells": {
+     "A": "6",
+     "B": "Digital Retails ( Inshop Service Center ) - Address : E-16, Ground Floor And Basement, Chandra Tower, Gautam Marg, Vaishali Nagar, 302021"
+    }
+   },
+   {
+    "row": 8,
+    "cells": {
+     "A": "7",
+     "B": "Mangalam ( Inshop Service Center ) - Address : Gupta International Building, MI Road, 302001"
+    }
+   },
+   {
+    "row": 9,
+    "cells": {
+     "A": "8",
+     "B": "S S Associates ( Inshop Service Center ) - Address : Plot No. 2-B, Maharaja Colony, Near PNB Bank, Teen Dukan, Sikar Road, 302013"
+    }
+   },
+   {
+    "row": 10,
+    "cells": {
+     "A": "9",
+     "B": "S S Associates ( Inshop Service Center ) - Address : Plot No 94/15, Madhyam Marg, Mansarover, 302020"
+    }
+   },
+   {
+    "row": 11,
+    "cells": {
+     "A": "10",
+     "B": "Tejas Mobile Gallery ( Inshop Service Center )  - Address : Ground Floor, G-6 and G-7, Crystal Palm, Godam, Sardar Patel Marg, 302006"
+    }
+   },
+   {
+    "row": 13,
+    "cells": {
+     "B": "APPLE"
+    }
+   },
+   {
+    "row": 14,
+    "cells": {
+     "A": "1",
+     "B": "F1 Info Solutions & Services Pvt Ltd - 3rd Floor, Man Upasna Mall, Plot No. C-44, Sardar Patel Marg, C-Scheme, Near Choumu House Circle,  Jaipur, Rajasthan, 302001"
+    }
+   },
+   {
+    "row": 15,
+    "cells": {
+     "A": "2",
+     "B": "Tresor Systems Pvt Ltd - SHOP NO 117, 1ST FLOOR, MALL OF JAIPUR,, GANDHI PATH ROLL JUNCTION, VAISHALI NAGAR, JAIPUR, RAJASTHAN, 302021"
+    }
+   },
+   {
+    "row": 16,
+    "cells": {
+     "A": "3",
+     "B": "Tresor Systems Pvt Ltd - World Trade Park, Malviya Nagar, 302A, 3rd Floor, South Block , JAIPUR, RAJASTHAN, 302017"
+    }
+   },
+   {
+    "row": 18,
+    "cells": {
+     "B": "NOTHING"
+    }
+   },
+   {
+    "row": 19,
+    "cells": {
+     "A": "1",
+     "B": "F1 Info Solutions & Services Pvt Ltd - 3rd Floor, Man Upasna Mall, Plot No. C-44, Sardar Patel Marg, C-Scheme, Near Choumu House Circle,  Jaipur, Rajasthan, 302001  ,  0141-4971227, 0141-4971227"
+    }
+   },
+   {
+    "row": 20,
+    "cells": {
+     "A": "2"
+    }
+   },
+   {
+    "row": 22,
+    "cells": {
+     "B": "ONEPLUS"
+    }
+   },
+   {
+    "row": 23,
+    "cells": {
+     "A": "1",
+     "B": "QDigi Services Limited (Q COM) UG-03, Ground Floor,Element Mall ,DCM, Ajmer Road, Jaipur - Rajasthan 302021  (PH) - 01413570108"
+    }
+   },
+   {
+    "row": 24,
+    "cells": {
+     "A": "2",
+     "B": "Pink Square Mall, Plot No. 1/2, Govind Marg, Saket Colony, Adarsh Nagar, Jaipur (Rajasthan) 302004  (PH) - 0141-4210009"
+    }
+   },
+   {
+    "row": 26,
+    "cells": {
+     "B": "REALME"
+    }
+   },
+   {
+    "row": 27,
+    "cells": {
+     "A": "1",
+     "B": "ESC-RV Solutions Pvt. Ltd. - Shop No.146, First Floor, Ganpati Plaza, M.I. Road, Jaipur, Rajasthan, PIN Code - 302001  (PH) - 0141-4037419"
+    }
+   },
+   {
+    "row": 28,
+    "cells": {
+     "A": "2",
+     "B": "VMS-RR India Network -  22, first floor, Opp. Dashera Maidan, Govind Marg, Raja Park, Jaipur (Raj.) - 302004  (PH) - 0141-4071850, 9001000734"
+    }
+   },
+   {
+    "row": 30,
+    "cells": {
+     "B": "INFINIX / ITEL /  TECNO"
+    }
+   },
+   {
+    "row": 31,
+    "cells": {
+     "A": "1",
+     "B": "New Raj Associates - 61, Hari Marg, Mansingh Pura, Tonk Road, Jaipur,Rajasthan,Rajasthan-302015 , Phone: +91-9828569855"
+    }
+   },
+   {
+    "row": 32,
+    "cells": {
+     "A": "2",
+     "B": "Kushal Services - Airport Circle,Behind Shani Mandir,Sanganer Road,Jaipur,Rajasthan-302033 - Phone: +91-9314445720"
+    }
+   },
+   {
+    "row": 34,
+    "cells": {
+     "B": "MOTOROLA"
+    }
+   },
+   {
+    "row": 35,
+    "cells": {
+     "A": "1",
+     "B": "GANPATI PLAZA , 1st FLOOR , OFFICE NO. -147  (M- 8560885744)"
+    }
+   },
+   {
+    "row": 37,
+    "cells": {
+     "B": "OPPO"
+    }
+   },
+   {
+    "row": 38,
+    "cells": {
+     "A": "1",
+     "B": "Plot No-20, First Floor, Sahakar Marg, Near 22 Godam Circle, Jaipur-302006 ,  (M) - +917375008363"
+    }
+   },
+   {
+    "row": 39,
+    "cells": {
+     "A": "2",
+     "B": "2nd Floor, Plot No. F-32, Aman Tower, Gautam Marg, Amrapali Circle, Vaishali Nagar, Jaipur, Rajasthan- 302021 (M) - +91 141 4923961"
+    }
+   },
+   {
+    "row": 41,
+    "cells": {
+     "B": "VIVO"
+    }
+   },
+   {
+    "row": 42,
+    "cells": {
+     "A": "1",
+     "B": "B-172/173/174 , First Floor , Ganpati Plaza , M.I Road ,Jaipur- PIN-302001 , (M) - 07412091298"
+    }
+   },
+   {
+    "row": 43,
+    "cells": {
+     "A": "2",
+     "B": "1st Floor ,Shekhawat complex, Parivahan Nagar, Khatipura Road, Landmark above ICICI and SBI bank, Khatipura Branch, Jaipur, Rajasthan:- 302012 , (M) - 7412091304"
+    }
+   },
+   {
+    "row": 44,
+    "cells": {
+     "A": "3",
+     "B": "K-13 k-14 first floor,Durgarpura tonk Road Jaipur Landmark Durgapura bus stand -302018 , (M) - 09783963702"
+    }
+   },
+   {
+    "row": 46,
+    "cells": {
+     "B": "XIAOMI"
+    }
+   },
+   {
+    "row": 47,
+    "cells": {
+     "A": "2",
+     "B": "Qdigi, 103A, First Floor, Sunny Paradise Tonk Road, Jaipur, Rajasthan-302015 , (PH) - 0141-2943895"
+    }
+   },
+   {
+    "row": 48,
+    "cells": {
+     "A": "3",
+     "B": "Qdigi Services Ltd, F-145, First Floor, Ganpati Plaza, Mi Road, Jaipur, Rajasthan-302001  (PH) - 0141-4049625"
+    }
+   },
+   {
+    "row": 49,
+    "cells": {
+     "A": "4",
+     "B": "Rahul Enterprises, 18A, First Floor, Shree Ram Mandir Parishar, Govind Marg, Aadarsh Nagar, Jaipur-302004 , (PH) - 0141-4042324"
+    }
+   },
+   {
+    "row": 50,
+    "cells": {
+     "A": "5",
+     "B": "Perfect Services, Shop no. nfs-9, Tonk Road, Nehru Place, lal kothi, Jaipur, Rajasthan, 302015  (PH) - 9990788886"
+    }
+   },
+   {
+    "row": 52,
+    "cells": {
+     "B": "NOKIA"
+    }
+   },
+   {
+    "row": 53,
+    "cells": {
+     "A": "1",
+     "B": "Care Solutions - Plot # 7-A. 1st Floor, Opp. Metro Pillar #120, N. S. Road, Sodala Jaipur , 9799338888"
+    }
+   },
+   {
+    "row": 55,
+    "cells": {
+     "B": "GOOGLE"
+    }
+   },
+   {
+    "row": 56,
+    "cells": {
+     "A": "1",
+     "B": "F1 Info Solutions & Services Pvt Ltd - 3rd Floor, Man Upasna Mall, Plot No. C-44, Sardar Patel Marg, C-Scheme, Near Choumu House Circle,  Jaipur, Rajasthan, 302001"
+    }
+   },
+   {
+    "row": 58,
+    "cells": {
+     "B": "Ai PLUS"
+    }
+   },
+   {
+    "row": 59,
+    "cells": {
+     "B": "GANPATI PLAZA , 1st FLOOR , OFFICE NO. -147  (M- 8560885744)"
+    }
+   },
+   {
+    "row": 61,
+    "cells": {
+     "B": "HP - CUSTOMER CALL KARKE JAAYE"
+    }
+   },
+   {
+    "row": 62,
+    "cells": {
+     "A": "1",
+     "B": "6 Park Streek, Usha Plaza 2nd Floor Near Jaipur Tower Opp. Pink city Petrol Pump Khasa Kothi MI Road 302001 Jaipur, Rajasthan 302001  (PH) 8559995040"
+    }
+   },
+   {
+    "row": 63,
+    "cells": {
+     "A": "2",
+     "B": "B22;SUDHARSHANPURA INDUSTRIAL AREA; 22 GODAM JAIPUR-302006 B22;SUDHARSHANPURA INDUSTRIAL AREA; 22 GODAM JAIPUR-302006 JAIPUR, RAJASTHAN 302006  (PH) - 0141-2219174"
+    }
+   },
+   {
+    "row": 66,
+    "cells": {
+     "B": "ZEBRONICS"
+    }
+   },
+   {
+    "row": 67,
+    "cells": {
+     "A": "1",
+     "B": "ZEB CARE - Address: 506, Anand Chamber 3rd Floor, Baba Harish Chandra Marg, Jaipur - 302001. Rajasthan.  (PH) - 0141-4031143"
+    }
+   },
+   {
+    "row": 69,
+    "cells": {
+     "B": "NOISE"
+    }
+   },
+   {
+    "row": 70,
+    "cells": {
+     "A": "1",
+     "B": "F1 Info Solutions & Services Pvt Ltd - 3rd Floor, Man Upasna Mall, Plot No. C-44, Sardar Patel Marg, C-Scheme, Near Choumu House Circle,  Jaipur, Rajasthan, 302001"
+    }
+   },
+   {
+    "row": 72,
+    "cells": {
+     "B": "BOAT"
+    }
+   },
+   {
+    "row": 73,
+    "cells": {
+     "A": "1",
+     "B": "F1 Info Solutions & Services Pvt Ltd - 3rd Floor, Man Upasna Mall, Plot No. C-44, Sardar Patel Marg, C-Scheme, Near Choumu House Circle,  Jaipur, Rajasthan, 302001"
+    }
+   },
+   {
+    "row": 75,
+    "cells": {
+     "B": "FIREBOLTT"
+    }
+   },
+   {
+    "row": 76,
+    "cells": {
+     "A": "1",
+     "B": "CARE SOLUTIONS - PLOT #7A, 1ST FLOOR, SCHEME - 1, TEJAJI MARG, OPPOSITE METRO PILLAR 120, NEW SANGANER ROAD, NEAR SODALA, Jaipur, Pin: 302019, Rajasthan  (PH) : 9549649999"
+    }
+   },
+   {
+    "row": 77,
+    "cells": {
+     "A": "2",
+     "B": "KUSHAL SERVICES - Behind Thaneshwar Mahadev Mandir Airport Circle Tonk Road Near HDFC Bank Jaipur Rajasthan, Jaipur, Pin: 302029, Rajasthan  (PH) - : 9314445720"
+    }
+   },
+   {
+    "row": 78,
+    "cells": {
+     "A": "3",
+     "B": "Shree Balaji Telecom - 1685, Shyam Nath Tiwari Ki Gali, Choura Rasta, Jaipur, Jaipur, Pin: 302003, Rajasthan  (PH) - 9828451986"
+    }
+   },
+   {
+    "row": 79,
+    "cells": {
+     "A": "4",
+     "B": "RR India Network - 22,First Flooor, Govind Marg,Opp. Dashera Maidan, Raja Park, Jaipur,Rajasthan-324, Jaipur, Pin: 302004, Rajasthan  (PH) -: 9256606592"
+    }
+   },
+   {
+    "row": 82,
+    "cells": {
+     "B": "KINGSTON / SANDISK"
+    }
+   },
+   {
+    "row": 83,
+    "cells": {
+     "A": "1",
+     "B": "Rashi Peripherals Limited - B-22,Sudharshanpura Industrial Area, 22 Godam, Jaipur - 302006 Tel : 0141 - 2219174"
+    }
+   },
+   {
+    "row": 85,
+    "cells": {
+     "B": "ZOOOK"
+    }
+   },
+   {
+    "row": 86,
+    "cells": {
+     "A": "1",
+     "B": "HOUSE NO.- A-1 , FIRST FLOOR , YUDHISTER MARG , C-SCHEME , JAIPUR 302001  ;  01414024575 , 9166874711"
+    }
+   },
+   {
+    "row": 88,
+    "cells": {
+     "B": "FINGERS"
+    }
+   },
+   {
+    "row": 89,
+    "cells": {
+     "B": "T-504,3rd Floor,Anand Chember,Near Raiser Plaza,Jaipur,rajasthan-302001  , Mob.9356560925 , Mr Amol ji"
+    }
+   },
+   {
+    "row": 90,
+    "cells": {
+     "C": "Raiser Plaza,Jaipur,rajasthan-302001"
+    }
+   }
+  ]
+ },
+ "NO WEEK OFF CALENDER": {
+  "sheet": "NO WEEK OFF CALENDER",
+  "state": "visible",
+  "max_row": 9,
+  "max_col": 4,
+  "populated_rows": 7,
+  "first_row": 1,
+  "last_row": 8,
+  "rows": [
+   {
+    "row": 1,
+    "cells": {
+     "A": "FEBRUARY - MARCH   _ NO WEEK OFF CALENDER"
+    }
+   },
+   {
+    "row": 3,
+    "cells": {
+     "A": "2026-02-13T00:00:00",
+     "B": "VALENTINE"
+    }
+   },
+   {
+    "row": 4,
+    "cells": {
+     "A": "2026-02-14T00:00:00",
+     "B": "VALENTINE"
+    }
+   },
+   {
+    "row": 5,
+    "cells": {
+     "A": "2026-02-15T00:00:00",
+     "B": "MAHA SHIVRATRI"
+    }
+   },
+   {
+    "row": 6,
+    "cells": {
+     "A": "01 TO 07 MARCH",
+     "B": "04 MARCH STORE CLOSE HOLI"
+    }
+   },
+   {
+    "row": 7,
+    "cells": {
+     "A": "2026-03-26T00:00:00",
+     "B": "RAM NAVMI"
+    }
+   },
+   {
+    "row": 8,
+    "cells": {
+     "A": "ANY SUNDAY - WEEK OFF NOT ALLOWED"
+    }
+   }
+  ]
+ }
+}
