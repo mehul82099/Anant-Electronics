@@ -3,6 +3,8 @@
 import { useState, useEffect, useMemo } from "react";
 import type { Dataset, ProductRecord } from "@/lib/types";
 import { STORE_CONTACT, buildWhatsAppEnquiryUrl, buildCallingUrl } from "@/lib/config/contact";
+import { POPULAR_BANKS, calculateFinanceOffers } from "@/lib/finance";
+import { PaperFinanceModal } from "@/components/PaperFinanceModal";
 
 export default function PresentationPage() {
   const [dataset, setDataset] = useState<Dataset | null>(null);
@@ -10,6 +12,7 @@ export default function PresentationPage() {
   const [search, setSearch] = useState("");
   const [activeProduct, setActiveProduct] = useState<ProductRecord | null>(null);
   const [imagesMap, setImagesMap] = useState<Record<string, { imageUrl: string; thumbnailUrl: string; title: string }>>({});
+  const [showFinanceModal, setShowFinanceModal] = useState(false);
 
   useEffect(() => {
     fetch("/data/model_images.json")
@@ -111,9 +114,7 @@ export default function PresentationPage() {
   const savings = hasOffer && activeProduct.mop && activeProduct.offer_price ? activeProduct.mop - activeProduct.offer_price : 0;
   const savingsPct = hasOffer && activeProduct.mop && savings > 0 ? Math.round((savings / activeProduct.mop) * 100) : 0;
 
-  // Approximate 6-month No Cost EMI calculation
-  const effectivePrice = activeProduct.offer_price ?? activeProduct.mop ?? 0;
-  const emiPerMonth = effectivePrice > 0 ? Math.round(effectivePrice / 6) : 0;
+  const finance = calculateFinanceOffers(activeProduct);
 
   return (
     <div className="space-y-6">
@@ -130,6 +131,13 @@ export default function PresentationPage() {
         </div>
 
         <div className="flex items-center gap-2">
+          <button
+            onClick={() => setShowFinanceModal(true)}
+            className="px-3 py-1.5 rounded-lg text-xs font-bold bg-emerald-600 hover:bg-emerald-500 text-white shadow-sm transition-colors flex items-center gap-1.5"
+          >
+            <span>🧮</span>
+            <span>Paper Finance & Cards</span>
+          </button>
           <button
             onClick={toggleFullscreen}
             className="px-3 py-1.5 rounded-lg text-xs font-bold bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 transition-colors"
@@ -218,27 +226,82 @@ export default function PresentationPage() {
               )}
             </div>
 
-            {/* Offers & EMI Showcase */}
-            <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
-              {/* Bank & Cash offers */}
-              <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
-                <h4 className="text-xs font-bold uppercase tracking-wider text-slate-500 flex items-center gap-1.5">
-                  <span>💳 Bank & Card Discounts</span>
-                </h4>
-                <p className="text-sm font-semibold text-slate-800">
-                  {activeProduct.card_offer || activeProduct.cashback || activeProduct.offer_text || "Standard store cashback and card swipe available."}
-                </p>
+            {/* Oppo-style Retailer Offers & Finance Showcase */}
+            <div className="mt-6 space-y-4">
+              {/* Top Action: Open Paper Finance Calculator */}
+              <button
+                onClick={() => setShowFinanceModal(true)}
+                className="w-full py-3 px-4 rounded-2xl bg-emerald-700 hover:bg-emerald-800 text-white font-black text-sm flex items-center justify-center gap-2 shadow-md hover:shadow-lg transition-all"
+              >
+                <span>🧮</span>
+                <span>Open Paper Finance & Card Calculator</span>
+              </button>
+
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                {/* Credit Card EMI */}
+                <div className="p-4 rounded-2xl bg-blue-50/80 border border-blue-200/80 shadow-xs space-y-1">
+                  <span className="text-[10px] font-black uppercase tracking-wider text-blue-900 block flex items-center gap-1">
+                    <span>💳</span> Monthly CC EMI
+                  </span>
+                  <div className="text-2xl font-black text-blue-700">
+                    {formatPrice(finance.monthlyCreditCardEmi)}<span className="text-xs font-semibold text-blue-600">/mo</span>
+                  </div>
+                  <span className="text-[11px] text-blue-800 block">6-Month No Cost EMI</span>
+                </div>
+
+                {/* Paper Finance EMI */}
+                <div className="p-4 rounded-2xl bg-purple-50/80 border border-purple-200/80 shadow-xs space-y-1">
+                  <span className="text-[10px] font-black uppercase tracking-wider text-purple-900 block flex items-center gap-1">
+                    <span>🏦</span> Paper Finance EMI
+                  </span>
+                  <div className="text-2xl font-black text-purple-700">
+                    {formatPrice(finance.monthlyPaperFinanceEmi)}<span className="text-xs font-semibold text-purple-600">/mo</span>
+                  </div>
+                  <span className="text-[11px] text-purple-800 block">Bajaj / IDFC / TVS NBFC</span>
+                </div>
+
+                {/* Cost Per Day */}
+                <div className="p-4 rounded-2xl bg-rose-50/80 border border-rose-200/80 shadow-xs space-y-1">
+                  <span className="text-[10px] font-black uppercase tracking-wider text-rose-900 block flex items-center gap-1">
+                    <span>📅</span> Cost Per Day
+                  </span>
+                  <div className="text-2xl font-black text-rose-700">
+                    ₹{finance.dailyCost}<span className="text-xs font-semibold text-rose-600">/day</span>
+                  </div>
+                  <span className="text-[11px] text-rose-800 block">Pocket-friendly ownership</span>
+                </div>
               </div>
 
-              {/* EMI Calculation */}
-              <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-xs space-y-2">
-                <h4 className="text-xs font-bold uppercase tracking-wider text-slate-500 flex items-center gap-1.5">
-                  <span>📅 Easy EMI Breakdown</span>
-                </h4>
-                <p className="text-sm font-semibold text-slate-800">
-                  From <strong className="text-emerald-600 text-base">{formatPrice(emiPerMonth)}/month</strong> (approx 6-month tenure)
+              {/* Bank Card Cashback & Logos */}
+              <div className="p-4 rounded-2xl bg-white border border-slate-200 shadow-xs space-y-3">
+                <div className="flex items-center justify-between">
+                  <h4 className="text-xs font-black uppercase tracking-wider text-slate-700 flex items-center gap-1.5">
+                    <span>💳 Instant Bank Card Cashbacks</span>
+                  </h4>
+                  <span className="text-xs font-extrabold text-emerald-700 bg-emerald-50 px-2.5 py-0.5 rounded-full border border-emerald-200">
+                    Up to 10% on Swipe
+                  </span>
+                </div>
+                <p className="text-xs text-slate-600">
+                  {activeProduct.card_offer || activeProduct.cashback || activeProduct.offer_text || "Instant cashback available at checkout counter with all major credit cards."}
                 </p>
-                <span className="text-[11px] text-slate-500 block">Available with major credit & debit cards at counter.</span>
+
+                {/* Bank Badges Pill Row */}
+                <div className="flex flex-wrap gap-1.5 pt-1">
+                  {POPULAR_BANKS.map((b) => (
+                    <div
+                      key={b.code}
+                      className="inline-flex items-center rounded-md border border-slate-200 overflow-hidden text-[11px] font-bold shadow-2xs"
+                    >
+                      <span className={`px-2 py-0.5 ${b.bg} ${b.color}`}>
+                        {b.name}
+                      </span>
+                      <span className="px-1.5 py-0.5 bg-slate-50 text-slate-700">
+                        {b.code}
+                      </span>
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
           </div>
@@ -373,6 +436,14 @@ export default function PresentationPage() {
           </div>
         </div>
       </div>
+
+      {/* Oppo-style Paper Finance Modal in Presentation Display */}
+      {showFinanceModal && activeProduct && (
+        <PaperFinanceModal
+          product={activeProduct}
+          onClose={() => setShowFinanceModal(false)}
+        />
+      )}
     </div>
   );
 }

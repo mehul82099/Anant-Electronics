@@ -4,6 +4,8 @@ import { useState } from "react";
 import type { ProductRecord } from "@/lib/types";
 import { STORE_CONTACT, buildWhatsAppEnquiryUrl, buildCallingUrl } from "@/lib/config/contact";
 import { useModelImages, getModelImage, type ModelImage } from "@/lib/modelImages";
+import { calculateFinanceOffers } from "@/lib/finance";
+import { PaperFinanceModal } from "./PaperFinanceModal";
 
 interface ProductCardProps {
   product: ProductRecord;
@@ -25,9 +27,11 @@ export function ProductCard({
   onToggleCompare,
 }: ProductCardProps) {
   const [showRawOffers, setShowRawOffers] = useState(false);
+  const [showFinanceModal, setShowFinanceModal] = useState(false);
   const hookImagesMap = useModelImages();
   const imagesMap = propImagesMap || hookImagesMap;
   const imgData = getModelImage(product, imagesMap);
+  const finance = calculateFinanceOffers(product);
 
   const formatPrice = (val: number | null) => {
     if (val === null) return "N/A";
@@ -127,39 +131,73 @@ export function ProductCard({
           </div>
         )}
 
-        {/* Pricing Display */}
-        <div className="mt-4 pt-3 border-t border-slate-100">
-          {hasOffer ? (
-            <div>
-              <div className="flex items-baseline gap-2">
-                <span className="text-2xl font-black text-emerald-600 tracking-tight">
-                  {formatPrice(product.offer_price)}
-                </span>
-                <span className="text-sm font-medium text-slate-400 line-through">
-                  {formatPrice(product.mop)}
-                </span>
-                {savings > 0 && (
-                  <span className="text-xs font-bold px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800">
-                    SAVE {formatPrice(savings)} ({savingsPct}%)
-                  </span>
-                )}
-              </div>
-              {product.offer_date_text && (
-                <p className="text-[11px] font-medium text-amber-700 mt-0.5">
-                  ⏱ Offer till {product.offer_date_text}
-                </p>
-              )}
-            </div>
-          ) : (
-            <div className="flex items-baseline gap-2">
-              <span className="text-2xl font-black text-slate-900 tracking-tight">
-                {formatPrice(product.mop)}
+        {/* Oppo-style Retailer Pricing Display */}
+        <div className="mt-3 pt-3 border-t border-slate-100 space-y-2">
+          {/* MOP & Cashback line */}
+          <div className="flex items-center justify-between text-xs">
+            <span className="font-semibold text-slate-500 uppercase tracking-wider">MOP</span>
+            <span className="font-bold text-slate-700">{formatPrice(finance.mop)}</span>
+          </div>
+
+          {finance.cashback > 0 && (
+            <div className="flex items-center justify-between text-xs text-amber-700">
+              <span className="font-semibold flex items-center gap-1">
+                <span>🎁</span> Cashback
               </span>
-              <span className="text-xs font-semibold text-slate-500 uppercase">
-                {product.price_label}
-              </span>
+              <span className="font-extrabold">-{formatPrice(finance.cashback)}</span>
             </div>
           )}
+
+          {/* EFFECTIVE PRICE */}
+          <div>
+            <span className="text-[10px] font-black uppercase text-emerald-800 tracking-wider block">
+              EFFECTIVE PRICE
+            </span>
+            <div className="flex items-baseline gap-2">
+              <span className="text-2xl font-black text-emerald-600 tracking-tight">
+                {formatPrice(finance.effectivePrice)}
+              </span>
+              {hasOffer && (
+                <span className="text-xs font-semibold px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800">
+                  SAVE {formatPrice(savings)} ({savingsPct}%)
+                </span>
+              )}
+            </div>
+          </div>
+
+          {/* Oppo-style CC, PF, and Daily Cost Pills */}
+          <div className="pt-2 space-y-1.5">
+            <div className="flex items-center gap-1.5 flex-wrap text-xs">
+              {/* Credit Card Pill */}
+              <div className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-blue-50 border border-blue-200/60 font-bold text-blue-900">
+                <span>💳</span>
+                <span>{formatPrice(finance.monthlyCreditCardEmi)}</span>
+                <span className="text-[9px] px-1 py-0.2 rounded bg-blue-600 text-white uppercase font-black">CC</span>
+              </div>
+
+              {/* Paper Finance Pill */}
+              <div className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-purple-50 border border-purple-200/60 font-bold text-purple-900">
+                <span>🏦</span>
+                <span>{formatPrice(finance.monthlyPaperFinanceEmi)}</span>
+                <span className="text-[9px] px-1 py-0.2 rounded bg-purple-600 text-white uppercase font-black">PF</span>
+              </div>
+
+              {/* Cost per day pill */}
+              <div className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-rose-50 border border-rose-200/60 font-bold text-rose-800 text-[11px]">
+                <span>📅</span>
+                <span>₹{finance.dailyCost}/day</span>
+              </div>
+            </div>
+
+            {/* PF Calc Button (Matches exact Oppo screenshot) */}
+            <button
+              onClick={() => setShowFinanceModal(true)}
+              className="w-full mt-2 py-1.5 px-3 rounded-xl bg-emerald-700 hover:bg-emerald-800 text-white text-xs font-black flex items-center justify-center gap-1.5 shadow-xs transition-colors"
+            >
+              <span>🧮</span>
+              <span>PF Calc & Card Offers</span>
+            </button>
+          </div>
         </div>
 
         {/* Offer Highlights & Tags */}
@@ -270,6 +308,14 @@ export function ProductCard({
           </button>
         </div>
       </div>
+
+      {/* Oppo-style Paper Finance Modal */}
+      {showFinanceModal && (
+        <PaperFinanceModal
+          product={product}
+          onClose={() => setShowFinanceModal(false)}
+        />
+      )}
     </div>
   );
 }

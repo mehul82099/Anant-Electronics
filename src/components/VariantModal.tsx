@@ -1,8 +1,11 @@
 "use client";
 
+import { useState } from "react";
 import type { ProductRecord } from "@/lib/types";
 import { STORE_CONTACT, buildWhatsAppEnquiryUrl, buildCallingUrl } from "@/lib/config/contact";
 import { useModelImages, getModelImage } from "@/lib/modelImages";
+import { calculateFinanceOffers } from "@/lib/finance";
+import { PaperFinanceModal } from "./PaperFinanceModal";
 
 interface VariantModalProps {
   product: ProductRecord | null;
@@ -12,6 +15,7 @@ interface VariantModalProps {
 }
 
 export function VariantModal({ product, allProducts, onClose, onSelectProduct }: VariantModalProps) {
+  const [financeProduct, setFinanceProduct] = useState<ProductRecord | null>(null);
   const imagesMap = useModelImages();
 
   if (!product) return null;
@@ -140,6 +144,16 @@ export function VariantModal({ product, allProducts, onClose, onSelectProduct }:
                     )}
 
                     <div className="flex items-center gap-1 mt-1">
+                      <button
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          setFinanceProduct(sib);
+                        }}
+                        title="Open Paper Finance & Cards Calculator"
+                        className="p-1.5 text-xs font-bold rounded-lg bg-emerald-50 text-emerald-800 hover:bg-emerald-100 border border-emerald-200 transition-colors"
+                      >
+                        🧮 PF
+                      </button>
                       <a
                         href={buildCallingUrl()}
                         title={`Call ${STORE_CONTACT.displayPhone}`}
@@ -184,6 +198,14 @@ export function VariantModal({ product, allProducts, onClose, onSelectProduct }:
           </button>
         </div>
       </div>
+
+      {/* Embedded Paper Finance & Card Offers Modal */}
+      {financeProduct && (
+        <PaperFinanceModal
+          product={financeProduct}
+          onClose={() => setFinanceProduct(null)}
+        />
+      )}
     </div>
   );
 }
